@@ -1,5 +1,10 @@
+# PL List
+
 * ActionScript
 * Ada
+* Agda
+  * https://github.com/liamoc/learn-you-an-agda/blob/master/pages/peano.md 
+  * http://www.cse.chalmers.se/~ulfn/papers/afp08/tutorial.pdf 
 * Arend
   * https://arend-lang.github.io/
 * Atomo
@@ -7,6 +12,10 @@
 * AWK
 * BETA
   * https://en.wikipedia.org/wiki/BETA_(programming_language)
+* Bon
+  * https://github.com/FBMachine/bon
+* bosatsu
+  * https://github.com/johnynek/bosatsu
 * C
   * https://news.ycombinator.com/item?id=13087103
   * https://news.ycombinator.com/item?id=13265758
@@ -14,12 +23,20 @@
   * Concepts: https://devblogs.microsoft.com/cppblog/c20-concepts-are-here-in-visual-studio-2019-version-16-3/?utm_source=vs_developer_news&utm_medium=referral
 * Cecil
   * https://en.wikipedia.org/wiki/Cecil_(programming_language)
+* Ceylon
+  * https://ceylon-lang.org/
+* CHICKEN Scheme
+  * http://www.call-cc.org/
 * Co2
   * http://www.dustmop.io/blog/2019/09/10/what-remains-technical-breakdown/
 * COBOL
   * https://mobile.twitter.com/awbjs/status/1250189292359446529
+* D
+  * https://dlang.org/
 * Dark 
   * https://medium.com/darklang/unveiling-dark-e0be6f1e0b06
+* Dhall
+  * https://github.com/dhall-lang/dhall-haskell 
 * Diamond
   * https://wasp.cs.washington.edu/wasp_diamond.html
 * Diesel
@@ -28,7 +45,6 @@
 * Cedille
   * https://cedille.github.io/
 * Clojure
-  
 * CLU – Barbara Liskov
   * First language with native support of Code Contracts
 * COBOL
@@ -89,6 +105,8 @@
 * Gravity
   * https://news.ycombinator.com/item?id=13802787
 * Hack
+* Hackett
+  * https://lexi-lambda.github.io/blog/2017/05/27/realizing-hackett-a-metaprogrammable-haskell/ 
 * HackPPL
   * https://blog.acolyer.org/2019/10/18/hackppl/amp/?__twitter_impression=true
 * Haskell
@@ -117,7 +135,7 @@
   * https://brendaneich.com/tag/history/
   * https://twitter.com/porteneuve/status/1252315566158876673
 * jq
-  https://stedolan.github.io/jq/
+  * https://stedolan.github.io/jq/
 * Julia
   * https://julialang.org/
 * Juvix
@@ -127,6 +145,9 @@
 * Lambda Calculus
   * https://news.ycombinator.com/item?id=13122336
 * Lapis
+  * https://lapis-lang.org/
+* LASP
+  * https://lasp-lang.readme.io/
 * Lisp
   * https://news.ycombinator.com/item?id=13192738
   * https://esdiscuss.org/topic/the-tragedy-of-the-common-lisp-or-why-large-languages-explode-was-revive-let-blocks
@@ -138,6 +159,10 @@
 * LOOP - https://news.ycombinator.com/item?id=18756564
 * Lua
   * https://en.wikipedia.org/wiki/Lua_(programming_language)
+* Lucid
+  * http://worrydream.com/refs/Wadge%20-%20Lucid,%20the%20Dataflow%20Programming%20Language.pdf
+* Mascara
+  * https://web.archive.org/web/20090401141153/http://ecmascript4.com/
 * Mercury
   * https://bluishcoder.co.nz/2019/06/23/getting-started-with-mercury.html
 * META II
@@ -177,6 +202,7 @@
 * Om
   * http://om-language.org/
 * ParaSail
+  * http://parasail-lang.org/
 * Perl
   * https://news.ycombinator.com/item?id=13125282
 * PH
@@ -186,6 +212,8 @@
   * https://twitter.com/algoritmic/status/1242034451531653121
 * Pony
   * https://bluishcoder.co.nz/tags/pony/index.html
+* Punyforth
+  * https://github.com/zeroflag/punyforth
 * Pure
   * http://lambda-the-ultimate.org/node/4232
 * PureScript
@@ -221,6 +249,8 @@
   * https://news.ycombinator.com/item?id=12998589
 * Self
   * http://lambda-the-ultimate.org/node/767#comment-6998
+* Skip
+  * https://news.ycombinator.com/item?id=18077612
 * Slate
   * https://web.archive.org/web/20150327154912/http://slatelanguage.org/
   * https://github.com/briantrice/slate-language
@@ -243,6 +273,7 @@
   * https://dl.acm.org/citation.cfm?doid=800197.806048
 * Unison
   * https://www.unisonweb.org/docs/tour/
+  * https://www.unisonweb.org/
 * Verona
   https://github.com/microsoft/verona
 * XY
@@ -252,6 +283,8 @@
   * https://en.wikipedia.org/wiki/Pure_type_system
 * Zig
   * https://ziglang.org/
+* Zimbu
+  * http://www.zimbu.org/
 
 ## Misc
 
