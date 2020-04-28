@@ -1,0 +1,280 @@
+* ActionScript
+* Ada
+* Arend
+  * https://arend-lang.github.io/
+* Atomo
+  * https://vito.github.io/atomo/
+* AWK
+* BETA
+  * https://en.wikipedia.org/wiki/BETA_(programming_language)
+* C
+  * https://news.ycombinator.com/item?id=13087103
+  * https://news.ycombinator.com/item?id=13265758
+* C++
+  * Concepts: https://devblogs.microsoft.com/cppblog/c20-concepts-are-here-in-visual-studio-2019-version-16-3/?utm_source=vs_developer_news&utm_medium=referral
+* Cecil
+  * https://en.wikipedia.org/wiki/Cecil_(programming_language)
+* Co2
+  * http://www.dustmop.io/blog/2019/09/10/what-remains-technical-breakdown/
+* COBOL
+  * https://mobile.twitter.com/awbjs/status/1250189292359446529
+* Dark 
+  * https://medium.com/darklang/unveiling-dark-e0be6f1e0b06
+* Diamond
+  * https://wasp.cs.washington.edu/wasp_diamond.html
+* Diesel
+  * http://wasp.cs.washington.edu/wasp_diesel.html
+* FLOW-MATIC
+* Cedille
+  * https://cedille.github.io/
+* Clojure
+  
+* CLU – Barbara Liskov
+  * First language with native support of Code Contracts
+* COBOL
+* Coconut
+  * http://coconut-lang.org/
+* ColdFusion/CFML
+  * https://en.wikipedia.org/wiki/Adobe_ColdFusion
+* Coq
+  * https://news.ycombinator.com/item?id=13177116
+  * https://news.ycombinator.com/item?id=13268288
+* CSS
+  * https://twitter.com/MarijnJH/status/1150808103237103616
+* D
+  * https://news.ycombinator.com/item?id=13217529
+* Dark
+* Dylan
+* E
+  * http://www.erights.org/
+  * https://medium.com/agoric/agoric-and-the-decades-long-quest-for-secure-smart-contracts-epicenter-interview-with-mark-s-76c9a0fab6e2
+* Eff
+  * https://www.eff-lang.org/
+  * https://overreacted.io/algebraic-effects-for-the-rest-of-us/
+* Egison
+  * https://www.egison.org/
+* Eiffel
+  * SmallEiffel , SmartEiffel https://news.ycombinator.com/item?id=2410939
+  * https://www.liberty-eiffel.org/
+  * http://wiki.c2.com/?EiffelLanguage
+  * https://www.google.com/search?ie=UTF-8&oe=UTF-8&q=Eiffel&btnG=&domains=http%3A%2F%2Flambda-the-ultimate.org&sitesearch=http%3A%2F%2Flambda-the-ultimate.org
+* Elm
+  * https://news.ycombinator.com/item?id=13025941
+* Erlang
+  * http://erlang.org
+  * http://lfe.io/
+* F*
+  * https://www.fstar-lang.org/
+* F#
+  * https://fsharp.org/
+* FemtoLisp
+  * https://github.com/JeffBezanson/femtolisp
+* Faust
+  * https://news.ycombinator.com/item?id=13012880
+* FORTH
+  * http://www.forth.org/
+  * https://www.forth.com/forth/
+* Fortran
+  * https://news.ycombinator.com/item?id=13226174
+* Gallifrey
+  * a Language for Geodistributed Programming
+  * http://www.cs.cornell.edu/andru/papers/gallifrey/snapl.pdf
+* Go
+  * https://en.wikipedia.org/wiki/Go_(programming_language)
+  * https://twitter.com/felixge/status/1170373793660973056
+* Go!
+  * https://en.wikipedia.org/wiki/Go!_(programming_language)
+* Grace
+  * http://gracelang.org/applications/
+* Gravity
+  * https://news.ycombinator.com/item?id=13802787
+* Hack
+* HackPPL
+  * https://blog.acolyer.org/2019/10/18/hackppl/amp/?__twitter_impression=true
+* Haskell
+  * https://news.ycombinator.com/item?id=12993350
+  * https://news.ycombinator.com/item?id=13125328
+  * https://news.ycombinator.com/item?id=13256092
+  * https://news.ycombinator.com/item?id=13272254
+* Henk 2000
+  * http://www.staff.science.uu.nl/~jeuri101/MSc/jwroorda/
+  * https://en.wikipedia.org/wiki/Pure_type_system
+* Hy
+  * https://docs.hylang.org/en/stable/
+* IDL
+  * https://en.wikipedia.org/wiki/IDL_(programming_language)
+* Idris
+  * https://www.idris-lang.org/
+* Io
+  * https://en.wikipedia.org/wiki/Io_(programming_language)
+* Ioke
+  * https://en.wikipedia.org/wiki/Ioke_(programming_language)
+* Java
+  * https://news.ycombinator.com/item?id=12998589
+* JavaScript
+  * https://en.wikipedia.org/wiki/JavaScript
+  * https://news.ycombinator.com/item?id=12998589
+  * https://brendaneich.com/tag/history/
+  * https://twitter.com/porteneuve/status/1252315566158876673
+* jq
+  https://stedolan.github.io/jq/
+* Julia
+  * https://julialang.org/
+* Juvix
+  * https://www.reddit.com/r/dependent_types/comments/esbi2r/the_why_of_juvix_ingredients_architecture/?utm_source=dlvr.it&utm_medium=twitter
+* Kotlin
+  * https://kotlinlang.org/
+* Lambda Calculus
+  * https://news.ycombinator.com/item?id=13122336
+* Lapis
+* Lisp
+  * https://news.ycombinator.com/item?id=13192738
+  * https://esdiscuss.org/topic/the-tragedy-of-the-common-lisp-or-why-large-languages-explode-was-revive-let-blocks
+  * http://flownet.com/gat/jpl-lisp.html
+* LiveScript
+  * AKA JavaScript: https://brendaneich.github.io/Strange-Loop-2012/#/1
+* LoCal
+  * https://twitter.com/PLPresents/status/1146772016676179968
+* LOOP - https://news.ycombinator.com/item?id=18756564
+* Lua
+  * https://en.wikipedia.org/wiki/Lua_(programming_language)
+* Mercury
+  * https://bluishcoder.co.nz/2019/06/23/getting-started-with-mercury.html
+* META II
+  * https://news.ycombinator.com/item?id=13039981
+* Mirth - https://mobile.twitter.com/_sofia_af/status/1090429011774398464
+* Miranda
+  * https://www.cs.kent.ac.uk/people/staff/dat/miranda/
+* Mizar
+  * http://mizar.uwb.edu.pl/
+* Mocha
+  * Early name for JavaScript
+* Morel
+  * http://blog.hydromatic.net/2020/02/25/morel-a-functional-language-for-data.html
+* NewtonScript
+  * https://en.wikipedia.org/wiki/NewtonScript
+* Nickle
+  * http://nickle.org/
+  * http://lambda-the-ultimate.org/node/1311#comment-14798
+* Nile
+  * https://github.com/damelang/nile
+* Noop
+  * https://code.google.com/archive/p/noop/
+  * https://gcemetery.co/noop/
+* Nushell
+  * http://www.jonathanturner.org/2019/08/introducing-nushell.html
+* Oak
+  * AKA Java  http://ei.cs.vt.edu/book/chap1/java_hist.html
+* Oberon
+  * https://news.ycombinator.com/item?id=13804837
+  * https://en.wikipedia.org/wiki/Oberon_(programming_language)
+  * https://en.wikipedia.org/wiki/Oberon_(operating_system)
+* OCaml
+* Occam
+  * https://en.wikipedia.org/wiki/Occam_(programming_language)
+  * Different Occam?
+    * https://twitter.com/graydon_pub/status/1156798756798398464
+* Om
+  * http://om-language.org/
+* ParaSail
+* Perl
+  * https://news.ycombinator.com/item?id=13125282
+* PH
+* PL/I
+  * https://twitter.com/awbjs/status/1251210046593097728
+* Polymath
+  * https://twitter.com/algoritmic/status/1242034451531653121
+* Pony
+  * https://bluishcoder.co.nz/tags/pony/index.html
+* Pure
+  * http://lambda-the-ultimate.org/node/4232
+* PureScript
+  * https://news.ycombinator.com/item?id=13141940
+* Python
+  * https://news.ycombinator.com/item?id=13037650
+* Q
+  * https://news.ycombinator.com/item?id=15907840
+* Q#
+  * https://news.ycombinator.com/item?id=15905671
+* Racket
+  * https://racket-lang.org/
+  * https://news.ycombinator.com/item?id=12801827
+  * https://news.ycombinator.com/item?id=13242590
+* Ripple
+  * https://github.com/joshsh/ripple
+* Ruby
+  * https://www.ruby-lang.org/en/
+* Rust
+  * https://news.ycombinator.com/item?id=12969014
+  * https://news.ycombinator.com/item?id=12923692
+  * https://news.ycombinator.com/item?id=13265758
+* SAGE
+  * https://sage.soe.ucsc.edu/
+  * https://en.wikipedia.org/wiki/Pure_type_system
+* Sarad
+  * https://github.com/abagames/sarad
+* Sather
+  * https://en.wikipedia.org/wiki/Sather
+* Scala
+  * https://mobile.twitter.com/odersky/status/1214084720021114881
+* Scheme
+  * https://news.ycombinator.com/item?id=12998589
+* Self
+  * http://lambda-the-ultimate.org/node/767#comment-6998
+* Slate
+  * https://web.archive.org/web/20150327154912/http://slatelanguage.org/
+  * https://github.com/briantrice/slate-language
+  * https://web.archive.org/web/20081109032008/http://slate.tunes.org:80/
+* Smallscript
+  * http://lambda-the-ultimate.org/classic/message4826.html#4849
+* Smalltalk
+  * https://news.ycombinator.com/item?id=12998589
+  * http://www.wirfs-brock.com/allen/things/smalltalk-things/smalltalk-87
+  * https://en.wikipedia.org/wiki/Smalltalk
+  * Amber smalltalk
+    * https://www.amber-lang.net/
+* SNOBOL
+* SOIL
+  http://soil-initiative.org/
+* Swift
+  * https://news.ycombinator.com/item?id=13006459
+  * https://news.ycombinator.com/item?id=13204088
+* TRAC
+  * https://dl.acm.org/citation.cfm?doid=800197.806048
+* Unison
+  * https://www.unisonweb.org/docs/tour/
+* Verona
+  https://github.com/microsoft/verona
+* XY
+  * http://www.nsl.com/k/xy/xy.htm
+* Yarrow
+  * http://www.cs.ru.nl/~janz/yarrow/
+  * https://en.wikipedia.org/wiki/Pure_type_system
+* Zig
+  * https://ziglang.org/
+
+## Misc
+
+* http://rosettacode.org/wiki/Category:Programming_Languages
+* http://lambda-the-ultimate.org/node/7
+* http://plzoo.andrej.com/
+* http://99-bottles-of-beer.net/abc.html
+* https://esolangs.org/wiki/Language_list
+* Query language
+* Programming paradigmhttps://web.archive.org/web/20180314160914/http://coding.derkeiler.com/Archive/Lisp/comp.lang.lisp/2006-04/msg01644.html
+* http://lambda-the-ultimate.org/node/767#comment-7012
+* https://en.wikipedia.org/wiki/Prototype-based_programming
+* https://mobile.twitter.com/wvo/status/1177096361113636866
+* https://github.com/dundalek/awesome-lisp-languages
+* https://news.ycombinator.com/item?id=11001693
+* https://github.com/kanaka/mal?files=1
+* https://stackoverflow.com/questions/491971/what-programming-language-is-most-like-natural-language
+* https://blog.sigplan.org/2019/12/03/flapjax-from-system-to-paper/
+* Music languages: http://www.nosuch.com/plum/cgi/showlist.cgi?sort=name&concise=yes
+* https://en.wikipedia.org/wiki/Fourth-generation_programming_language
+* http://degoes.net/articles/fp-glossary
+* https://www.johndcook.com/blog/2018/04/17/unpopular-languages/
+* https://0.30000000000000004.com/
+* https://twitter.com/wallingf/status/1239651353720487943
+* https://venturebeat.com/2019/02/18/facebooks-chief-ai-scientist-deep-learning-may-need-a-new-programming-language/
+* https://twitter.com/awbjs/status/1244699795882532873
