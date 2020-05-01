@@ -92,6 +92,8 @@
   * https://www.forth.com/forth/
 * Fortran
   * https://news.ycombinator.com/item?id=13226174
+* FRACTRAN
+  * https://en.m.wikipedia.org/wiki/FRACTRAN
 * Gallifrey
   * a Language for Geodistributed Programming
   * http://www.cs.cornell.edu/andru/papers/gallifrey/snapl.pdf
