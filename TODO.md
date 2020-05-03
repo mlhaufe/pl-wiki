@@ -230,6 +230,8 @@
   * https://racket-lang.org/
   * https://news.ycombinator.com/item?id=12801827
   * https://news.ycombinator.com/item?id=13242590
+* Raku
+  * https://rosettacode.org/wiki/Category:Raku
 * Ripple
   * https://github.com/joshsh/ripple
 * Ruby
