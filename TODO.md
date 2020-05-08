@@ -315,3 +315,5 @@
 * https://twitter.com/wallingf/status/1239651353720487943
 * https://venturebeat.com/2019/02/18/facebooks-chief-ai-scientist-deep-learning-may-need-a-new-programming-language/
 * https://twitter.com/awbjs/status/1244699795882532873
+* http://hopl.info/
+* https://www.levenez.com/lang/
