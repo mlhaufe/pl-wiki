@@ -129,6 +129,8 @@
   * https://en.wikipedia.org/wiki/Io_(programming_language)
 * Ioke
   * https://en.wikipedia.org/wiki/Ioke_(programming_language)
+* Janet
+  * https://janet-lang.org/
 * Java
   * https://news.ycombinator.com/item?id=12998589
 * JavaScript
@@ -180,6 +182,7 @@
   * http://blog.hydromatic.net/2020/02/25/morel-a-functional-language-for-data.html
 * NewtonScript
   * https://en.wikipedia.org/wiki/NewtonScript
+  * http://newtonscript.org/
 * Nickle
   * http://nickle.org/
   * http://lambda-the-ultimate.org/node/1311#comment-14798
