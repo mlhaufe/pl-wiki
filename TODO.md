@@ -9,6 +9,8 @@
   * https://arend-lang.github.io/
 * Atomo
   * https://vito.github.io/atomo/
+* AutoHotkey
+  * https://www.autohotkey.com/
 * AWK
 * BETA
   * https://en.wikipedia.org/wiki/BETA_(programming_language)
