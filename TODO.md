@@ -286,7 +286,9 @@
   * https://www.unisonweb.org/docs/tour/
   * https://www.unisonweb.org/
 * Verona
-  https://github.com/microsoft/verona
+  * https://github.com/microsoft/verona
+* WysiScript
+  * http://www.zifyoip.com/wysiscript/sigbovik.html
 * XY
   * http://www.nsl.com/k/xy/xy.htm
 * Yarrow
