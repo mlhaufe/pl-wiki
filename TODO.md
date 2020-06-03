@@ -34,6 +34,7 @@
 * COBOL
   * https://mobile.twitter.com/awbjs/status/1250189292359446529
 * CSS
+  * https://css-tricks.com/logical-operations-with-css-variables/ 
 * D
   * https://dlang.org/
 * Dark 
