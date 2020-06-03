@@ -35,6 +35,20 @@
   * https://mobile.twitter.com/awbjs/status/1250189292359446529
 * CSS
   * https://css-tricks.com/logical-operations-with-css-variables/ 
+* Cedille
+  * https://cedille.github.io/
+* Clojure
+* CLU – Barbara Liskov
+  * First language with native support of Code Contracts
+* Coconut
+  * http://coconut-lang.org/
+* ColdFusion/CFML
+  * https://en.wikipedia.org/wiki/Adobe_ColdFusion
+* Coq
+  * https://news.ycombinator.com/item?id=13177116
+  * https://news.ycombinator.com/item?id=13268288
+* CSS
+  * https://twitter.com/MarijnJH/status/1150808103237103616 
 * D
   * https://dlang.org/
 * Dark 
@@ -48,21 +62,6 @@
 * FLOW-MATIC
 * Folders
   * http://danieltemkin.com/Esolangs/Folders
-* Cedille
-  * https://cedille.github.io/
-* Clojure
-* CLU – Barbara Liskov
-  * First language with native support of Code Contracts
-* COBOL
-* Coconut
-  * http://coconut-lang.org/
-* ColdFusion/CFML
-  * https://en.wikipedia.org/wiki/Adobe_ColdFusion
-* Coq
-  * https://news.ycombinator.com/item?id=13177116
-  * https://news.ycombinator.com/item?id=13268288
-* CSS
-  * https://twitter.com/MarijnJH/status/1150808103237103616
 * D
   * https://news.ycombinator.com/item?id=13217529
 * Dark
@@ -80,6 +79,8 @@
   * https://www.liberty-eiffel.org/
   * http://wiki.c2.com/?EiffelLanguage
   * https://www.google.com/search?ie=UTF-8&oe=UTF-8&q=Eiffel&btnG=&domains=http%3A%2F%2Flambda-the-ultimate.org&sitesearch=http%3A%2F%2Flambda-the-ultimate.org
+* Elixer
+  * https://elixir-lang.org/
 * Elm
   * https://news.ycombinator.com/item?id=13025941
 * Erlang
