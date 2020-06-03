@@ -33,6 +33,7 @@
   * http://www.dustmop.io/blog/2019/09/10/what-remains-technical-breakdown/
 * COBOL
   * https://mobile.twitter.com/awbjs/status/1250189292359446529
+* CSS
 * D
   * https://dlang.org/
 * Dark 
@@ -44,6 +45,8 @@
 * Diesel
   * http://wasp.cs.washington.edu/wasp_diesel.html
 * FLOW-MATIC
+* Folders
+  * http://danieltemkin.com/Esolangs/Folders
 * Cedille
   * https://cedille.github.io/
 * Clojure
