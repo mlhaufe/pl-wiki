@@ -1,1 +1,1 @@
-Sitemap: https://pl-wiki.github.io/sitemap.xml
+Sitemap: https://mlhaufe.github.io/pl-wiki/sitemap.xml
