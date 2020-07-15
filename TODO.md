@@ -8,6 +8,8 @@
   * https://arend-lang.github.io/
 * Atomo
   * https://vito.github.io/atomo/
+* AutoHotkey
+  * https://www.autohotkey.com/
 * AWK
 * BETA
   * https://en.wikipedia.org/wiki/BETA_(programming_language)
@@ -30,6 +32,22 @@
   * http://www.dustmop.io/blog/2019/09/10/what-remains-technical-breakdown/
 * COBOL
   * https://mobile.twitter.com/awbjs/status/1250189292359446529
+* CSS
+  * https://css-tricks.com/logical-operations-with-css-variables/ 
+* Cedille
+  * https://cedille.github.io/
+* Clojure
+* CLU – Barbara Liskov
+  * First language with native support of Code Contracts
+* Coconut
+  * http://coconut-lang.org/
+* ColdFusion/CFML
+  * https://en.wikipedia.org/wiki/Adobe_ColdFusion
+* Coq
+  * https://news.ycombinator.com/item?id=13177116
+  * https://news.ycombinator.com/item?id=13268288
+* CSS
+  * https://twitter.com/MarijnJH/status/1150808103237103616 
 * D
   * https://dlang.org/
 * Dark 
@@ -41,21 +59,8 @@
 * Diesel
   * http://wasp.cs.washington.edu/wasp_diesel.html
 * FLOW-MATIC
-* Cedille
-  * https://cedille.github.io/
-* Clojure
-* CLU – Barbara Liskov
-  * First language with native support of Code Contracts
-* COBOL
-* Coconut
-  * http://coconut-lang.org/
-* ColdFusion/CFML
-  * https://en.wikipedia.org/wiki/Adobe_ColdFusion
-* Coq
-  * https://news.ycombinator.com/item?id=13177116
-  * https://news.ycombinator.com/item?id=13268288
-* CSS
-  * https://twitter.com/MarijnJH/status/1150808103237103616
+* Folders
+  * http://danieltemkin.com/Esolangs/Folders
 * D
   * https://news.ycombinator.com/item?id=13217529
 * Dark
@@ -73,6 +78,8 @@
   * https://www.liberty-eiffel.org/
   * http://wiki.c2.com/?EiffelLanguage
   * https://www.google.com/search?ie=UTF-8&oe=UTF-8&q=Eiffel&btnG=&domains=http%3A%2F%2Flambda-the-ultimate.org&sitesearch=http%3A%2F%2Flambda-the-ultimate.org
+* Elixer
+  * https://elixir-lang.org/
 * Elm
   * https://news.ycombinator.com/item?id=13025941
 * Erlang
@@ -128,6 +135,8 @@
   * https://en.wikipedia.org/wiki/Io_(programming_language)
 * Ioke
   * https://en.wikipedia.org/wiki/Ioke_(programming_language)
+* Janet
+  * https://janet-lang.org/
 * Java
   * https://news.ycombinator.com/item?id=12998589
 * JavaScript
@@ -179,6 +188,7 @@
   * http://blog.hydromatic.net/2020/02/25/morel-a-functional-language-for-data.html
 * NewtonScript
   * https://en.wikipedia.org/wiki/NewtonScript
+  * http://newtonscript.org/
 * Nickle
   * http://nickle.org/
   * http://lambda-the-ultimate.org/node/1311#comment-14798
@@ -280,7 +290,9 @@
   * https://www.unisonweb.org/docs/tour/
   * https://www.unisonweb.org/
 * Verona
-  https://github.com/microsoft/verona
+  * https://github.com/microsoft/verona
+* WysiScript
+  * http://www.zifyoip.com/wysiscript/sigbovik.html
 * XY
   * http://www.nsl.com/k/xy/xy.htm
 * Yarrow
