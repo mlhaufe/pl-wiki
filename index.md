@@ -8,7 +8,7 @@ title: "Programming Language Wiki"
 <ul>
 {% assign sorted_paradigms = site.categories['Paradigm'] | sort %}
 {%  for post in sorted_paradigms %}
-    <li><a href='{{ post.url }}'>{{ post.title }}</a></li>
+    <li><a href='/pl-wiki/{{ post.url }}'>{{ post.title }}</a></li>
 {% endfor %}
 </ul>
 
@@ -17,6 +17,6 @@ title: "Programming Language Wiki"
 <ul>
 {% assign sorted_langs = site.categories['Language'] | sort:"title" %}
 {% for post in sorted_langs %}
-    <li><a href='{{ post.url }}'>{{ post.title }}</a></li>
+    <li><a href='/pl-wiki/{{ post.url }}'>{{ post.title }}</a></li>
 {% endfor %}
 </ul>
