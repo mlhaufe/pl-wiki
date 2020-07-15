@@ -1,0 +1,22 @@
+html, body {
+    background-color: black;
+    color: #ccc;
+    height: 100%;
+    font-family: "Noto Sans","Lucida Grande","Lucida Sans","Segoe UI",sans-serif;
+}
+
+a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+.site-nav {}
+
+.site-content {}
+
+.site-content_body {
+    display: grid;
+    place-items: center;
+}
+
+@import "includes/pl-card"

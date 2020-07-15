@@ -1,6 +1,5 @@
 # PL List
 
-* ActionScript
 * Ada
 * Agda
   * https://github.com/liamoc/learn-you-an-agda/blob/master/pages/peano.md 
