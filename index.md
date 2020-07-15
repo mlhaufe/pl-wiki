@@ -15,8 +15,8 @@ title: "Programming Language Wiki"
 ## Languages
 
 <ul>
-{% assign sorted_posts = site.posts | sort:"title" %}
-{% for post in sorted_posts %}
+{% assign sorted_langs = site.categories['Language'] | sort:"title" %}
+{% for post in sorted_langs %}
     <li><a href='{{ post.url }}'>{{ post.title }}</a></li>
 {% endfor %}
 </ul>
