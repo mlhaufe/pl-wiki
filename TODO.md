@@ -258,8 +258,6 @@
   * https://mobile.twitter.com/odersky/status/1214084720021114881
 * Scheme
   * https://news.ycombinator.com/item?id=12998589
-* Self
-  * http://lambda-the-ultimate.org/node/767#comment-6998
 * Skip
   * https://news.ycombinator.com/item?id=18077612
 * Slate
@@ -272,6 +270,7 @@
   * https://news.ycombinator.com/item?id=12998589
   * http://www.wirfs-brock.com/allen/things/smalltalk-things/smalltalk-87
   * https://en.wikipedia.org/wiki/Smalltalk
+  * http://lambda-the-ultimate.org/node/767#comment-6998
   * Amber smalltalk
     * https://www.amber-lang.net/
 * SNOBOL
