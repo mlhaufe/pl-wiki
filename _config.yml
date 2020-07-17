@@ -21,8 +21,8 @@
 title: Programming Language Wiki
 email: tno@thenewobjective.com
 description: 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://mlhaufe.github.io/pl-wiki/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/pl-wiki" # the subpath of your site, e.g. /blog
+url: "https://mlhaufe.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 # theme: minima

@@ -210,8 +210,6 @@
   * https://en.wikipedia.org/wiki/Occam_(programming_language)
   * Different Occam?
     * https://twitter.com/graydon_pub/status/1156798756798398464
-* Om
-  * http://om-language.org/
 * ParaSail
   * http://parasail-lang.org/
 * Perl
