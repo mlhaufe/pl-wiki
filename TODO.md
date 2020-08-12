@@ -166,6 +166,8 @@
   * AKA JavaScript: https://brendaneich.github.io/Strange-Loop-2012/#/1
 * LoCal
   * https://twitter.com/PLPresents/status/1146772016676179968
+* LOLCode
+  * http://www.lolcode.org/
 * LOOP - https://news.ycombinator.com/item?id=18756564
 * Lua
   * https://en.wikipedia.org/wiki/Lua_(programming_language)
