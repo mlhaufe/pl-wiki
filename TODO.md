@@ -332,3 +332,4 @@
 * The Functional Programming paradigm's logo is Lambda due to its theoretical basis in lambda calculus
 * The most fundamental aspect of the Object-Oriented paradigm is open recursion. So is the Y combinator most important?
   * "On Understanding Data Abstraction, Revisited" <https://www.cs.utexas.edu/~wcook/Drafts/2009/essay.pdf>
+* https://twitter.com/presentcorrect/status/1138797880263761920
