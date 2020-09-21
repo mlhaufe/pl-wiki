@@ -85,6 +85,9 @@
 * Erlang
   * http://erlang.org
   * http://lfe.io/
+* Eva
+  * https://github.com/DmitrySoshnikov/eva-source
+  * http://dmitrysoshnikov.com/courses/essentials-of-interpretation/
 * F*
   * https://www.fstar-lang.org/
 * F#
@@ -196,6 +199,8 @@
   * http://lambda-the-ultimate.org/node/1311#comment-14798
 * Nile
   * https://github.com/damelang/nile
+* Nim
+  * https://nim-lang.org/
 * Noop
   * https://code.google.com/archive/p/noop/
   * https://gcemetery.co/noop/
