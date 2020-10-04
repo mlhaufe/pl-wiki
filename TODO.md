@@ -85,6 +85,9 @@
 * Erlang
   * http://erlang.org
   * http://lfe.io/
+* Eva
+  * https://github.com/DmitrySoshnikov/eva-source
+  * http://dmitrysoshnikov.com/courses/essentials-of-interpretation/
 * F*
   * https://www.fstar-lang.org/
 * F#
@@ -166,6 +169,8 @@
   * AKA JavaScript: https://brendaneich.github.io/Strange-Loop-2012/#/1
 * LoCal
   * https://twitter.com/PLPresents/status/1146772016676179968
+* LOLCode
+  * http://www.lolcode.org/
 * LOOP - https://news.ycombinator.com/item?id=18756564
 * Lua
   * https://en.wikipedia.org/wiki/Lua_(programming_language)
@@ -194,6 +199,8 @@
   * http://lambda-the-ultimate.org/node/1311#comment-14798
 * Nile
   * https://github.com/damelang/nile
+* Nim
+  * https://nim-lang.org/
 * Noop
   * https://code.google.com/archive/p/noop/
   * https://gcemetery.co/noop/
@@ -332,3 +339,4 @@
 * The Functional Programming paradigm's logo is Lambda due to its theoretical basis in lambda calculus
 * The most fundamental aspect of the Object-Oriented paradigm is open recursion. So is the Y combinator most important?
   * "On Understanding Data Abstraction, Revisited" <https://www.cs.utexas.edu/~wcook/Drafts/2009/essay.pdf>
+* https://twitter.com/presentcorrect/status/1138797880263761920
