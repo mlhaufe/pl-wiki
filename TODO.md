@@ -279,6 +279,8 @@
 * Swift
   * https://news.ycombinator.com/item?id=13006459
   * https://news.ycombinator.com/item?id=13204088
+* Tabloid
+  * https://tabloid.vercel.app/
 * Telescript
   * http://cgibin.erols.com/ziring/cgi-bin/cep/cep.pl?_key=Telescript
 * TRAC
