@@ -113,6 +113,8 @@
   * https://en.wikipedia.org/wiki/Go!_(programming_language)
 * Grace
   * http://gracelang.org/applications/
+* Grain
+  * https://grain-lang.org/
 * Gravity
   * https://news.ycombinator.com/item?id=13802787
 * Hack
