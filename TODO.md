@@ -4,6 +4,8 @@
 * Agda
   * https://github.com/liamoc/learn-you-an-agda/blob/master/pages/peano.md 
   * http://www.cse.chalmers.se/~ulfn/papers/afp08/tutorial.pdf 
+* ALGOL
+* APL
 * Arend
   * https://arend-lang.github.io/
 * Atomo
@@ -11,6 +13,8 @@
 * AutoHotkey
   * https://www.autohotkey.com/
 * AWK
+* BASIC
+* BCPL
 * BETA
   * https://en.wikipedia.org/wiki/BETA_(programming_language)
 * Bon
@@ -43,9 +47,11 @@
   * http://coconut-lang.org/
 * ColdFusion/CFML
   * https://en.wikipedia.org/wiki/Adobe_ColdFusion
+* COMTRAN
 * Coq
   * https://news.ycombinator.com/item?id=13177116
   * https://news.ycombinator.com/item?id=13268288
+* CPL
 * CSS
   * https://twitter.com/MarijnJH/status/1150808103237103616 
 * D
@@ -59,11 +65,13 @@
 * Diesel
   * http://wasp.cs.washington.edu/wasp_diesel.html
 * FLOW-MATIC
+* FORTRAN
 * Folders
   * http://danieltemkin.com/Esolangs/Folders
 * D
   * https://news.ycombinator.com/item?id=13217529
 * Dark
+* Dyalog
 * Dylan
 * E
   * http://www.erights.org/
@@ -140,6 +148,7 @@
   * https://en.wikipedia.org/wiki/Io_(programming_language)
 * Ioke
   * https://en.wikipedia.org/wiki/Ioke_(programming_language)
+* J
 * Janet
   * https://janet-lang.org/
 * Java
@@ -149,12 +158,14 @@
   * https://news.ycombinator.com/item?id=12998589
   * https://brendaneich.com/tag/history/
   * https://twitter.com/porteneuve/status/1252315566158876673
+* JOVIAL
 * jq
   * https://stedolan.github.io/jq/
 * Julia
   * https://julialang.org/
 * Juvix
   * https://www.reddit.com/r/dependent_types/comments/esbi2r/the_why_of_juvix_ingredients_architecture/?utm_source=dlvr.it&utm_medium=twitter
+* K
 * Kotlin
   * https://kotlinlang.org/
 * Lambda Calculus
@@ -163,7 +174,7 @@
   * https://lapis-lang.org/
 * LASP
   * https://lasp-lang.readme.io/
-* Lisp
+* LISP
   * https://news.ycombinator.com/item?id=13192738
   * https://esdiscuss.org/topic/the-tragedy-of-the-common-lisp-or-why-large-languages-explode-was-revive-let-blocks
   * http://flownet.com/gat/jpl-lisp.html
@@ -221,6 +232,7 @@
     * https://twitter.com/graydon_pub/status/1156798756798398464
 * ParaSail
   * http://parasail-lang.org/
+* Pascal
 * Perl
   * https://news.ycombinator.com/item?id=13125282
 * PH
@@ -267,6 +279,7 @@
   * https://mobile.twitter.com/odersky/status/1214084720021114881
 * Scheme
   * https://news.ycombinator.com/item?id=12998589
+* SIMULA
 * Skip
   * https://news.ycombinator.com/item?id=18077612
 * Slate
@@ -342,3 +355,8 @@
 * The most fundamental aspect of the Object-Oriented paradigm is open recursion. So is the Y combinator most important?
   * "On Understanding Data Abstraction, Revisited" <https://www.cs.utexas.edu/~wcook/Drafts/2009/essay.pdf>
 * https://twitter.com/presentcorrect/status/1138797880263761920
+
+
+
+=====
+ALPHARD, ALTRAN, Argus, Automath, BCPL, COMTRAN, CPL, Eiffel, FLOW-MATIC, HOPE, Hypercard, ISWIM, JOVIAL, MacSyma, Mesa, Miranda, Multics Shell, PLANNER, SMP, Sketchpad, or SNOBOL.
