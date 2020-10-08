@@ -54,6 +54,8 @@
 * CPL
 * CSS
   * https://twitter.com/MarijnJH/status/1150808103237103616 
+* Cyclone
+  * http://cyclone.thelanguage.org/
 * D
   * https://dlang.org/
 * Dark 
