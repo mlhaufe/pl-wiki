@@ -358,6 +358,7 @@
 * The most fundamental aspect of the Object-Oriented paradigm is open recursion. So is the Y combinator most important?
   * "On Understanding Data Abstraction, Revisited" <https://www.cs.utexas.edu/~wcook/Drafts/2009/essay.pdf>
 * https://twitter.com/presentcorrect/status/1138797880263761920
+* http://www.digibarn.com/collections/posters/tongues/
 
 
 
