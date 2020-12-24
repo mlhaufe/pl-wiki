@@ -360,7 +360,7 @@
 * https://twitter.com/presentcorrect/status/1138797880263761920
 * http://www.digibarn.com/collections/posters/tongues/
 * http://neilmitchell.blogspot.com/2020/11/turing-incomplete-languages.html
-
+* https://timthompson.com/plum/cgi/showlist.cgi?sort=name&concise=yes
 
 =====
 ALPHARD, ALTRAN, Argus, Automath, BCPL, COMTRAN, CPL, Eiffel, FLOW-MATIC, HOPE, Hypercard, ISWIM, JOVIAL, MacSyma, Mesa, Miranda, Multics Shell, PLANNER, SMP, Sketchpad, or SNOBOL.
