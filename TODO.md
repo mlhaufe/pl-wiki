@@ -82,6 +82,8 @@
   * https://elixir-lang.org/
 * Elm
   * https://news.ycombinator.com/item?id=13025941
+* Enso
+  * https://github.com/enso-org/enso
 * Erlang
   * http://erlang.org
   * http://lfe.io/
