@@ -5,13 +5,17 @@
   * https://github.com/liamoc/learn-you-an-agda/blob/master/pages/peano.md 
   * http://www.cse.chalmers.se/~ulfn/papers/afp08/tutorial.pdf 
 * ALGOL
+* ALPHARD
+* ALTRAN
 * APL
 * Arend
   * https://arend-lang.github.io/
+* Argus
 * Atomo
   * https://vito.github.io/atomo/
 * AutoHotkey
   * https://www.autohotkey.com/
+* Automath
 * AWK
 * BASIC
 * BCPL
@@ -36,6 +40,9 @@
   * http://www.dustmop.io/blog/2019/09/10/what-remains-technical-breakdown/
 * COBOL
   * https://mobile.twitter.com/awbjs/status/1250189292359446529
+* COMTRAN
+* Conniver
+* CPL
 * CSS
   * https://css-tricks.com/logical-operations-with-css-variables/ 
 * Cedille
@@ -66,6 +73,7 @@
   * https://wasp.cs.washington.edu/wasp_diamond.html
 * Diesel
   * http://wasp.cs.washington.edu/wasp_diesel.html
+* Eiffel
 * FLOW-MATIC
 * FORTRAN
 * Folders
@@ -134,6 +142,8 @@
   * https://lexi-lambda.github.io/blog/2017/05/27/realizing-hackett-a-metaprogrammable-haskell/ 
 * HackPPL
   * https://blog.acolyer.org/2019/10/18/hackppl/amp/?__twitter_impression=true
+* Handel 
+  * https://handel-pl.github.io/
 * Haskell
   * https://news.ycombinator.com/item?id=12993350
   * https://news.ycombinator.com/item?id=13125328
@@ -142,8 +152,10 @@
 * Henk 2000
   * http://www.staff.science.uu.nl/~jeuri101/MSc/jwroorda/
   * https://en.wikipedia.org/wiki/Pure_type_system
+* HOPE
 * Hy
   * https://docs.hylang.org/en/stable/
+* Hypercard
 * IDL
   * https://en.wikipedia.org/wiki/IDL_(programming_language)
 * Idris
@@ -152,6 +164,7 @@
   * https://en.wikipedia.org/wiki/Io_(programming_language)
 * Ioke
   * https://en.wikipedia.org/wiki/Ioke_(programming_language)
+* ISWIM
 * J
 * Janet
   * https://janet-lang.org/
@@ -193,10 +206,12 @@
   * https://en.wikipedia.org/wiki/Lua_(programming_language)
 * Lucid
   * http://worrydream.com/refs/Wadge%20-%20Lucid,%20the%20Dataflow%20Programming%20Language.pdf
+* MacSyma
 * Mascara
   * https://web.archive.org/web/20090401141153/http://ecmascript4.com/
 * Mercury
   * https://bluishcoder.co.nz/2019/06/23/getting-started-with-mercury.html
+* Mesa
 * META II
   * https://news.ycombinator.com/item?id=13039981
 * Mirth - https://mobile.twitter.com/_sofia_af/status/1090429011774398464
@@ -208,6 +223,7 @@
   * Early name for JavaScript
 * Morel
   * http://blog.hydromatic.net/2020/02/25/morel-a-functional-language-for-data.html
+* Multics Shell
 * NewtonScript
   * https://en.wikipedia.org/wiki/NewtonScript
   * http://newtonscript.org/
@@ -240,6 +256,7 @@
 * Perl
   * https://news.ycombinator.com/item?id=13125282
 * PH
+* PLANNER
 * PL/I
   * https://twitter.com/awbjs/status/1251210046593097728
 * Polymath
@@ -285,6 +302,7 @@
 * Scheme
   * https://news.ycombinator.com/item?id=12998589
 * SIMULA
+* Sketchpad
 * Skip
   * https://news.ycombinator.com/item?id=18077612
 * Slate
@@ -300,6 +318,7 @@
   * http://lambda-the-ultimate.org/node/767#comment-6998
   * Amber smalltalk
     * https://www.amber-lang.net/
+* SMP
 * SNOBOL
 * SOIL
   http://soil-initiative.org/
@@ -363,6 +382,8 @@
 * http://www.digibarn.com/collections/posters/tongues/
 * http://neilmitchell.blogspot.com/2020/11/turing-incomplete-languages.html
 * https://timthompson.com/plum/cgi/showlist.cgi?sort=name&concise=yes
-
+* Pygmalion <https://web.media.mit.edu/~lieber/Publications/Pygmalion-Remixed.pdf>
 =====
-ALPHARD, ALTRAN, Argus, Automath, BCPL, COMTRAN, CPL, Eiffel, FLOW-MATIC, HOPE, Hypercard, ISWIM, JOVIAL, MacSyma, Mesa, Miranda, Multics Shell, PLANNER, SMP, Sketchpad, or SNOBOL.
+
+Smart Contract languages
+  https://tvcutsem.github.io/smartcontracts
