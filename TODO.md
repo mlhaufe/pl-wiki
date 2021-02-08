@@ -8,6 +8,8 @@
 * ALPHARD
 * ALTRAN
 * APL
+* Arc
+  * <http://www.arclanguage.org/>
 * Arend
   * https://arend-lang.github.io/
 * Argus
@@ -259,6 +261,11 @@
 * PLANNER
 * PL/I
   * https://twitter.com/awbjs/status/1251210046593097728
+* Plutus
+  * https://www.crypto-news-flash.com/cardano-thats-why-marlowe-is-better-for-defi-than-ethereums-solidity/
+  * https://twitter.com/TacticalGrace/status/1080432762149056512
+  * https://coincryptonews.com/2019/04/26/cardano-plutus-smart-contracts-explained-deep-dive/
+  * https://en.wikipedia.org/wiki/Cardano_(cryptocurrency_platform)
 * Polymath
   * https://twitter.com/algoritmic/status/1242034451531653121
 * Pony
@@ -390,3 +397,7 @@ Smart Contract languages
 
 
 https://mathinspector.com/
+
+
+
+L-Systems
