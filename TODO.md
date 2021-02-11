@@ -401,3 +401,6 @@ https://mathinspector.com/
 
 
 L-Systems
+
+
+https://www.johndcook.com/blog/2021/02/11/trig-across-languages/
