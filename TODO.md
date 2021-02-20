@@ -102,6 +102,9 @@
   * https://elixir-lang.org/
 * Elm
   * https://news.ycombinator.com/item?id=13025941
+* Emacs Lisp
+  * https://en.wikipedia.org/wiki/Emacs_Lisp
+  * https://www.reddit.com/r/emacs/comments/lly7po/do_you_use_emacs_lisp_as_a_general_purpose/gnvzisy/
 * Enso
   * https://github.com/enso-org/enso
 * Erlang
