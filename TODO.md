@@ -131,6 +131,8 @@
 * Gallifrey
   * a Language for Geodistributed Programming
   * http://www.cs.cornell.edu/andru/papers/gallifrey/snapl.pdf
+* Gno
+  * https://github.com/gnolang/gno
 * Go
   * https://en.wikipedia.org/wiki/Go_(programming_language)
   * https://twitter.com/felixge/status/1170373793660973056
@@ -407,3 +409,11 @@ L-Systems
 
 
 https://www.johndcook.com/blog/2021/02/11/trig-across-languages/
+
+https://benchmarksgame-team.pages.debian.net/benchmarksgame/which-programs-are-fastest.html
+
+https://twitter.com/LogicPractice/status/1355162575017811970
+
+https://www.npopov.com/2012/06/15/The-true-power-of-regular-expressions.html
+
+https://twitter.com/AlgebraFact/status/1365285883566505984
