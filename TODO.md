@@ -44,6 +44,7 @@
   * https://mobile.twitter.com/awbjs/status/1250189292359446529
 * COMTRAN
 * Conniver
+* Coq
 * CPL
 * CSS
   * https://css-tricks.com/logical-operations-with-css-variables/ 
@@ -171,6 +172,7 @@
   * https://en.wikipedia.org/wiki/Io_(programming_language)
 * Ioke
   * https://en.wikipedia.org/wiki/Ioke_(programming_language)
+* Isabelle
 * ISWIM
 * J
 * Janet
@@ -221,6 +223,7 @@
 * Mesa
 * META II
   * https://news.ycombinator.com/item?id=13039981
+* Minlog
 * Mirth - https://mobile.twitter.com/_sofia_af/status/1090429011774398464
 * Miranda
   * https://www.cs.kent.ac.uk/people/staff/dat/miranda/
@@ -244,6 +247,7 @@
 * Noop
   * https://code.google.com/archive/p/noop/
   * https://gcemetery.co/noop/
+* NuPRL
 * Nushell
   * http://www.jonathanturner.org/2019/08/introducing-nushell.html
 * Oak
