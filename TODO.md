@@ -1,32 +1,5 @@
 # PL List
 
-* Ada
-* Agda
-  * https://github.com/liamoc/learn-you-an-agda/blob/master/pages/peano.md 
-  * http://www.cse.chalmers.se/~ulfn/papers/afp08/tutorial.pdf 
-* ALGOL
-* ALPHARD
-* ALTRAN
-* APL
-* Arc
-  * <http://www.arclanguage.org/>
-* Arend
-  * https://arend-lang.github.io/
-* Argus
-* Atomo
-  * https://vito.github.io/atomo/
-* AutoHotkey
-  * https://www.autohotkey.com/
-* Automath
-* AWK
-* BASIC
-* BCPL
-* BETA
-  * https://en.wikipedia.org/wiki/BETA_(programming_language)
-* Bon
-  * https://github.com/FBMachine/bon
-* bosatsu
-  * https://github.com/johnynek/bosatsu
 * C
   * https://news.ycombinator.com/item?id=13087103
   * https://news.ycombinator.com/item?id=13265758
@@ -42,25 +15,15 @@
   * http://www.dustmop.io/blog/2019/09/10/what-remains-technical-breakdown/
 * COBOL
   * https://mobile.twitter.com/awbjs/status/1250189292359446529
-* COMTRAN
-* Conniver
-* CPL
 * CSS
   * https://css-tricks.com/logical-operations-with-css-variables/ 
-* Cedille
-  * https://cedille.github.io/
-* Clojure
 * CLU – Barbara Liskov
   * First language with native support of Code Contracts
-* Coconut
-  * http://coconut-lang.org/
 * ColdFusion/CFML
   * https://en.wikipedia.org/wiki/Adobe_ColdFusion
-* COMTRAN
 * Coq
   * https://news.ycombinator.com/item?id=13177116
   * https://news.ycombinator.com/item?id=13268288
-* CPL
 * CSS
   * https://twitter.com/MarijnJH/status/1150808103237103616 
 * Cyclone
@@ -75,16 +38,10 @@
   * https://wasp.cs.washington.edu/wasp_diamond.html
 * Diesel
   * http://wasp.cs.washington.edu/wasp_diesel.html
-* Eiffel
-* FLOW-MATIC
-* FORTRAN
 * Folders
   * http://danieltemkin.com/Esolangs/Folders
 * D
   * https://news.ycombinator.com/item?id=13217529
-* Dark
-* Dyalog
-* Dylan
 * E
   * http://www.erights.org/
   * https://medium.com/agoric/agoric-and-the-decades-long-quest-for-secure-smart-contracts-epicenter-interview-with-mark-s-76c9a0fab6e2
@@ -113,10 +70,6 @@
 * Eva
   * https://github.com/DmitrySoshnikov/eva-source
   * http://dmitrysoshnikov.com/courses/essentials-of-interpretation/
-* F*
-  * https://www.fstar-lang.org/
-* F#
-  * https://fsharp.org/
 * FemtoLisp
   * https://github.com/JeffBezanson/femtolisp
 * Faust
@@ -259,11 +212,9 @@
     * https://twitter.com/graydon_pub/status/1156798756798398464
 * ParaSail
   * http://parasail-lang.org/
-* Pascal
+
 * Perl
   * https://news.ycombinator.com/item?id=13125282
-* PH
-* PLANNER
 * PL/I
   * https://twitter.com/awbjs/status/1251210046593097728
 * Plutus
@@ -313,8 +264,6 @@
   * https://mobile.twitter.com/odersky/status/1214084720021114881
 * Scheme
   * https://news.ycombinator.com/item?id=12998589
-* SIMULA
-* Sketchpad
 * Skip
   * https://news.ycombinator.com/item?id=18077612
 * Slate
@@ -330,9 +279,6 @@
   * http://lambda-the-ultimate.org/node/767#comment-6998
   * Amber smalltalk
     * https://www.amber-lang.net/
-* SMP
-* SNOBOL
-* SOIL
   http://soil-initiative.org/
 * Swift
   * https://news.ycombinator.com/item?id=13006459
@@ -355,10 +301,6 @@
 * Yarrow
   * http://www.cs.ru.nl/~janz/yarrow/
   * https://en.wikipedia.org/wiki/Pure_type_system
-* Zig
-  * https://ziglang.org/
-* Zimbu
-  * http://www.zimbu.org/
 
 ## Misc
 
