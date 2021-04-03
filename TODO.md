@@ -15,10 +15,6 @@
   * http://www.dustmop.io/blog/2019/09/10/what-remains-technical-breakdown/
 * COBOL
   * https://mobile.twitter.com/awbjs/status/1250189292359446529
-* COMTRAN
-* Conniver
-* Coq
-* CPL
 * CSS
   * https://css-tricks.com/logical-operations-with-css-variables/ 
 * CLU – Barbara Liskov
@@ -30,14 +26,8 @@
   * https://news.ycombinator.com/item?id=13268288
 * CSS
   * https://twitter.com/MarijnJH/status/1150808103237103616 
-* Cyclone
-  * http://cyclone.thelanguage.org/
-* D
-  * https://dlang.org/
 * Dark 
   * https://medium.com/darklang/unveiling-dark-e0be6f1e0b06
-* Dhall
-  * https://github.com/dhall-lang/dhall-haskell 
 * Diamond
   * https://wasp.cs.washington.edu/wasp_diamond.html
 * Diesel
@@ -52,30 +42,22 @@
 * Eff
   * https://www.eff-lang.org/
   * https://overreacted.io/algebraic-effects-for-the-rest-of-us/
-* Egison
-  * https://www.egison.org/
 * Eiffel
   * SmallEiffel , SmartEiffel https://news.ycombinator.com/item?id=2410939
   * https://www.liberty-eiffel.org/
   * http://wiki.c2.com/?EiffelLanguage
   * https://www.google.com/search?ie=UTF-8&oe=UTF-8&q=Eiffel&btnG=&domains=http%3A%2F%2Flambda-the-ultimate.org&sitesearch=http%3A%2F%2Flambda-the-ultimate.org
-* Elixer
-  * https://elixir-lang.org/
 * Elm
   * https://news.ycombinator.com/item?id=13025941
 * Emacs Lisp
   * https://en.wikipedia.org/wiki/Emacs_Lisp
   * https://www.reddit.com/r/emacs/comments/lly7po/do_you_use_emacs_lisp_as_a_general_purpose/gnvzisy/
-* Enso
-  * https://github.com/enso-org/enso
 * Erlang
   * http://erlang.org
   * http://lfe.io/
 * Eva
   * https://github.com/DmitrySoshnikov/eva-source
   * http://dmitrysoshnikov.com/courses/essentials-of-interpretation/
-* FemtoLisp
-  * https://github.com/JeffBezanson/femtolisp
 * Faust
   * https://news.ycombinator.com/item?id=13012880
 * FORTH
@@ -88,26 +70,18 @@
 * Gallifrey
   * a Language for Geodistributed Programming
   * http://www.cs.cornell.edu/andru/papers/gallifrey/snapl.pdf
-* Gno
-  * https://github.com/gnolang/gno
 * Go
   * https://en.wikipedia.org/wiki/Go_(programming_language)
   * https://twitter.com/felixge/status/1170373793660973056
 * Go!
   * https://en.wikipedia.org/wiki/Go!_(programming_language)
-* Grace
-  * http://gracelang.org/applications/
-* Grain
-  * https://grain-lang.org/
 * Gravity
   * https://news.ycombinator.com/item?id=13802787
-* Hack
+* Hack (facebook)
 * Hackett
   * https://lexi-lambda.github.io/blog/2017/05/27/realizing-hackett-a-metaprogrammable-haskell/ 
 * HackPPL
   * https://blog.acolyer.org/2019/10/18/hackppl/amp/?__twitter_impression=true
-* Handel 
-  * https://handel-pl.github.io/
 * Haskell
   * https://news.ycombinator.com/item?id=12993350
   * https://news.ycombinator.com/item?id=13125328
