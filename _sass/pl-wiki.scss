@@ -14,9 +14,20 @@ a {
 
 .site-content {}
 
-.site-content_body {
-    display: grid;
-    place-items: center;
+.lang-list {
+    columns: 12em auto;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lang-list li {
+    margin: 0.5em 0;
+}
+
+.lang-list img {
+    height: 2em;
+    vertical-align: middle;
 }
 
 @import "includes/pl-card"
