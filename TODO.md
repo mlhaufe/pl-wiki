@@ -215,6 +215,8 @@
   * https://en.wikipedia.org/wiki/Lua_(programming_language)
 * Lucid
   * http://worrydream.com/refs/Wadge%20-%20Lucid,%20the%20Dataflow%20Programming%20Language.pdf
+* Lucy
+  * https://twitter.com/matthewcp/status/1386030120838877187
 * MacSyma
 * Mascara
   * https://web.archive.org/web/20090401141153/http://ecmascript4.com/
@@ -268,6 +270,8 @@
   * https://news.ycombinator.com/item?id=13125282
 * PH
 * PLANNER
+* Plato
+  * https://github.com/cdiggins/plato
 * PL/I
   * https://twitter.com/awbjs/status/1251210046593097728
 * Plutus
