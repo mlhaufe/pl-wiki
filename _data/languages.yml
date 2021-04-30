@@ -36,6 +36,8 @@
   homepage: https://github.com/FBMachine/bon
 - name: bosatsu
   homepage: https://github.com/johnynek/bosatsu
+- name: Cairo
+  homepage: https://www.cairo-lang.org/
 - name: Cedille
   homepage: https://cedille.github.io/
 - name: Clojure
@@ -87,13 +89,17 @@
   logo: ./images/logos/haxe-logo.svg
 - name: Kappa
   homepage: https://kappalanguage.org/
+- name: Lapis
 - name: LaTex
+- name: Nim
+  homepage: https://nim-lang.org/
 - name: Om
   homepage: http://www.om-language.org/
   logo: ./images/logos/om.png
 - name: Pascal
 - name: PH
 - name: PLANNER
+- name: ReasonML
 - name: Self
   homepage: https://selflanguage.org/
   logo: ./images/logos/self.png
@@ -103,6 +109,7 @@
 - name: SNOBOL
 - name: SOIL
 - name: Tex
+- name: TLA+
 - name: Zig
   homepage: https://ziglang.org/
 - name: Zimbu
