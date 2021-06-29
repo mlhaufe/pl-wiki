@@ -346,3 +346,7 @@ https://twitter.com/LogicPractice/status/1355162575017811970
 https://www.npopov.com/2012/06/15/The-true-power-of-regular-expressions.html
 
 https://twitter.com/AlgebraFact/status/1365285883566505984
+
+https://www.hillelwayne.com/post/influential-dead-languages/
+
+https://twitter.com/AzureDevOps/status/1409618613426868227
