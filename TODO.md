@@ -1,5 +1,7 @@
 # PL List
 
+* Aussie++
+  * <https://twitter.com/lzsthw/status/1453422639515676680>
 * C
   * <https://news.ycombinator.com/item?id=13087103>
   * <https://news.ycombinator.com/item?id=13265758>
@@ -105,6 +107,7 @@
 * Isabelle
 * ISWIM
 * J
+  * <https://twitter.com/CompSciFact/status/1451920337944432642>
 * Janet
   * <https://janet-lang.org/>
 * Java
