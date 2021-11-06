@@ -23,6 +23,8 @@
   * First language with native support of Code Contracts
 * ColdFusion/CFML
   * <https://en.wikipedia.org/wiki/Adobe_ColdFusion>
+* CookLang
+  * <https://cooklang.org/>
 * Coq
   * <https://news.ycombinator.com/item?id=13177116>
   * <https://news.ycombinator.com/item?id=13268288>
@@ -146,6 +148,8 @@
 * LOOP - <https://news.ycombinator.com/item?id=18756564>
 * Lua
   * <https://en.wikipedia.org/wiki/Lua_(programming_language>)
+* Luau
+  * <https://luau-lang.org/>
 * Lucid
   * <http://worrydream.com/refs/Wadge%20-%20Lucid,%20the%20Dataflow%20Programming%20Language.pdf>
 * Lucy
@@ -304,7 +308,7 @@
 * <http://99-bottles-of-beer.net/abc.html>
 * <https://esolangs.org/wiki/Language_list>
 * Query language
-* Programming paradigm<https://web.archive.org/web/20180314160914/http://coding.derkeiler.com/Archive/Lisp/comp.lang.lisp/2006-04/msg01644.html>
+* Programming paradigm <https://web.archive.org/web/20180314160914/http://coding.derkeiler.com/Archive/Lisp/comp.lang.lisp/2006-04/msg01644.html>
 * <http://lambda-the-ultimate.org/node/767#comment-7012>
 * <https://en.wikipedia.org/wiki/Prototype-based_programming>
 * <https://mobile.twitter.com/wvo/status/1177096361113636866>
@@ -353,3 +357,4 @@ L-Systems
 <https://www.hillelwayne.com/post/influential-dead-languages/>
 
 <https://twitter.com/AzureDevOps/status/1409618613426868227>
+
