@@ -1,12 +1,19 @@
 # PL List
 
+* Arret
+  * <https://github.com/etaoins/arret/>
 * Aussie++
   * <https://twitter.com/lzsthw/status/1453422639515676680>
+* ArkScript
+  * <https://github.com/ArkScript-lang/Ark>
+* Beef
+  * <https://github.com/beefytech/Beef>
 * C
   * <https://news.ycombinator.com/item?id=13087103>
   * <https://news.ycombinator.com/item?id=13265758>
 * C++
   * Concepts: <https://devblogs.microsoft.com/cppblog/c20-concepts-are-here-in-visual-studio-2019-version-16-3/?utm_source=vs_developer_news&utm_medium=referral>
+  * <https://search.brave.com/search?q=C%2B%2B+grammar+undecidable>
 * Cecil
   * <https://en.wikipedia.org/wiki/Cecil_(programming_language>)
 * Ceylon
@@ -36,6 +43,8 @@
   * <https://wasp.cs.washington.edu/wasp_diamond.html>
 * Diesel
   * <http://wasp.cs.washington.edu/wasp_diesel.html>
+* fe
+  <https://github.com/rxi/fe>
 * Folders
   * <http://danieltemkin.com/Esolangs/Folders>
 * D
@@ -119,6 +128,8 @@
   * <https://news.ycombinator.com/item?id=12998589>
   * <https://brendaneich.com/tag/history/>
   * <https://twitter.com/porteneuve/status/1252315566158876673>
+* Ji
+  * <https://observablehq.com/@elisk/ji-language>
 * JOVIAL
 * jq
   * <https://stedolan.github.io/jq/>
@@ -127,6 +138,8 @@
 * Juvix
   * <https://www.reddit.com/r/dependent_types/comments/esbi2r/the_why_of_juvix_ingredients_architecture/?utm_source=dlvr.it&utm_medium=twitter>
 * K
+* KAsaya
+  * <http://web.archive.org/web/20201216115716/https://github.com/syscolabs/kasaya>
 * Kotlin
   * <https://kotlinlang.org/>
 * Lambda Calculus
@@ -174,7 +187,11 @@
   * <http://blog.hydromatic.net/2020/02/25/morel-a-functional-language-for-data.html>
 * Move
   * <http://rebase-conf.org/2021/#the-move-language-for-the-diem-blockchain>
+* Morel
+  * <https://search.brave.com/search?q=morel+functional+query+language&source=web>
 * Multics Shell
+* NeeiLang
+  * <https://github.com/neeilan/neeilang>
 * NewtonScript
   * <https://en.wikipedia.org/wiki/NewtonScript>
   * <http://newtonscript.org/>
@@ -245,6 +262,8 @@
   * <https://www.johndcook.com/blog/2021/10/26/unintended-programming-languages/>
 * Ripple
   * <https://github.com/joshsh/ripple>
+* Risp
+  * <https://stopa.io/post/222>
 * Ruby
   * <https://www.ruby-lang.org/en/>
 * Rust
