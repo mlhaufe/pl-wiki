@@ -100,6 +100,8 @@
   * <https://news.ycombinator.com/item?id=13125328>
   * <https://news.ycombinator.com/item?id=13256092>
   * <https://news.ycombinator.com/item?id=13272254>
+* HaskellR
+  * https://tweag.github.io/HaskellR/
 * Henk 2000
   * <http://www.staff.science.uu.nl/~jeuri101/MSc/jwroorda/>
   * <https://en.wikipedia.org/wiki/Pure_type_system>
