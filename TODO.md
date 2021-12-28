@@ -249,6 +249,7 @@
   * <https://news.ycombinator.com/item?id=13141940>
 * Python
   * <https://news.ycombinator.com/item?id=13037650>
+  * Python is not context free <https://news.ycombinator.com/item?id=21118614>
 * Q
   * <https://news.ycombinator.com/item?id=15907840>
 * Q#
@@ -379,3 +380,5 @@ L-Systems
 
 <https://twitter.com/AzureDevOps/status/1409618613426868227>
 
+visual programming
+<https://news.ycombinator.com/item?id=20507668>
