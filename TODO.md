@@ -321,7 +321,11 @@
 * Yarrow
   * <http://www.cs.ru.nl/~janz/yarrow/>
   * <https://en.wikipedia.org/wiki/Pure_type_system>
-
+* Ylang
+  * <https://blog.openresty.com/en/ylang-intro-part1/>
+* ZPL
+  * <https://en.wikipedia.org/wiki/ZPL_(programming_language)>
+  
 ## Misc
 
 * <http://rosettacode.org/wiki/Category:Programming_Languages>
