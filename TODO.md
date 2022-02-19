@@ -1,5 +1,8 @@
 # PL List
 
+* 1C
+  * <https://www.quora.com/What-programming-languages-are-used-in-China-and-Russia-Is-it-the-same-as-other-countries-or-is-there-a-special-programming-language/answer/Boris-Ivanov-49>
+  * Just VBS in Russian?
 * Arret
   * <https://github.com/etaoins/arret/>
 * Aussie++
@@ -20,6 +23,8 @@
   * <https://ceylon-lang.org/>
 * CHICKEN Scheme
   * <http://www.call-cc.org/>
+* Cicada
+  * <https://readonly.link/manuals/gitlab.com/cicada-lang/cicada/-/00.1-introduction.md>
 * Co2
   * <http://www.dustmop.io/blog/2019/09/10/what-remains-technical-breakdown/>
 * COBOL
@@ -35,6 +40,9 @@
 * Coq
   * <https://news.ycombinator.com/item?id=13177116>
   * <https://news.ycombinator.com/item?id=13268288>
+  * <http://lambda-the-ultimate.org/node/5629>
+* CQL
+  * <https://twitter.com/FunctorFact/status/1390338116037267464>
 * CSS
   * <https://twitter.com/MarijnJH/status/1150808103237103616>
 * Dark
@@ -139,6 +147,7 @@
   * <https://julialang.org/>
 * Juvix
   * <https://www.reddit.com/r/dependent_types/comments/esbi2r/the_why_of_juvix_ingredients_architecture/?utm_source=dlvr.it&utm_medium=twitter>
+* Jython
 * K
 * KAsaya
   * <http://web.archive.org/web/20201216115716/https://github.com/syscolabs/kasaya>
@@ -223,10 +232,11 @@
     * <https://twitter.com/graydon_pub/status/1156798756798398464>
 * ParaSail
   * <http://parasail-lang.org/>
-
 * Perl
   * <https://news.ycombinator.com/item?id=13125282>
 * PH
+* PizzaScript
+  * <https://www.eventbrite.co.uk/e/pizzascript-3-webassembly-as-a-compilation-target-overview-tickets-153222355189>
 * PLANNER
 * Plato
   * <https://github.com/cdiggins/plato>
@@ -300,11 +310,15 @@
   * Amber smalltalk
     * <https://www.amber-lang.net/>
   <http://soil-initiative.org/>
+  * SOM
+    * <https://github.com/SOM-st/SOM>
 * Swift
   * <https://news.ycombinator.com/item?id=13006459>
   * <https://news.ycombinator.com/item?id=13204088>
 * Tabloid
   * <https://tabloid.vercel.app/>
+* Taitopia
+  * <https://twitter.com/TimSweeneyEpic/status/1492184696394035204>
 * Telescript
   * <http://cgibin.erols.com/ziring/cgi-bin/cep/cep.pl?_key=Telescript>
 * TRAC
