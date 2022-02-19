@@ -309,6 +309,8 @@
   * <http://cgibin.erols.com/ziring/cgi-bin/cep/cep.pl?_key=Telescript>
 * TRAC
   * <https://dl.acm.org/citation.cfm?doid=800197.806048>
+* Turing Paing
+  * <https://byronknoll.com/turing.html>
 * Unison
   * <https://www.unisonweb.org/docs/tour/>
   * <https://www.unisonweb.org/>
