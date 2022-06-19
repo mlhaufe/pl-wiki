@@ -88,6 +88,8 @@
   * <https://twitter.com/felixge/status/1170373793660973056>
 * Go!
   * <https://en.wikipedia.org/wiki/Go!_(programming_language>)
+* Grain
+  * <https://k33g.hashnode.dev/getting-started-with-grain-by-examples?source=tw0622>
 * Gravity
   * <https://news.ycombinator.com/item?id=13802787>
 * Hack (facebook)
