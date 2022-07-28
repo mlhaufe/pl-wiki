@@ -38,6 +38,8 @@
   homepage: https://github.com/johnynek/bosatsu
 - name: Cairo
   homepage: https://www.cairo-lang.org/
+- name: Carbon
+  homepage: https://github.com/carbon-language/carbon-lang
 - name: Cedille
   homepage: https://cedille.github.io/
 - name: Clojure
