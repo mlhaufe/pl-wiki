@@ -1,3 +1,6 @@
+- name: 1C
+  urls:
+    - https://www.quora.com/What-programming-languages-are-used-in-China-and-Russia-Is-it-the-same-as-other-countries-or-is-there-a-special-programming-language/answer/Boris-Ivanov-49
 - name: Aceto
   homepage: https://github.com/aceto/aceto
 - name: ActionScript
@@ -16,17 +19,26 @@
 - name: APL
 - name: Arc
   homepage: http://www.arclanguage.org/
+- name: ArkScript
+  homepage: https://github.com/ArkScript-lang/Ark
 - name: Arend
   homepage: https://arend-lang.github.io/
 - name: Argus
+- name: Arret
+  homepage: https://github.com/etaoins/arret/
 - name: Atomo
   homepage: https://vito.github.io/atomo/
+- name: Aussie++
+  urls: 
+    - https://twitter.com/lzsthw/status/1453422639515676680
 - name: AutoHotkey
   homepage: https://www.autohotkey.com/
 - name: Automath
 - name: AWK
 - name: BASIC
 - name: BCPL
+- name: Beef
+  homepage: https://github.com/beefytech/Beef
 - name: BEL
   homepage: https://bel.bio/
 - name: BETA
@@ -36,6 +48,10 @@
   homepage: https://github.com/FBMachine/bon
 - name: bosatsu
   homepage: https://github.com/johnynek/bosatsu
+- name: C
+  urls: 
+    - https://news.ycombinator.com/item?id=13087103
+    - https://news.ycombinator.com/item?id=13265758
 - name: Cairo
   homepage: https://www.cairo-lang.org/
 - name: Carbon
@@ -112,6 +128,8 @@
 - name: SOIL
 - name: Tex
 - name: TLA+
+- name: X++
+  homepage: https://docs.microsoft.com/en-us/dynamicsax-2012/developer/x-language-programming-guide
 - name: Zig
   homepage: https://ziglang.org/
 - name: Zimbu
