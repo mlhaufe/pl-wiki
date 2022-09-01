@@ -26,6 +26,9 @@
 - name: Automath
 - name: AWK
 - name: BASIC
+- name: BCL
+  urls:
+    - https://en.wikipedia.org/wiki/Binary_combinatory_logic
 - name: BCPL
 - name: BEL
   homepage: https://bel.bio/
@@ -53,21 +56,36 @@
   homepage: http://cyclone.thelanguage.org/
 - name: D
   homepage: https://dlang.org/
+  urls:
+    - https://news.ycombinator.com/item?id=13217529
 - name: Dark
 - name: Dhall
   homepage: https://github.com/dhall-lang/dhall-haskell 
 - name: Dyalog
 - name: Dylan
+- name: E
+  homepage: http://www.erights.org/
+  urls:
+    - https://medium.com/agoric/agoric-and-the-decades-long-quest-for-secure-smart-contracts-epicenter-interview-with-mark-s-76c9a0fab6e2
 - name: ECMAScript
   homepage: https://tc39.es/
   logo: ./images/logos/javascript.jpg
+- name: Eff
+  homepage: https://www.eff-lang.org/
+  urls:
+    - https://overreacted.io/algebraic-effects-for-the-rest-of-us/
 - name: Egison
   homepage: https://www.egison.org/
 - name: Eiffel
 - name: Elixer
   homepage: https://elixir-lang.org/
+- name: Elm
+  urls:
+    - https://news.ycombinator.com/item?id=13025941
 - name: Enso
   homepage: https://github.com/enso-org/enso
+- name: Erlang
+  homepage: http://erlang.org
 - name: F*
   homepage: https://www.fstar-lang.org/
 - name: F#
@@ -86,11 +104,29 @@
   homepage: https://handel-pl.github.io/
 - name: Haxe
   homepage: http://haxe.org/
+- name: HOPE
   logo: ./images/logos/haxe-logo.svg
+- name: Idris
+  homepage: https://www.idris-lang.org/
+- name: Io
+  homepage: https://iolanguage.org/
+- name: Ioke
+  homepage: https://ioke.org/
+- name: Janet
+  homepage: https://janet-lang.org/
+- name: Julia
+  homepage: https://julialang.org/
+- name: Jython
+- name: K
 - name: Kappa
   homepage: https://kappalanguage.org/
+- name: Kotlin
+  homepage: https://kotlinlang.org/
 - name: Lapis
+  homepage: https://lapis-lang.org/
 - name: LaTex
+- name : LFE
+  homepage: http://lfe.io/
 - name: Nim
   homepage: https://nim-lang.org/
 - name: Om

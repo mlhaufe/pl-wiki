@@ -55,27 +55,14 @@
   <https://github.com/rxi/fe>
 * Folders
   * <http://danieltemkin.com/Esolangs/Folders>
-* D
-  * <https://news.ycombinator.com/item?id=13217529>
-* E
-  * <http://www.erights.org/>
-  * <https://medium.com/agoric/agoric-and-the-decades-long-quest-for-secure-smart-contracts-epicenter-interview-with-mark-s-76c9a0fab6e2>
-* Eff
-  * <https://www.eff-lang.org/>
-  * <https://overreacted.io/algebraic-effects-for-the-rest-of-us/>
 * Eiffel
   * SmallEiffel , SmartEiffel <https://news.ycombinator.com/item?id=2410939>
   * <https://www.liberty-eiffel.org/>
   * <http://wiki.c2.com/?EiffelLanguage>
   * <https://www.google.com/search?ie=UTF-8&oe=UTF-8&q=Eiffel&btnG=&domains=http%3A%2F%2Flambda-the-ultimate.org&sitesearch=http%3A%2F%2Flambda-the-ultimate.org>
-* Elm
-  * <https://news.ycombinator.com/item?id=13025941>
 * Emacs Lisp
   * <https://en.wikipedia.org/wiki/Emacs_Lisp>
   * <https://www.reddit.com/r/emacs/comments/lly7po/do_you_use_emacs_lisp_as_a_general_purpose/gnvzisy/>
-* Erlang
-  * <http://erlang.org>
-  * <http://lfe.io/>
 * Eva
   * <https://github.com/DmitrySoshnikov/eva-source>
   * <http://dmitrysoshnikov.com/courses/essentials-of-interpretation/>
@@ -115,24 +102,15 @@
 * Henk 2000
   * <http://www.staff.science.uu.nl/~jeuri101/MSc/jwroorda/>
   * <https://en.wikipedia.org/wiki/Pure_type_system>
-* HOPE
 * Hy
   * <https://docs.hylang.org/en/stable/>
 * Hypercard
 * IDL
   * <https://en.wikipedia.org/wiki/IDL_(programming_language>)
-* Idris
-  * <https://www.idris-lang.org/>
-* Io
-  * <https://en.wikipedia.org/wiki/Io_(programming_language>)
-* Ioke
-  * <https://en.wikipedia.org/wiki/Ioke_(programming_language>)
 * Isabelle
 * ISWIM
 * J
   * <https://twitter.com/CompSciFact/status/1451920337944432642>
-* Janet
-  * <https://janet-lang.org/>
 * Java
   * <https://news.ycombinator.com/item?id=12998589>
 * JavaScript
@@ -145,20 +123,12 @@
 * JOVIAL
 * jq
   * <https://stedolan.github.io/jq/>
-* Julia
-  * <https://julialang.org/>
 * Juvix
   * <https://www.reddit.com/r/dependent_types/comments/esbi2r/the_why_of_juvix_ingredients_architecture/?utm_source=dlvr.it&utm_medium=twitter>
-* Jython
-* K
 * KAsaya
   * <http://web.archive.org/web/20201216115716/https://github.com/syscolabs/kasaya>
-* Kotlin
-  * <https://kotlinlang.org/>
 * Lambda Calculus
   * <https://news.ycombinator.com/item?id=13122336>
-* Lapis
-  * <https://lapis-lang.org/>
 * LASP
   * <https://lasp-lang.readme.io/>
 * LISP
