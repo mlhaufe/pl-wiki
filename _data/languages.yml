@@ -112,6 +112,8 @@
   homepage: https://github.com/JeffBezanson/femtolisp
 - name: FLOW-MATIC
 - name: FORTRAN
+  urls:
+    - https://lfortran.org/
 - name: Gno
   homepage: https://github.com/gnolang/gno
 - name: Grace
@@ -143,7 +145,7 @@
 - name: Lapis
   homepage: https://lapis-lang.org/
 - name: LaTex
-- name : LFE
+- name: LFE
   homepage: http://lfe.io/
 - name: Nim
   homepage: https://nim-lang.org/
@@ -153,6 +155,11 @@
 - name: Pascal
 - name: PH
 - name: PLANNER
+- name: Racket
+  homepage: https://racket-lang.org/
+  urls:
+    - https://news.ycombinator.com/item?id=12801827
+    - https://news.ycombinator.com/item?id=13242590
 - name: ReasonML
 - name: Self
   homepage: https://selflanguage.org/
