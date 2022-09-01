@@ -1,19 +1,5 @@
 # PL List
 
-* 1C
-  * <https://www.quora.com/What-programming-languages-are-used-in-China-and-Russia-Is-it-the-same-as-other-countries-or-is-there-a-special-programming-language/answer/Boris-Ivanov-49>
-  * Just VBS in Russian?
-* Arret
-  * <https://github.com/etaoins/arret/>
-* Aussie++
-  * <https://twitter.com/lzsthw/status/1453422639515676680>
-* ArkScript
-  * <https://github.com/ArkScript-lang/Ark>
-* Beef
-  * <https://github.com/beefytech/Beef>
-* C
-  * <https://news.ycombinator.com/item?id=13087103>
-  * <https://news.ycombinator.com/item?id=13265758>
 * C++
   * Concepts: <https://devblogs.microsoft.com/cppblog/c20-concepts-are-here-in-visual-studio-2019-version-16-3/?utm_source=vs_developer_news&utm_medium=referral>
   * <https://search.brave.com/search?q=C%2B%2B+grammar+undecidable>
