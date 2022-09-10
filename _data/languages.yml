@@ -149,6 +149,8 @@
 - name: LaTex
 - name: LFE
   homepage: http://lfe.io/
+- name: Mumps
+  homepage: https://www.cs.uni.edu/~okane/
 - name: Nim
   homepage: https://nim-lang.org/
 - name: Om
