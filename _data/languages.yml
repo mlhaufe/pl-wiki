@@ -102,6 +102,8 @@
     - https://news.ycombinator.com/item?id=13025941
 - name: Enso
   homepage: https://github.com/enso-org/enso
+- name: Erg
+  homepage: https://github.com/erg-lang/erg
 - name: Erlang
   homepage: http://erlang.org
 - name: F*
@@ -155,6 +157,19 @@
 - name: Pascal
 - name: PH
 - name: PLANNER
+- name: Python
+  homepage: https://www.python.org/
+  urls:
+    - https://news.ycombinator.com/item?id=13037650
+    - https://news.ycombinator.com/item?id=21118614
+    - https://python-history.blogspot.com/
+- name: Q
+  urls:
+    - https://news.ycombinator.com/item?id=15907840
+- name: Q#
+  urls:
+    - https://news.ycombinator.com/item?id=15905671
+    - https://docs.microsoft.com/en-us/quantum/overview/what-is-qsharp-and-qdk
 - name: Racket
   homepage: https://racket-lang.org/
   urls:
@@ -173,6 +188,9 @@
 - name: TLA+
 - name: X++
   homepage: https://docs.microsoft.com/en-us/dynamicsax-2012/developer/x-language-programming-guide
+- name: YAML
+  urls:
+    - https://github.com/cblp/yaml-sucks
 - name: Zig
   homepage: https://ziglang.org/
 - name: Zimbu
