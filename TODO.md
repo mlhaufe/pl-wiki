@@ -3,10 +3,6 @@
 * C++
   * Concepts: <https://devblogs.microsoft.com/cppblog/c20-concepts-are-here-in-visual-studio-2019-version-16-3/?utm_source=vs_developer_news&utm_medium=referral>
   * <https://search.brave.com/search?q=C%2B%2B+grammar+undecidable>
-* Cecil
-  * <https://en.wikipedia.org/wiki/Cecil_(programming_language>)
-* Ceylon
-  * <https://ceylon-lang.org/>
 * CHICKEN Scheme
   * <http://www.call-cc.org/>
 * Cicada
@@ -21,8 +17,6 @@
   * First language with native support of Code Contracts
 * ColdFusion/CFML
   * <https://en.wikipedia.org/wiki/Adobe_ColdFusion>
-* CookLang
-  * <https://cooklang.org/>
 * Coq
   * <https://news.ycombinator.com/item?id=13177116>
   * <https://news.ycombinator.com/item?id=13268288>
@@ -31,8 +25,6 @@
   * <https://twitter.com/FunctorFact/status/1390338116037267464>
 * CSS
   * <https://twitter.com/MarijnJH/status/1150808103237103616>
-* Dark
-  * <https://medium.com/darklang/unveiling-dark-e0be6f1e0b06>
 * Diamond
   * <https://wasp.cs.washington.edu/wasp_diamond.html>
 * Diesel
@@ -57,10 +49,6 @@
 * FORTH
   * <http://www.forth.org/>
   * <https://www.forth.com/forth/>
-* Fortran
-  * <https://news.ycombinator.com/item?id=13226174>
-* FRACTRAN
-  * <https://en.m.wikipedia.org/wiki/FRACTRAN>
 * Gallifrey
   * a Language for Geodistributed Programming
   * <http://www.cs.cornell.edu/andru/papers/gallifrey/snapl.pdf>
@@ -90,11 +78,8 @@
   * <https://en.wikipedia.org/wiki/Pure_type_system>
 * Hy
   * <https://docs.hylang.org/en/stable/>
-* Hypercard
 * IDL
   * <https://en.wikipedia.org/wiki/IDL_(programming_language>)
-* Isabelle
-* ISWIM
 * J
   * <https://twitter.com/CompSciFact/status/1451920337944432642>
 * Java
@@ -125,13 +110,7 @@
   * AKA JavaScript: <https://brendaneich.github.io/Strange-Loop-2012/#/1>
 * LoCal
   * <https://twitter.com/PLPresents/status/1146772016676179968>
-* LOLCode
-  * <http://www.lolcode.org/>
 * LOOP - <https://news.ycombinator.com/item?id=18756564>
-* Lua
-  * <https://en.wikipedia.org/wiki/Lua_(programming_language>)
-* Luau
-  * <https://luau-lang.org/>
 * Lucid
   * <http://worrydream.com/refs/Wadge%20-%20Lucid,%20the%20Dataflow%20Programming%20Language.pdf>
 * Lucy

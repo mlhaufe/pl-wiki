@@ -59,13 +59,20 @@
   homepage: https://www.cairo-lang.org/
 - name: Carbon
   homepage: https://github.com/carbon-language/carbon-lang
+- name: Cecil
+  urls:
+    -  https://en.wikipedia.org/wiki/Cecil_(programming_language>
 - name: Cedille
   homepage: https://cedille.github.io/
+- name: Ceylon
+  homepage: https://ceylon-lang.org/
 - name: Clojure
 - name: Coconut
   homepage: http://coconut-lang.org/
 - name: COMTRAN
 - name: Conniver
+- name: Cooklang
+  homepage: https://cooklang.org/
 - name: Coq
 - name: CPL
 - name: Crystal
@@ -77,6 +84,7 @@
   urls:
     - https://news.ycombinator.com/item?id=13217529
 - name: Dark
+  homepage: https://darklang.com/
 - name: Dhall
   homepage: https://github.com/dhall-lang/dhall-haskell 
 - name: Dyalog
@@ -116,6 +124,10 @@
 - name: FORTRAN
   urls:
     - https://lfortran.org/
+    - https://news.ycombinator.com/item?id=13226174
+- name: FRACTRAN
+  urls:
+    - https://en.m.wikipedia.org/wiki/FRACTRAN
 - name: Gno
   homepage: https://github.com/gnolang/gno
 - name: Grace
@@ -128,12 +140,15 @@
   homepage: http://haxe.org/
 - name: HOPE
   logo: ./images/logos/haxe-logo.svg
+- name: Hypercard
 - name: Idris
   homepage: https://www.idris-lang.org/
 - name: Io
   homepage: https://iolanguage.org/
 - name: Ioke
   homepage: https://ioke.org/
+- name: Isabelle
+- name: ISWIM
 - name: Janet
   homepage: https://janet-lang.org/
 - name: Julia
@@ -149,11 +164,20 @@
 - name: LaTex
 - name: LFE
   homepage: http://lfe.io/
+- name: LOLCode
+  homepage: http://www.lolcode.org/
+- name: Lua
+  urls:
+    - https://en.wikipedia.org/wiki/Lua_(programming_language>)
+- name: Luau
+  homepage: https://luau-lang.org/
 - name: Nim
   homepage: https://nim-lang.org/
 - name: Om
   homepage: http://www.om-language.org/
   logo: ./images/logos/om.png
+- name: ParaSail
+  homepage: http://parasail-lang.org/
 - name: Pascal
 - name: PH
 - name: PLANNER
@@ -186,6 +210,8 @@
 - name: SOIL
 - name: Tex
 - name: TLA+
+- name: Val
+  homepage: https://www.val-lang.dev/
 - name: X++
   homepage: https://docs.microsoft.com/en-us/dynamicsax-2012/developer/x-language-programming-guide
 - name: YAML
