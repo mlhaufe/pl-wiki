@@ -171,6 +171,8 @@
     - https://en.wikipedia.org/wiki/Lua_(programming_language>)
 - name: Luau
   homepage: https://luau-lang.org/
+- name: Mumps
+  homepage: https://www.cs.uni.edu/~okane/
 - name: Nim
   homepage: https://nim-lang.org/
 - name: Om
