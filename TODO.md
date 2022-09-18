@@ -1,8 +1,5 @@
 # PL List
 
-* C++
-  * Concepts: <https://devblogs.microsoft.com/cppblog/c20-concepts-are-here-in-visual-studio-2019-version-16-3/?utm_source=vs_developer_news&utm_medium=referral>
-  * <https://search.brave.com/search?q=C%2B%2B+grammar+undecidable>
 * CHICKEN Scheme
   * <http://www.call-cc.org/>
 * Cicada
@@ -31,8 +28,6 @@
   * <http://wasp.cs.washington.edu/wasp_diesel.html>
 * fe
   <https://github.com/rxi/fe>
-* Folders
-  * <http://danieltemkin.com/Esolangs/Folders>
 * Eiffel
   * SmallEiffel , SmartEiffel <https://news.ycombinator.com/item?id=2410939>
   * <https://www.liberty-eiffel.org/>
@@ -44,19 +39,9 @@
 * Eva
   * <https://github.com/DmitrySoshnikov/eva-source>
   * <http://dmitrysoshnikov.com/courses/essentials-of-interpretation/>
-* Faust
-  * <https://news.ycombinator.com/item?id=13012880>
-* FORTH
-  * <http://www.forth.org/>
-  * <https://www.forth.com/forth/>
 * Gallifrey
   * a Language for Geodistributed Programming
   * <http://www.cs.cornell.edu/andru/papers/gallifrey/snapl.pdf>
-* Go
-  * <https://en.wikipedia.org/wiki/Go_(programming_language>)
-  * <https://twitter.com/felixge/status/1170373793660973056>
-* Go!
-  * <https://en.wikipedia.org/wiki/Go!_(programming_language>)
 * Grain
   * <https://k33g.hashnode.dev/getting-started-with-grain-by-examples?source=tw0622>
 * Gravity
@@ -91,7 +76,6 @@
   * <https://twitter.com/porteneuve/status/1252315566158876673>
 * Ji
   * <https://observablehq.com/@elisk/ji-language>
-* JOVIAL
 * jq
   * <https://stedolan.github.io/jq/>
 * Juvix
@@ -115,15 +99,10 @@
   * <http://worrydream.com/refs/Wadge%20-%20Lucid,%20the%20Dataflow%20Programming%20Language.pdf>
 * Lucy
   * <https://twitter.com/matthewcp/status/1386030120838877187>
-* MacSyma
-* Mascara
-  * <https://web.archive.org/web/20090401141153/http://ecmascript4.com/>
 * Mercury
   * <https://bluishcoder.co.nz/2019/06/23/getting-started-with-mercury.html>
-* Mesa
 * META II
   * <https://news.ycombinator.com/item?id=13039981>
-* Minlog
 * Mirth - <https://mobile.twitter.com/_sofia_af/status/1090429011774398464>
 * Miranda
   * <https://www.cs.kent.ac.uk/people/staff/dat/miranda/>
@@ -146,14 +125,9 @@
 * Nickle
   * <http://nickle.org/>
   * <http://lambda-the-ultimate.org/node/1311#comment-14798>
-* Nile
-  * <https://github.com/damelang/nile>
-* Nim
-  * <https://nim-lang.org/>
 * Noop
   * <https://code.google.com/archive/p/noop/>
   * <https://gcemetery.co/noop/>
-* NuPRL
 * Nushell
   * <http://www.jonathanturner.org/2019/08/introducing-nushell.html>
 * Oak
@@ -162,7 +136,6 @@
   * <https://news.ycombinator.com/item?id=13804837>
   * <https://en.wikipedia.org/wiki/Oberon_(programming_language>)
   * <https://en.wikipedia.org/wiki/Oberon_(operating_system>)
-* OCaml
 * Occam
   * <https://en.wikipedia.org/wiki/Occam_(programming_language>)
   * Different Occam?
@@ -171,7 +144,6 @@
   * <http://parasail-lang.org/>
 * Perl
   * <https://news.ycombinator.com/item?id=13125282>
-* PH
 * PizzaScript
   * <https://www.eventbrite.co.uk/e/pizzascript-3-webassembly-as-a-compilation-target-overview-tickets-153222355189>
 * PLANNER

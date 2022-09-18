@@ -55,6 +55,10 @@
   urls: 
     - https://news.ycombinator.com/item?id=13087103
     - https://news.ycombinator.com/item?id=13265758
+- name: C++
+  urls: 
+    - https://devblogs.microsoft.com/cppblog/c20-concepts-are-here-in-visual-studio-2019-version-16-3
+    - https://search.brave.com/search?q=C%2B%2B+grammar+undecidable
 - name: Cairo
   homepage: https://www.cairo-lang.org/
 - name: Carbon
@@ -118,9 +122,18 @@
   homepage: https://www.fstar-lang.org/
 - name: F#
   homepage: https://fsharp.org/
+- name: Faust
+  urls:
+    - https://news.ycombinator.com/item?id=13012880 
 - name: FemtoLisp
   homepage: https://github.com/JeffBezanson/femtolisp
 - name: FLOW-MATIC
+- name: Folders
+  homepage: http://danieltemkin.com/Esolangs/Folders
+- name: Forth
+  homepage: https://www.forth.com/forth/
+  urls:
+    - http://www.forth.org/
 - name: FORTRAN
   urls:
     - https://lfortran.org/
@@ -130,6 +143,13 @@
     - https://en.m.wikipedia.org/wiki/FRACTRAN
 - name: Gno
   homepage: https://github.com/gnolang/gno
+- name: Go
+  urls:
+    - https://en.wikipedia.org/wiki/Go_(programming_language)
+    - https://twitter.com/felixge/status/1170373793660973056
+- name: Go!
+  urls: 
+    - https://en.wikipedia.org/wiki/Go!_(programming_language)
 - name: Grace
   homepage: http://gracelang.org/
 - name: Grain
@@ -151,6 +171,7 @@
 - name: ISWIM
 - name: Janet
   homepage: https://janet-lang.org/
+- name: JOVIAL
 - name: Julia
   homepage: https://julialang.org/
 - name: Jython
@@ -168,13 +189,22 @@
   homepage: http://www.lolcode.org/
 - name: Lua
   urls:
-    - https://en.wikipedia.org/wiki/Lua_(programming_language>)
+    - https://en.wikipedia.org/wiki/Lua_(programming_language)
 - name: Luau
   homepage: https://luau-lang.org/
+- name: MacSyma
+- name: Mascara
+  homepage: https://web.archive.org/web/20090401141153/http://ecmascript4.com/
+- name: Mesa
+- name: Minlog
 - name: Mumps
   homepage: https://www.cs.uni.edu/~okane/
+- name: Nile
+  homepage: https://github.com/damelang/nile
 - name: Nim
   homepage: https://nim-lang.org/
+- name: NuPRL
+- name: OCaml
 - name: Om
   homepage: http://www.om-language.org/
   logo: ./images/logos/om.png
@@ -214,8 +244,14 @@
 - name: TLA+
 - name: Val
   homepage: https://www.val-lang.dev/
+- name: VRML
+  urls: 
+    - https://en.wikipedia.org/wiki/VRML
 - name: X++
   homepage: https://docs.microsoft.com/en-us/dynamicsax-2012/developer/x-language-programming-guide
+- name: X3D
+  urls: 
+    - https://en.wikipedia.org/wiki/X3D
 - name: YAML
   urls:
     - https://github.com/cblp/yaml-sucks
