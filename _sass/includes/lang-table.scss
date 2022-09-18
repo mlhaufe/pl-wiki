@@ -1,0 +1,31 @@
+.lang-table {
+    border: 1px solid var(--primary-color);
+    border-collapse: collapse;
+    margin: 1em;
+    min-width: 95vw;
+
+    tbody tr:nth-child(odd) {
+        background-color: var(--background-secondary-color);
+    }
+
+    td, th {
+        padding: 0.5em;
+    }
+
+    td {
+        border: 1px solid var(--primary-color);
+    }
+
+    th {
+        background-color: var(--primary-color);
+        border: 1px solid var(--background-color);
+        color: var(--background-color);
+        position: sticky;
+        top: 0;
+    }
+}
+
+.lang-table img {
+    height: 2em;
+    vertical-align: middle;
+}

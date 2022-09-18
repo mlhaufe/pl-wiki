@@ -1,12 +1,19 @@
+:root {
+    --primary-color: #ccc;
+    --background-color: #000;
+    --background-secondary-color: #333;
+    --link-color: lightblue;
+}
+
 html, body {
-    background-color: black;
-    color: #ccc;
+    background-color: var(--background-color);
+    color: var(--primary-color);
     height: 100%;
     font-family: "Noto Sans","Lucida Grande","Lucida Sans","Segoe UI",sans-serif;
 }
 
 a {
-    color: lightblue;
+    color: var(--link-color);
     text-decoration: none;
 }
 
@@ -14,20 +21,5 @@ a {
 
 .site-content {}
 
-.lang-list {
-    columns: 12em auto;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.lang-list li {
-    margin: 0.5em 0;
-}
-
-.lang-list img {
-    height: 2em;
-    vertical-align: middle;
-}
-
-@import "includes/pl-card"
+@import
+    "includes/lang-table"

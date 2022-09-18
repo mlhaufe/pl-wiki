@@ -1,0 +1,45 @@
+<table class="lang-table">
+    <thead>
+        <tr>
+            <th>Logo</th>
+            <th>Name</th>
+            <th>Urls</th>
+        </tr>
+        <tr>
+            <th></th>
+            <th>
+                <input type="search" id="txtSearch" placeholder="Search">
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for lang in site.data.languages %}
+        <tr>
+            <td>
+            {% if lang.logo %}
+                <img src="{{lang.logo}}" alt="{{lang.name}} logo">
+            {% endif %}
+            </td>
+            <td>
+            {% if lang.homepage %}
+                <a href="{{lang.homepage}}" target="_blank">{{lang.name}}</a>
+            {% else %}
+                {{lang.name}}
+            {% endif %}
+            </td>
+            <td>
+            {% if lang.urls %}
+                <ul>
+                {% for url in lang.urls %}
+                    <li>
+                        <a href="{{url}}" target="_blank">{{url}}</a>
+                    </li>
+                {% endfor %}
+                </ul>
+            {% endif %}
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
