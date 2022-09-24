@@ -275,6 +275,7 @@
 - name: YAML
   urls:
     - https://github.com/cblp/yaml-sucks
+    - https://noyaml.com/
 - name: Zig
   homepage: https://ziglang.org/
 - name: Zimbu
