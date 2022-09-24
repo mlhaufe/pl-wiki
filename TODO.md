@@ -1,9 +1,5 @@
 # PL List
 
-* CHICKEN Scheme
-  * <http://www.call-cc.org/>
-* Cicada
-  * <https://readonly.link/manuals/gitlab.com/cicada-lang/cicada/-/00.1-introduction.md>
 * Co2
   * <http://www.dustmop.io/blog/2019/09/10/what-remains-technical-breakdown/>
 * COBOL
@@ -22,12 +18,6 @@
   * <https://twitter.com/FunctorFact/status/1390338116037267464>
 * CSS
   * <https://twitter.com/MarijnJH/status/1150808103237103616>
-* Diamond
-  * <https://wasp.cs.washington.edu/wasp_diamond.html>
-* Diesel
-  * <http://wasp.cs.washington.edu/wasp_diesel.html>
-* fe
-  <https://github.com/rxi/fe>
 * Eiffel
   * SmallEiffel , SmartEiffel <https://news.ycombinator.com/item?id=2410939>
   * <https://www.liberty-eiffel.org/>
@@ -84,8 +74,6 @@
   * <http://web.archive.org/web/20201216115716/https://github.com/syscolabs/kasaya>
 * Lambda Calculus
   * <https://news.ycombinator.com/item?id=13122336>
-* LASP
-  * <https://lasp-lang.readme.io/>
 * LISP
   * <https://news.ycombinator.com/item?id=13192738>
   * <https://esdiscuss.org/topic/the-tragedy-of-the-common-lisp-or-why-large-languages-explode-was-revive-let-blocks>
@@ -97,8 +85,6 @@
 * LOOP - <https://news.ycombinator.com/item?id=18756564>
 * Lucid
   * <http://worrydream.com/refs/Wadge%20-%20Lucid,%20the%20Dataflow%20Programming%20Language.pdf>
-* Lucy
-  * <https://twitter.com/matthewcp/status/1386030120838877187>
 * Mercury
   * <https://bluishcoder.co.nz/2019/06/23/getting-started-with-mercury.html>
 * META II

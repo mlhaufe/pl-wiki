@@ -65,11 +65,15 @@
   homepage: https://github.com/carbon-language/carbon-lang
 - name: Cecil
   urls:
-    -  https://en.wikipedia.org/wiki/Cecil_(programming_language>
+    -  https://en.wikipedia.org/wiki/Cecil_(programming_language)
 - name: Cedille
   homepage: https://cedille.github.io/
 - name: Ceylon
   homepage: https://ceylon-lang.org/
+- name: Cicada
+  homepage: https://cicada-lang.org/
+  urls:
+    - https://www.reddit.com/r/ProgrammingLanguages/comments/s4crfg/cicada_language_a_dependently_typed_programming/
 - name: Clojure
 - name: Coconut
   homepage: http://coconut-lang.org/
@@ -91,6 +95,10 @@
   homepage: https://darklang.com/
 - name: Dhall
   homepage: https://github.com/dhall-lang/dhall-haskell 
+- name: Diamond
+  homepage: https://wasp.cs.washington.edu/wasp_diamond.html
+- name: Diesel
+  homepage: http://wasp.cs.washington.edu/wasp_diesel.html
 - name: Dyalog
 - name: Dylan
 - name: E
@@ -125,6 +133,8 @@
 - name: Faust
   urls:
     - https://news.ycombinator.com/item?id=13012880 
+- name: fe
+  homepage: https://github.com/rxi/fe
 - name: FemtoLisp
   homepage: https://github.com/JeffBezanson/femtolisp
 - name: FLOW-MATIC
@@ -182,6 +192,8 @@
   homepage: https://kotlinlang.org/
 - name: Lapis
   homepage: https://lapis-lang.org/
+- name: LASP
+  homepage: https://lasp-lang.readme.io/
 - name: LaTex
 - name: LFE
   homepage: http://lfe.io/
@@ -192,6 +204,10 @@
     - https://en.wikipedia.org/wiki/Lua_(programming_language)
 - name: Luau
   homepage: https://luau-lang.org/
+- name: Lucy
+  homepage: https://lucylang.org/
+  urls:
+    - https://matthewphillips.info/programming/posts/announcing-lucy/
 - name: MacSyma
 - name: Mascara
   homepage: https://web.archive.org/web/20090401141153/http://ecmascript4.com/
@@ -226,6 +242,10 @@
   urls:
     - https://news.ycombinator.com/item?id=15905671
     - https://docs.microsoft.com/en-us/quantum/overview/what-is-qsharp-and-qdk
+- name: Queso
+  homepage: https://github.com/queso-lang/queso
+  urls:
+    - https://judehunter.dev/blog/the-journey-of-queso-my-programming-language
 - name: Racket
   homepage: https://racket-lang.org/
   urls:
