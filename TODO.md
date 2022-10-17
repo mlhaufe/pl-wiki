@@ -78,8 +78,6 @@
   * <https://news.ycombinator.com/item?id=13192738>
   * <https://esdiscuss.org/topic/the-tragedy-of-the-common-lisp-or-why-large-languages-explode-was-revive-let-blocks>
   * <http://flownet.com/gat/jpl-lisp.html>
-* LiveScript
-  * AKA JavaScript: <https://brendaneich.github.io/Strange-Loop-2012/#/1>
 * LoCal
   * <https://twitter.com/PLPresents/status/1146772016676179968>
 * LOOP - <https://news.ycombinator.com/item?id=18756564>

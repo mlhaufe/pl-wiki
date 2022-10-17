@@ -197,6 +197,12 @@
 - name: LaTex
 - name: LFE
   homepage: http://lfe.io/
+- name: LiveScript
+  homepage: http://livescript.net/
+- name: Livescript
+    urls: 
+      - https://en.wikipedia.org/wiki/JavaScript#History
+      - https://brendaneich.github.io/Strange-Loop-2012/#/1
 - name: LOLCode
   homepage: http://www.lolcode.org/
 - name: Lua
