@@ -47,6 +47,8 @@
 - name: BETA
   urls: 
     - https://en.wikipedia.org/wiki/BETA_(programming_language)
+- name: Blueprints
+  homepage: https://docs.unrealengine.com/5.0/en-US/blueprints-visual-scripting-in-unreal-engine/
 - name: Bon
   homepage: https://github.com/FBMachine/bon
 - name: bosatsu
@@ -105,6 +107,7 @@
   homepage: http://www.erights.org/
   urls:
     - https://medium.com/agoric/agoric-and-the-decades-long-quest-for-secure-smart-contracts-epicenter-interview-with-mark-s-76c9a0fab6e2
+    - https://thenewstack.io/all-about-e-the-language-that-infiltrated-javascript/
 - name: ECMAScript
   homepage: https://tc39.es/
   logo: ./images/logos/javascript.jpg
@@ -164,6 +167,9 @@
   homepage: http://gracelang.org/
 - name: Grain
   homepage: https://grain-lang.org/
+- name: Grasshopper 3D
+  urls:
+    - https://en.wikipedia.org/wiki/Grasshopper_3D
 - name: Handel 
   homepage: https://handel-pl.github.io/
 - name: Haxe
@@ -197,6 +203,8 @@
 - name: LaTex
 - name: LFE
   homepage: http://lfe.io/
+- name: Lil
+  homepage: https://beyondloom.com/decker/lil.html
 - name: LiveScript
   homepage: http://livescript.net/
 - name: Livescript
@@ -217,6 +225,9 @@
 - name: MacSyma
 - name: Mascara
   homepage: https://web.archive.org/web/20090401141153/http://ecmascript4.com/
+- name: Max Creation Graph (MCG)
+  urls:
+    - https://www.vfxarabia.co/mcg
 - name: Mesa
 - name: Minlog
 - name: Mumps
