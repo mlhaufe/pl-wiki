@@ -283,3 +283,5 @@ L-Systems
 
 visual programming
 <https://news.ycombinator.com/item?id=20507668>
+
+<https://www.cs.uni.edu/~wallingf/blog/archives/monthly/2022-10.html#e2022-10-23T09_54_59.htm>
