@@ -47,7 +47,7 @@
   * <https://news.ycombinator.com/item?id=13256092>
   * <https://news.ycombinator.com/item?id=13272254>
 * HaskellR
-  * https://tweag.github.io/HaskellR/
+  * <https://tweag.github.io/HaskellR/>
 * Henk 2000
   * <http://www.staff.science.uu.nl/~jeuri101/MSc/jwroorda/>
   * <https://en.wikipedia.org/wiki/Pure_type_system>
@@ -158,12 +158,6 @@
   * <https://github.com/joshsh/ripple>
 * Risp
   * <https://stopa.io/post/222>
-* Ruby
-  * <https://www.ruby-lang.org/en/>
-* Rust
-  * <https://news.ycombinator.com/item?id=12969014>
-  * <https://news.ycombinator.com/item?id=12923692>
-  * <https://news.ycombinator.com/item?id=13265758>
 * SAGE
   * <https://sage.soe.ucsc.edu/>
   * <https://en.wikipedia.org/wiki/Pure_type_system>

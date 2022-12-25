@@ -61,6 +61,8 @@
   urls: 
     - https://devblogs.microsoft.com/cppblog/c20-concepts-are-here-in-visual-studio-2019-version-16-3
     - https://search.brave.com/search?q=C%2B%2B+grammar+undecidable
+- name: Cadl
+  homepage: https://microsoft.github.io/cadl/
 - name: Cairo
   homepage: https://www.cairo-lang.org/
 - name: Carbon
@@ -83,6 +85,8 @@
 - name: Conniver
 - name: Cooklang
   homepage: https://cooklang.org/
+- name: Copilot
+  homepage: https://copilot-language.github.io/
 - name: Coq
 - name: CPL
 - name: Crystal
@@ -194,6 +198,10 @@
 - name: K
 - name: Kappa
   homepage: https://kappalanguage.org/
+- name: Kind
+  homepage: https://github.com/Kindelia/Kind1
+- name: Kind2
+  homepage: https://github.com/Kindelia/Kind
 - name: Kotlin
   homepage: https://kotlinlang.org/
 - name: Lapis
@@ -269,6 +277,14 @@
     - https://news.ycombinator.com/item?id=12801827
     - https://news.ycombinator.com/item?id=13242590
 - name: ReasonML
+- name: Ruby
+  homepage: https://www.ruby-lang.org/en/
+- name: Rust
+  homepage: https://www.rust-lang.org/
+  urls:
+    - https://news.ycombinator.com/item?id=12969014
+    - https://news.ycombinator.com/item?id=12923692
+    - https://news.ycombinator.com/item?id=13265758
 - name: Self
   homepage: https://selflanguage.org/
   logo: ./images/logos/self.png
