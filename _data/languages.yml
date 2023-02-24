@@ -1,3 +1,6 @@
+- name: 1C
+  urls:
+    - https://www.quora.com/What-programming-languages-are-used-in-China-and-Russia-Is-it-the-same-as-other-countries-or-is-there-a-special-programming-language/answer/Boris-Ivanov-49
 - name: Aceto
   homepage: https://github.com/aceto/aceto
 - name: ActionScript
@@ -19,32 +22,71 @@
 - name: Arend
   homepage: https://arend-lang.github.io/
 - name: Argus
+- name: ArkScript
+  homepage: https://github.com/ArkScript-lang/Ark
+- name: Arret
+  homepage: https://github.com/etaoins/arret/
 - name: Atomo
   homepage: https://vito.github.io/atomo/
+- name: Aussie++
+  urls: 
+    - https://twitter.com/lzsthw/status/1453422639515676680
 - name: AutoHotkey
   homepage: https://www.autohotkey.com/
 - name: Automath
 - name: AWK
 - name: BASIC
+- name: BCL
+  urls:
+    - https://en.wikipedia.org/wiki/Binary_combinatory_logic
 - name: BCPL
+- name: Beef
+  homepage: https://github.com/beefytech/Beef
 - name: BEL
   homepage: https://bel.bio/
 - name: BETA
   urls: 
     - https://en.wikipedia.org/wiki/BETA_(programming_language)
+- name: Blueprints
+  homepage: https://docs.unrealengine.com/5.0/en-US/blueprints-visual-scripting-in-unreal-engine/
 - name: Bon
   homepage: https://github.com/FBMachine/bon
 - name: bosatsu
   homepage: https://github.com/johnynek/bosatsu
+- name: C
+  urls: 
+    - https://news.ycombinator.com/item?id=13087103
+    - https://news.ycombinator.com/item?id=13265758
+- name: C++
+  urls: 
+    - https://devblogs.microsoft.com/cppblog/c20-concepts-are-here-in-visual-studio-2019-version-16-3
+    - https://search.brave.com/search?q=C%2B%2B+grammar+undecidable
+- name: Cadl
+  homepage: https://microsoft.github.io/cadl/
 - name: Cairo
   homepage: https://www.cairo-lang.org/
+- name: Carbon
+  homepage: https://github.com/carbon-language/carbon-lang
+- name: Cecil
+  urls:
+    -  https://en.wikipedia.org/wiki/Cecil_(programming_language)
 - name: Cedille
   homepage: https://cedille.github.io/
+- name: Ceylon
+  homepage: https://ceylon-lang.org/
+- name: Cicada
+  homepage: https://cicada-lang.org/
+  urls:
+    - https://www.reddit.com/r/ProgrammingLanguages/comments/s4crfg/cicada_language_a_dependently_typed_programming/
 - name: Clojure
 - name: Coconut
   homepage: http://coconut-lang.org/
 - name: COMTRAN
 - name: Conniver
+- name: Cooklang
+  homepage: https://cooklang.org/
+- name: Copilot
+  homepage: https://copilot-language.github.io/
 - name: Coq
 - name: CPL
 - name: Crystal
@@ -53,58 +95,201 @@
   homepage: http://cyclone.thelanguage.org/
 - name: D
   homepage: https://dlang.org/
+  urls:
+    - https://news.ycombinator.com/item?id=13217529
 - name: Dark
 - name: Dark BASIC
 - name: Delphi
+  homepage: https://darklang.com/
 - name: Dhall
   homepage: https://github.com/dhall-lang/dhall-haskell 
+- name: Diamond
+  homepage: https://wasp.cs.washington.edu/wasp_diamond.html
+- name: Diesel
+  homepage: http://wasp.cs.washington.edu/wasp_diesel.html
 - name: Dyalog
 - name: Dylan
+- name: E
+  homepage: http://www.erights.org/
+  urls:
+    - https://medium.com/agoric/agoric-and-the-decades-long-quest-for-secure-smart-contracts-epicenter-interview-with-mark-s-76c9a0fab6e2
+    - https://thenewstack.io/all-about-e-the-language-that-infiltrated-javascript/
 - name: ECMAScript
   homepage: https://tc39.es/
   logo: ./images/logos/javascript.jpg
+- name: Eff
+  homepage: https://www.eff-lang.org/
+  urls:
+    - https://overreacted.io/algebraic-effects-for-the-rest-of-us/
 - name: Egison
   homepage: https://www.egison.org/
 - name: Eiffel
 - name: Elixer
   homepage: https://elixir-lang.org/
+- name: Elm
+  urls:
+    - https://news.ycombinator.com/item?id=13025941
+- name: Erg
+  homepage: https://github.com/erg-lang/erg
+- name: Erlang
+  homepage: http://erlang.org
 - name: Enso
   homepage: https://github.com/enso-org/enso
 - name: F*
   homepage: https://www.fstar-lang.org/
 - name: F#
   homepage: https://fsharp.org/
+- name: Faust
+  urls:
+    - https://news.ycombinator.com/item?id=13012880 
+- name: fe
+  homepage: https://github.com/rxi/fe
 - name: FemtoLisp
   homepage: https://github.com/JeffBezanson/femtolisp
 - name: FLOW-MATIC
+- name: Folders
+  homepage: http://danieltemkin.com/Esolangs/Folders
+- name: Forth
+  homepage: https://www.forth.com/forth/
+  urls:
+    - http://www.forth.org/
 - name: FORTRAN
+  urls:
+    - https://lfortran.org/
+    - https://news.ycombinator.com/item?id=13226174
+- name: FRACTRAN
+  urls:
+    - https://en.m.wikipedia.org/wiki/FRACTRAN
 - name: Gno
   homepage: https://github.com/gnolang/gno
+- name: Go
+  urls:
+    - https://en.wikipedia.org/wiki/Go_(programming_language)
+    - https://twitter.com/felixge/status/1170373793660973056
+- name: Go!
+  urls: 
+    - https://en.wikipedia.org/wiki/Go!_(programming_language)
 - name: Grace
   homepage: http://gracelang.org/
 - name: Grain
   homepage: https://grain-lang.org/
+- name: Grasshopper 3D
+  urls:
+    - https://en.wikipedia.org/wiki/Grasshopper_3D
 - name: Handel 
   homepage: https://handel-pl.github.io/
 - name: Haxe
   homepage: http://haxe.org/
+- name: HOPE
   logo: ./images/logos/haxe-logo.svg
+- name: Hypercard
+- name: Idris
+  homepage: https://www.idris-lang.org/
+- name: Io
+  homepage: https://iolanguage.org/
+- name: Ioke
+  homepage: https://ioke.org/
+- name: Isabelle
+- name: ISWIM
+- name: Janet
+  homepage: https://janet-lang.org/
+- name: JOVIAL
+- name: Julia
+  homepage: https://julialang.org/
+- name: Jython
+- name: K
 - name: Kappa
   homepage: https://kappalanguage.org/
+- name: Kind
+  homepage: https://github.com/Kindelia/Kind1
+- name: Kind2
+  homepage: https://github.com/Kindelia/Kind
+- name: Kotlin
+  homepage: https://kotlinlang.org/
 - name: Lapis
+  homepage: https://lapis-lang.org/
+- name: LASP
+  homepage: https://lasp-lang.readme.io/
 - name: LaTex
 - name: LINGOL
   author: Vaughn Pratt
+- name: LFE
+  homepage: http://lfe.io/
+- name: Lil
+  homepage: https://beyondloom.com/decker/lil.html
+- name: LiveScript
+  homepage: http://livescript.net/
+- name: Livescript
+    urls: 
+      - https://en.wikipedia.org/wiki/JavaScript#History
+      - https://brendaneich.github.io/Strange-Loop-2012/#/1
+- name: LOLCode
+  homepage: http://www.lolcode.org/
+- name: Lua
+  urls:
+    - https://en.wikipedia.org/wiki/Lua_(programming_language)
+- name: Luau
+  homepage: https://luau-lang.org/
+- name: Lucy
+  homepage: https://lucylang.org/
+  urls:
+    - https://matthewphillips.info/programming/posts/announcing-lucy/
+- name: MacSyma
+- name: Mascara
+  homepage: https://web.archive.org/web/20090401141153/http://ecmascript4.com/
+- name: Max Creation Graph (MCG)
+  urls:
+    - https://www.vfxarabia.co/mcg
+- name: Mesa
+- name: Minlog
+- name: Mumps
+  homepage: https://www.cs.uni.edu/~okane/
+- name: Nile
+  homepage: https://github.com/damelang/nile
 - name: Nim
   homepage: https://nim-lang.org/
 - name: Octave
+- name: NuPRL
+- name: OCaml
 - name: Om
   homepage: http://www.om-language.org/
   logo: ./images/logos/om.png
+- name: ParaSail
+  homepage: http://parasail-lang.org/
 - name: Pascal
 - name: PH
 - name: PLANNER
+- name: Python
+  homepage: https://www.python.org/
+  urls:
+    - https://news.ycombinator.com/item?id=13037650
+    - https://news.ycombinator.com/item?id=21118614
+    - https://python-history.blogspot.com/
+- name: Q
+  urls:
+    - https://news.ycombinator.com/item?id=15907840
+- name: Q#
+  urls:
+    - https://news.ycombinator.com/item?id=15905671
+    - https://docs.microsoft.com/en-us/quantum/overview/what-is-qsharp-and-qdk
+- name: Queso
+  homepage: https://github.com/queso-lang/queso
+  urls:
+    - https://judehunter.dev/blog/the-journey-of-queso-my-programming-language
+- name: Racket
+  homepage: https://racket-lang.org/
+  urls:
+    - https://news.ycombinator.com/item?id=12801827
+    - https://news.ycombinator.com/item?id=13242590
 - name: ReasonML
+- name: Ruby
+  homepage: https://www.ruby-lang.org/en/
+- name: Rust
+  homepage: https://www.rust-lang.org/
+  urls:
+    - https://news.ycombinator.com/item?id=12969014
+    - https://news.ycombinator.com/item?id=12923692
+    - https://news.ycombinator.com/item?id=13265758
 - name: Self
   homepage: https://selflanguage.org/
   logo: ./images/logos/self.png
@@ -117,6 +302,20 @@
   homepage: https://soliditylang.org/
 - name: Tex
 - name: TLA+
+- name: Val
+  homepage: https://www.val-lang.dev/
+- name: VRML
+  urls: 
+    - https://en.wikipedia.org/wiki/VRML
+- name: X++
+  homepage: https://docs.microsoft.com/en-us/dynamicsax-2012/developer/x-language-programming-guide
+- name: X3D
+  urls: 
+    - https://en.wikipedia.org/wiki/X3D
+- name: YAML
+  urls:
+    - https://github.com/cblp/yaml-sucks
+    - https://noyaml.com/
 - name: Zig
   homepage: https://ziglang.org/
 - name: Zimbu
