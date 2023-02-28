@@ -107,6 +107,8 @@
   homepage: https://wasp.cs.washington.edu/wasp_diamond.html
 - name: Diesel
   homepage: http://wasp.cs.washington.edu/wasp_diesel.html
+- name: DISCO
+  homepage: https://wiki.tfpie.science.ru.nl/images/8/8f/Disco-tfpie23.pdf
 - name: Dyalog
 - name: Dylan
 - name: E
