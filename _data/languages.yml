@@ -79,6 +79,15 @@
   urls:
     - https://www.reddit.com/r/ProgrammingLanguages/comments/s4crfg/cicada_language_a_dependently_typed_programming/
 - name: Clojure
+- name: CLU
+  author: Barbara Liskov
+  note: First language with native support of Code Contracts 
+- name: Co2
+  urls:
+    - http://www.dustmop.io/blog/2019/09/10/what-remains-technical-breakdown/
+- name: COBOL
+  urls: 
+    - https://mobile.twitter.com/awbjs/status/1250189292359446529
 - name: Coconut
   homepage: http://coconut-lang.org/
 - name: COMTRAN
@@ -182,6 +191,9 @@
   homepage: https://handel-pl.github.io/
 - name: Haxe
   homepage: http://haxe.org/
+- name: Hedy
+  urls:
+    - https://2022.ecoop.org/details/ecoop-2022-papers/36/Hedy-Creating-a-gradual-programming-language
 - name: HOPE
   logo: ./images/logos/haxe-logo.svg
 - name: Hypercard

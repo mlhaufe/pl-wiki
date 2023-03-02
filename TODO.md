@@ -1,13 +1,5 @@
 # PL List
 
-* Co2
-  * <http://www.dustmop.io/blog/2019/09/10/what-remains-technical-breakdown/>
-* COBOL
-  * <https://mobile.twitter.com/awbjs/status/1250189292359446529>
-* CSS
-  * <https://css-tricks.com/logical-operations-with-css-variables/>
-* CLU – Barbara Liskov
-  * First language with native support of Code Contracts
 * ColdFusion/CFML
   * <https://en.wikipedia.org/wiki/Adobe_ColdFusion>
 * Coq
@@ -18,6 +10,7 @@
   * <https://twitter.com/FunctorFact/status/1390338116037267464>
 * CSS
   * <https://twitter.com/MarijnJH/status/1150808103237103616>
+  * <https://css-tricks.com/logical-operations-with-css-variables/>
 * Eiffel
   * SmallEiffel , SmartEiffel <https://news.ycombinator.com/item?id=2410939>
   * <https://www.liberty-eiffel.org/>
