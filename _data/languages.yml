@@ -97,6 +97,8 @@
 - name: Copilot
   homepage: https://copilot-language.github.io/
 - name: Coq
+- name: COW
+  homepage: https://esolangs.org/wiki/COW
 - name: CPL
 - name: Crystal
   homepage: https://crystal-lang.org/
@@ -120,6 +122,7 @@
   homepage: https://wiki.tfpie.science.ru.nl/images/8/8f/Disco-tfpie23.pdf
 - name: Dyalog
 - name: Dylan
+  homepage: https://opendylan.org/
 - name: E
   homepage: http://www.erights.org/
   urls:
@@ -249,15 +252,23 @@
   urls:
     - https://matthewphillips.info/programming/posts/announcing-lucy/
 - name: MacSyma
+- name: Magpie
+  homepage: https://magpie-lang.org/
 - name: Mascara
   homepage: https://web.archive.org/web/20090401141153/http://ecmascript4.com/
+- name: Maude
+  homepage: https://github.com/SRI-CSL/Maude
 - name: Max Creation Graph (MCG)
   urls:
     - https://www.vfxarabia.co/mcg
 - name: Mesa
 - name: Minlog
+- name: MOO
+  homepage: http://www2.iath.virginia.edu/courses/moo/ProgrammersManual.texinfo_4.html
 - name: Mumps
   homepage: https://www.cs.uni.edu/~okane/
+- name: Nickle
+  homepage: http://nickle.org/
 - name: Nile
   homepage: https://github.com/damelang/nile
 - name: Nim
