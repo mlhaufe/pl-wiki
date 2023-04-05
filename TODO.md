@@ -29,7 +29,6 @@
   * <https://k33g.hashnode.dev/getting-started-with-grain-by-examples?source=tw0622>
 * Gravity
   * <https://news.ycombinator.com/item?id=13802787>
-* Hack (facebook)
 * Hackett
   * <https://lexi-lambda.github.io/blog/2017/05/27/realizing-hackett-a-metaprogrammable-haskell/>
 * HackPPL
@@ -272,3 +271,8 @@ visual programming
 <https://news.ycombinator.com/item?id=20507668>
 
 <https://www.cs.uni.edu/~wallingf/blog/archives/monthly/2022-10.html#e2022-10-23T09_54_59.htm>
+
+## Presentation
+
+The CNCF Cloud Native Interactive Landscape design is interesting. Something similar might 
+be useful here <https://landscape.cncf.io/>

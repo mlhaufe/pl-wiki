@@ -171,6 +171,8 @@
 - name: FRACTRAN
   urls:
     - https://en.m.wikipedia.org/wiki/FRACTRAN
+- name: Frink
+  homepage: https://frinklang.org/
 - name: Gno
   homepage: https://github.com/gnolang/gno
 - name: Go
@@ -187,6 +189,7 @@
 - name: Grasshopper 3D
   urls:
     - https://en.wikipedia.org/wiki/Grasshopper_3D
+- name: Hack (Facebook)
 - name: Handel 
   homepage: https://handel-pl.github.io/
 - name: Haxe
@@ -273,6 +276,9 @@
 - name: Pascal
 - name: PH
 - name: PLANNER
+- name: Plato
+  author: Christopher Diggins
+  homepage: https://github.com/cdiggins/plato
 - name: Python
   homepage: https://www.python.org/
   urls:
@@ -316,8 +322,13 @@
   homepage: https://soliditylang.org/
 - name: Tex
 - name: TLA+
+- name: Toit
+  homepage: https://docs.toit.io/language
 - name: Val
   homepage: https://www.val-lang.dev/
+- name: Verse
+  homepage: https://github.com/verse-lang/verse
+  author: Tom Burris
 - name: VRML
   urls: 
     - https://en.wikipedia.org/wiki/VRML
