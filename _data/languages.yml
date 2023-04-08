@@ -248,6 +248,8 @@
   urls: 
     - https://en.wikipedia.org/wiki/JavaScript#History
     - https://brendaneich.github.io/Strange-Loop-2012/#/1
+- name: Loell
+  homepage: http://w3future.com/html/loell/
 - name: LOLCode
   homepage: http://www.lolcode.org/
 - name: Lua
