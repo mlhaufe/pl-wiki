@@ -213,7 +213,12 @@
 - name: ISWIM
 - name: Janet
   homepage: https://janet-lang.org/
+- name: Ji
+  urls:
+    - https://observablehq.com/@elisk/ji-language
 - name: JOVIAL
+- name: jq
+  homepage: https://stedolan.github.io/jq/
 - name: Julia
   homepage: https://julialang.org/
 - name: Jython
@@ -240,9 +245,9 @@
 - name: LiveScript
   homepage: http://livescript.net/
 - name: Livescript
-    urls: 
-      - https://en.wikipedia.org/wiki/JavaScript#History
-      - https://brendaneich.github.io/Strange-Loop-2012/#/1
+  urls: 
+    - https://en.wikipedia.org/wiki/JavaScript#History
+    - https://brendaneich.github.io/Strange-Loop-2012/#/1
 - name: LOLCode
   homepage: http://www.lolcode.org/
 - name: Lua
@@ -254,6 +259,8 @@
   homepage: https://lucylang.org/
   urls:
     - https://matthewphillips.info/programming/posts/announcing-lucy/
+- name: m
+  homepage: https://github.com/mlang-dev/m
 - name: MacSyma
 - name: Magpie
   homepage: https://magpie-lang.org/
@@ -331,6 +338,9 @@
 - name: SOIL
 - name: Solidity
   homepage: https://soliditylang.org/
+- name: SudoLang
+  urls:
+    - https://medium.com/javascript-scene/sudolang-a-powerful-pseudocode-programming-language-for-llms-d64d42aa719b 
 - name: Tex
 - name: TLA+
 - name: Toit
