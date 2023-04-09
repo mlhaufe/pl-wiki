@@ -56,10 +56,6 @@
   * <https://news.ycombinator.com/item?id=12998589>
   * <https://brendaneich.com/tag/history/>
   * <https://twitter.com/porteneuve/status/1252315566158876673>
-* Ji
-  * <https://observablehq.com/@elisk/ji-language>
-* jq
-  * <https://stedolan.github.io/jq/>
 * Juvix
   * <https://www.reddit.com/r/dependent_types/comments/esbi2r/the_why_of_juvix_ingredients_architecture/?utm_source=dlvr.it&utm_medium=twitter>
 * KAsaya
@@ -274,5 +270,5 @@ visual programming
 
 ## Presentation
 
-The CNCF Cloud Native Interactive Landscape design is interesting. Something similar might 
+The CNCF Cloud Native Interactive Landscape design is interesting. Something similar might
 be useful here <https://landscape.cncf.io/>
