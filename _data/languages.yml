@@ -331,6 +331,9 @@
 - name: SOIL
 - name: Solidity
   homepage: https://soliditylang.org/
+- name: SudoLang
+  urls:
+    - https://medium.com/javascript-scene/sudolang-a-powerful-pseudocode-programming-language-for-llms-d64d42aa719b
 - name: Tex
 - name: TLA+
 - name: Toit
