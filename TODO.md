@@ -151,18 +151,12 @@
   * <https://en.wikipedia.org/wiki/Pure_type_system>
 * Sarad
   * <https://github.com/abagames/sarad>
-* Sather
-  * <https://en.wikipedia.org/wiki/Sather>
 * Scala
   * <https://mobile.twitter.com/odersky/status/1214084720021114881>
 * Scheme
   * <https://news.ycombinator.com/item?id=12998589>
 * Skip
   * <https://news.ycombinator.com/item?id=18077612>
-* Slate
-  * <https://web.archive.org/web/20150327154912/http://slatelanguage.org/>
-  * <https://github.com/briantrice/slate-language>
-  * <https://web.archive.org/web/20081109032008/http://slate.tunes.org:80/>
 * Smallscript
   * <http://lambda-the-ultimate.org/classic/message4826.html#4849>
 * Smalltalk
@@ -202,8 +196,6 @@
   * <https://en.wikipedia.org/wiki/Pure_type_system>
 * Ylang
   * <https://blog.openresty.com/en/ylang-intro-part1/>
-* ZPL
-  * <https://en.wikipedia.org/wiki/ZPL_(programming_language)>
   
 ## Misc
 
