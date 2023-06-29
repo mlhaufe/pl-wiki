@@ -26,6 +26,8 @@
   homepage: https://github.com/ArkScript-lang/Ark
 - name: Arret
   homepage: https://github.com/etaoins/arret/
+- name: AsciiDots
+  homepage: https://github.com/aaronjanse/asciidots
 - name: Atomo
   homepage: https://vito.github.io/atomo/
 - name: Aussie++
@@ -34,6 +36,8 @@
 - name: AutoHotkey
   homepage: https://www.autohotkey.com/
 - name: Automath
+- name: Awelon
+  homepage: https://github.com/dmbarbour/wikilon/blob/master/docs/AwelonLang.md
 - name: AWK
 - name: BASIC
 - name: BCL
@@ -285,6 +289,8 @@
 - name: Minlog
 - name: MOO
   homepage: http://www2.iath.virginia.edu/courses/moo/ProgrammersManual.texinfo_4.html
+- name: MoonScript
+  homepage: https://moonscript.org/
 - name: Mumps
   homepage: https://www.cs.uni.edu/~okane/
 - name: Nickle
@@ -344,6 +350,8 @@
     - https://news.ycombinator.com/item?id=12969014
     - https://news.ycombinator.com/item?id=12923692
     - https://news.ycombinator.com/item?id=13265758
+- name: SasyLF
+  homepage: https://github.com/boyland/sasylf
 - name: Sather
   homepage: http://www.gnu.org/software/sather/
 - name: Self
