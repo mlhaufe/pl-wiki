@@ -241,6 +241,8 @@
 - name: LASP
   homepage: https://lasp-lang.readme.io/
 - name: LaTex
+- name: Lean
+  homepage: https://leanprover.github.io/
 - name: LINGOL
   author: Vaughn Pratt
 - name: LFE
