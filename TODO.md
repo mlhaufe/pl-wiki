@@ -116,9 +116,6 @@
   * <http://parasail-lang.org/>
 * Perl
   * <https://news.ycombinator.com/item?id=13125282>
-* PizzaScript
-  * <https://www.eventbrite.co.uk/e/pizzascript-3-webassembly-as-a-compilation-target-overview-tickets-153222355189>
-* PLANNER
 * Plato
   * <https://github.com/cdiggins/plato>
 * PL/I
@@ -134,8 +131,6 @@
   * <https://bluishcoder.co.nz/tags/pony/index.html>
 * Punyforth
   * <https://github.com/zeroflag/punyforth>
-* Pure
-  * <http://lambda-the-ultimate.org/node/4232>
 * PureScript
   * <https://news.ycombinator.com/item?id=13141940>
 * Raku

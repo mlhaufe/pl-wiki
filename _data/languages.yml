@@ -313,6 +313,8 @@
 - name: PH
 - name: π
   homepage: http://www.pi-programming.org/What.html
+- name: PizzaScript
+  homepage: https://github.com/x-technology/pizzascript
 - name: PLANNER
 - name: Plato
   author: Christopher Diggins
