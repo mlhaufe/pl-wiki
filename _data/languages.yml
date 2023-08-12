@@ -159,6 +159,10 @@
   homepage: http://erlang.org
 - name: Enso
   homepage: https://github.com/enso-org/enso
+- name: Eva
+  urls:
+    - https://github.com/DmitrySoshnikov/eva-source
+    - http://dmitrysoshnikov.com/courses/essentials-of-interpretation/
 - name: F*
   homepage: https://www.fstar-lang.org/
 - name: F#
@@ -203,6 +207,8 @@
   urls:
     - https://en.wikipedia.org/wiki/Grasshopper_3D
 - name: Hack (Facebook)
+- name: Haku
+  homepage: https://codeberg.org/wimvanderbauwhede/haku
 - name: Handel 
   homepage: https://handel-pl.github.io/
 - name: Haxe
@@ -370,6 +376,8 @@
   logo: ./images/logos/self.png
 - name: SIMULA
 - name: Sketchpad
+- name: Skew
+  homepage: http://skew-lang.org/
 - name: Slate
   homepage: https://github.com/briantrice/slate-language
   urls:

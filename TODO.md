@@ -19,9 +19,6 @@
 * Emacs Lisp
   * <https://en.wikipedia.org/wiki/Emacs_Lisp>
   * <https://www.reddit.com/r/emacs/comments/lly7po/do_you_use_emacs_lisp_as_a_general_purpose/gnvzisy/>
-* Eva
-  * <https://github.com/DmitrySoshnikov/eva-source>
-  * <http://dmitrysoshnikov.com/courses/essentials-of-interpretation/>
 * Gallifrey
   * a Language for Geodistributed Programming
   * <http://www.cs.cornell.edu/andru/papers/gallifrey/snapl.pdf>
