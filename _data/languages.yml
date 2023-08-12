@@ -26,6 +26,8 @@
   homepage: https://github.com/ArkScript-lang/Ark
 - name: Arret
   homepage: https://github.com/etaoins/arret/
+- name: AsciiDots
+  homepage: https://github.com/aaronjanse/asciidots
 - name: Atomo
   homepage: https://vito.github.io/atomo/
 - name: Aussie++
@@ -34,6 +36,8 @@
 - name: AutoHotkey
   homepage: https://www.autohotkey.com/
 - name: Automath
+- name: Awelon
+  homepage: https://github.com/dmbarbour/wikilon/blob/master/docs/AwelonLang.md
 - name: AWK
 - name: BASIC
 - name: BCL
@@ -78,6 +82,8 @@
   homepage: https://cicada-lang.org/
   urls:
     - https://www.reddit.com/r/ProgrammingLanguages/comments/s4crfg/cicada_language_a_dependently_typed_programming/
+- name: Clean
+  homepage: https://wiki.clean.cs.ru.nl/Clean
 - name: Clojure
 - name: CLU
   author: Barbara Liskov
@@ -133,6 +139,8 @@
 - name: ECMAScript
   homepage: https://tc39.es/
   logo: ./images/logos/javascript.jpg
+- name: Ecstasy
+  homepage: https://xtclang.org/
 - name: Eff
   homepage: https://www.eff-lang.org/
   urls:
@@ -240,6 +248,8 @@
 - name: LASP
   homepage: https://lasp-lang.readme.io/
 - name: LaTex
+- name: Lean
+  homepage: https://leanprover.github.io/
 - name: LINGOL
   author: Vaughn Pratt
 - name: LFE
@@ -274,6 +284,9 @@
   homepage: https://web.archive.org/web/20090401141153/http://ecmascript4.com/
 - name: Maude
   homepage: https://github.com/SRI-CSL/Maude
+  urls:
+    - https://maude.cs.illinois.edu/w/images/0/0d/Maude-book.pdf
+    - https://web.archive.org/web/20110514234232/http://www.cs.swan.ac.uk/~csneal/MaudeCourse/index.html
 - name: Max Creation Graph (MCG)
   urls:
     - https://www.vfxarabia.co/mcg
@@ -281,6 +294,8 @@
 - name: Minlog
 - name: MOO
   homepage: http://www2.iath.virginia.edu/courses/moo/ProgrammersManual.texinfo_4.html
+- name: MoonScript
+  homepage: https://moonscript.org/
 - name: Mumps
   homepage: https://www.cs.uni.edu/~okane/
 - name: Nickle
@@ -299,12 +314,20 @@
   homepage: http://parasail-lang.org/
 - name: Pascal
 - name: PH
+- name: π
+  homepage: http://www.pi-programming.org/What.html
+- name: PizzaScript
+  homepage: https://github.com/x-technology/pizzascript
 - name: PLANNER
 - name: Plato
   author: Christopher Diggins
   homepage: https://github.com/cdiggins/plato
 - name: Pony
   homepage: https://www.ponylang.io/
+- name: Pure
+  homepage: https://agraef.github.io/pure-lang/
+  urls:
+    - https://web.archive.org/web/20110309024600/http://blueparen.com/node/6
 - name: Python
   homepage: https://www.python.org/
   urls:
@@ -338,11 +361,20 @@
     - https://news.ycombinator.com/item?id=13265758
 - name: SAGE
   homepage: https://web.archive.org/web/20220830065102/https://sage.soe.ucsc.edu/
+- name: SasyLF
+  homepage: https://github.com/boyland/sasylf
+- name: Sather
+  homepage: http://www.gnu.org/software/sather/
 - name: Self
   homepage: https://selflanguage.org/
   logo: ./images/logos/self.png
 - name: SIMULA
 - name: Sketchpad
+- name: Slate
+  homepage: https://github.com/briantrice/slate-language
+  urls:
+    - https://web.archive.org/web/20150327154912/http://slatelanguage.org/
+    - https://web.archive.org/web/20081109032008/http://slate.tunes.org:80/
 - name: SMP
 - name: SNOBOL
 - name: SOIL
@@ -364,6 +396,8 @@
   author: Tom Burris
 - name: Virgil
   homepage: https://github.com/titzer/virgil
+- name: Visual Prolog
+  homepage: https://www.visual-prolog.com/
 - name: VRML
   urls: 
     - https://en.wikipedia.org/wiki/VRML
@@ -382,3 +416,5 @@
   homepage: https://ziglang.org/
 - name: Zimbu
   homepage: http://www.zimbu.org/
+- name: ZPL
+  homepage: https://en.wikipedia.org/wiki/ZPL_(programming_language)

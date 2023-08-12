@@ -117,9 +117,6 @@
   * <http://parasail-lang.org/>
 * Perl
   * <https://news.ycombinator.com/item?id=13125282>
-* PizzaScript
-  * <https://www.eventbrite.co.uk/e/pizzascript-3-webassembly-as-a-compilation-target-overview-tickets-153222355189>
-* PLANNER
 * Plato
   * <https://github.com/cdiggins/plato>
 * PL/I
@@ -133,8 +130,6 @@
   * <https://twitter.com/algoritmic/status/1242034451531653121>
 * Punyforth
   * <https://github.com/zeroflag/punyforth>
-* Pure
-  * <http://lambda-the-ultimate.org/node/4232>
 * PureScript
   * <https://news.ycombinator.com/item?id=13141940>
 * Raku
@@ -147,18 +142,12 @@
   * <https://stopa.io/post/222>
 * Sarad
   * <https://github.com/abagames/sarad>
-* Sather
-  * <https://en.wikipedia.org/wiki/Sather>
 * Scala
   * <https://mobile.twitter.com/odersky/status/1214084720021114881>
 * Scheme
   * <https://news.ycombinator.com/item?id=12998589>
 * Skip
   * <https://news.ycombinator.com/item?id=18077612>
-* Slate
-  * <https://web.archive.org/web/20150327154912/http://slatelanguage.org/>
-  * <https://github.com/briantrice/slate-language>
-  * <https://web.archive.org/web/20081109032008/http://slate.tunes.org:80/>
 * Smallscript
   * <http://lambda-the-ultimate.org/classic/message4826.html#4849>
 * Smalltalk
@@ -195,8 +184,6 @@
   * <http://www.nsl.com/k/xy/xy.htm>
 * Ylang
   * <https://blog.openresty.com/en/ylang-intro-part1/>
-* ZPL
-  * <https://en.wikipedia.org/wiki/ZPL_(programming_language)>
   
 ## Misc
 
