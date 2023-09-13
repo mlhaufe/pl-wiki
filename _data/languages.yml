@@ -39,6 +39,8 @@
 - name: Awelon
   homepage: https://github.com/dmbarbour/wikilon/blob/master/docs/AwelonLang.md
 - name: AWK
+  urls:
+    - https://www.johndcook.com/blog/2023/08/26/awk/
 - name: BASIC
 - name: BCL
   urls:
@@ -395,6 +397,7 @@
 - name: SudoLang
   urls:
     - https://medium.com/javascript-scene/sudolang-a-powerful-pseudocode-programming-language-for-llms-d64d42aa719b 
+    - https://twitter.com/SudoLang/status/1679293477954396161
 - name: Tex
 - name: TLA+
 - name: Toit
