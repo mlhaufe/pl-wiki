@@ -255,6 +255,8 @@ visual programming
 
 <https://www.cs.uni.edu/~wallingf/blog/archives/monthly/2022-10.html#e2022-10-23T09_54_59.htm>
 
+https://web.archive.org/web/20231127151129/http://lambda-the-ultimate.org/node/4534
+
 ## Presentation
 
 The CNCF Cloud Native Interactive Landscape design is interesting. Something similar might

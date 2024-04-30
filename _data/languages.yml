@@ -1,3 +1,18 @@
+- name: {name}
+  homepage: {homepage}
+  urls:
+    - {url1}
+    - {url2}
+  logo: {logo}
+  paradigms:
+    - {paradigm1}
+    - {paradigm2}
+  influences:
+    - {influence1}
+    - {influence2}
+  influenced:
+    - {influence1}
+    - {influence2}
 - name: 1C
   urls:
     - https://www.quora.com/What-programming-languages-are-used-in-China-and-Russia-Is-it-the-same-as-other-countries-or-is-there-a-special-programming-language/answer/Boris-Ivanov-49
@@ -57,6 +72,8 @@
   homepage: https://github.com/FBMachine/bon
 - name: bosatsu
   homepage: https://github.com/johnynek/bosatsu
+- name: Bosque
+  homepage: https://www.microsoft.com/en-us/research/project/bosque-programming-language/
 - name: C
   urls: 
     - https://news.ycombinator.com/item?id=13087103
@@ -288,6 +305,12 @@
   urls:
     - https://www.vfxarabia.co/mcg
 - name: Mesa
+- name: Meta
+  homepage: https://mass.handmade.network/
+- name: Meta II
+  urls:
+    - https://en.wikipedia.org/wiki/META_II
+    - https://www.hcs64.com/files/pd1-3-schorre.pdf
 - name: Minlog
 - name: MOO
   homepage: http://www2.iath.virginia.edu/courses/moo/ProgrammersManual.texinfo_4.html
@@ -307,6 +330,10 @@
 - name: Om
   homepage: http://www.om-language.org/
   logo: ./images/logos/om.png
+- name: Omega
+  homepage: https://web.archive.org/web/20060622083103/http://www.pervasive.jku.at/About_Us/Staff/Blaschek/Omega/_Report/
+- name: Omega
+  homepage: https://web.cecs.pdx.edu/~sheard/Omega/ 
 - name: ParaSail
   homepage: http://parasail-lang.org/
 - name: Pascal
@@ -346,6 +373,8 @@
     - https://news.ycombinator.com/item?id=12801827
     - https://news.ycombinator.com/item?id=13242590
 - name: ReasonML
+- name: ReScript
+  homepage: https://rescript-lang.org/
 - name: Ruby
   homepage: https://www.ruby-lang.org/en/
 - name: Rust
@@ -390,6 +419,10 @@
 - name: VRML
   urls: 
     - https://en.wikipedia.org/wiki/VRML
+- name: Wallingford
+  homepage: https://github.com/alanb2718/wallingford
+- name: Wing
+  homepage: https://www.winglang.io/
 - name: X++
   homepage: https://docs.microsoft.com/en-us/dynamicsax-2012/developer/x-language-programming-guide
 - name: X3D
@@ -401,6 +434,10 @@
     - https://noyaml.com/
 - name: Zig
   homepage: https://ziglang.org/
+- name: ZIL
+  urls:
+    - https://archive.org/details/Learning_ZIL_Steven_Eric_Meretzky_1995/mode/1up
+    - https://mastodon.social/@hnbot@me.ns.ci/111533400037298576
 - name: Zimbu
   homepage: http://www.zimbu.org/
 - name: ZPL
