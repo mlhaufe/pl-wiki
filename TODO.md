@@ -19,9 +19,6 @@
 * Emacs Lisp
   * <https://en.wikipedia.org/wiki/Emacs_Lisp>
   * <https://www.reddit.com/r/emacs/comments/lly7po/do_you_use_emacs_lisp_as_a_general_purpose/gnvzisy/>
-* Eva
-  * <https://github.com/DmitrySoshnikov/eva-source>
-  * <http://dmitrysoshnikov.com/courses/essentials-of-interpretation/>
 * Gallifrey
   * a Language for Geodistributed Programming
   * <http://www.cs.cornell.edu/andru/papers/gallifrey/snapl.pdf>
@@ -40,13 +37,13 @@
   * <https://news.ycombinator.com/item?id=13272254>
 * HaskellR
   * <https://tweag.github.io/HaskellR/>
-* Henk 2000
-  * <http://www.staff.science.uu.nl/~jeuri101/MSc/jwroorda/>
-  * <https://en.wikipedia.org/wiki/Pure_type_system>
 * Hy
   * <https://docs.hylang.org/en/stable/>
 * IDL
   * <https://en.wikipedia.org/wiki/IDL_(programming_language>)
+* InterLisp
+  * <https://en.wikipedia.org/wiki/Interlisp>
+  * <https://interlisp.org/>
 * J
   * <https://twitter.com/CompSciFact/status/1451920337944432642>
 * Java
@@ -69,6 +66,7 @@
 * LoCal
   * <https://twitter.com/PLPresents/status/1146772016676179968>
 * LOOP - <https://news.ycombinator.com/item?id=18756564>
+  * <https://en.wikipedia.org/wiki/LOOP_(programming_language)>
 * Lucid
   * <http://worrydream.com/refs/Wadge%20-%20Lucid,%20the%20Dataflow%20Programming%20Language.pdf>
 * Mercury
@@ -127,8 +125,6 @@
   * <https://en.wikipedia.org/wiki/Cardano_(cryptocurrency_platform>)
 * Polymath
   * <https://twitter.com/algoritmic/status/1242034451531653121>
-* Pony
-  * <https://bluishcoder.co.nz/tags/pony/index.html>
 * Punyforth
   * <https://github.com/zeroflag/punyforth>
 * PureScript
@@ -141,9 +137,6 @@
   * <https://github.com/joshsh/ripple>
 * Risp
   * <https://stopa.io/post/222>
-* SAGE
-  * <https://sage.soe.ucsc.edu/>
-  * <https://en.wikipedia.org/wiki/Pure_type_system>
 * Sarad
   * <https://github.com/abagames/sarad>
 * Scala
@@ -186,9 +179,6 @@
   * <http://www.zifyoip.com/wysiscript/sigbovik.html>
 * XY
   * <http://www.nsl.com/k/xy/xy.htm>
-* Yarrow
-  * <http://www.cs.ru.nl/~janz/yarrow/>
-  * <https://en.wikipedia.org/wiki/Pure_type_system>
 * Ylang
   * <https://blog.openresty.com/en/ylang-intro-part1/>
   
@@ -255,9 +245,14 @@ visual programming
 
 <https://www.cs.uni.edu/~wallingf/blog/archives/monthly/2022-10.html#e2022-10-23T09_54_59.htm>
 
-https://web.archive.org/web/20231127151129/http://lambda-the-ultimate.org/node/4534
+Programming Matter:
+<https://twitter.com/michael_nielsen/status/1622986262750859265>
+
+<https://web.archive.org/web/20231127151129/http://lambda-the-ultimate.org/node/4534>
 
 ## Presentation
 
 The CNCF Cloud Native Interactive Landscape design is interesting. Something similar might
 be useful here <https://landscape.cncf.io/>
+<https://craftofcoding.wordpress.com/2022/11/04/languages-pre-fortran/>
+<https://medium.com/javascript-scene/sudolang-a-powerful-pseudocode-programming-language-for-llms-d64d42aa719b>

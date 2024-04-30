@@ -54,6 +54,8 @@
 - name: Awelon
   homepage: https://github.com/dmbarbour/wikilon/blob/master/docs/AwelonLang.md
 - name: AWK
+  urls:
+    - https://www.johndcook.com/blog/2023/08/26/awk/
 - name: BASIC
 - name: BCL
   urls:
@@ -135,6 +137,8 @@
 - name: Dark BASIC
 - name: Delphi
   homepage: https://darklang.com/
+- name: DeviceScript
+  homepage: https://microsoft.github.io/devicescript/
 - name: Dhall
   homepage: https://github.com/dhall-lang/dhall-haskell 
 - name: Diamond
@@ -155,7 +159,6 @@
   homepage: https://tc39.es/
   logo: ./images/logos/javascript.jpg
 - name: Ecstasy
-  homepage: 
   homepage: https://xtclang.org/
 - name: Eff
   homepage: https://www.eff-lang.org/
@@ -175,6 +178,10 @@
   homepage: http://erlang.org
 - name: Enso
   homepage: https://github.com/enso-org/enso
+- name: Eva
+  urls:
+    - https://github.com/DmitrySoshnikov/eva-source
+    - http://dmitrysoshnikov.com/courses/essentials-of-interpretation/
 - name: F*
   homepage: https://www.fstar-lang.org/
 - name: F#
@@ -186,6 +193,8 @@
   homepage: https://github.com/rxi/fe
 - name: FemtoLisp
   homepage: https://github.com/JeffBezanson/femtolisp
+- name: Flix
+  homepage: https://flix.dev/
 - name: FLOW-MATIC
 - name: Folders
   homepage: http://danieltemkin.com/Esolangs/Folders
@@ -219,6 +228,8 @@
   urls:
     - https://en.wikipedia.org/wiki/Grasshopper_3D
 - name: Hack (Facebook)
+- name: Haku
+  homepage: https://codeberg.org/wimvanderbauwhede/haku
 - name: Handel 
   homepage: https://handel-pl.github.io/
 - name: Haxe
@@ -226,6 +237,8 @@
 - name: Hedy
   urls:
     - https://2022.ecoop.org/details/ecoop-2022-papers/36/Hedy-Creating-a-gradual-programming-language
+- name: Henk 2000
+  homepage: https://web.archive.org/web/20160307104755/http://www.staff.science.uu.nl/~jeuri101/MSc/jwroorda/
 - name: HOPE
   logo: ./images/logos/haxe-logo.svg
 - name: Hypercard
@@ -346,6 +359,8 @@
 - name: Plato
   author: Christopher Diggins
   homepage: https://github.com/cdiggins/plato
+- name: Pony
+  homepage: https://www.ponylang.io/
 - name: Pure
   homepage: https://agraef.github.io/pure-lang/
   urls:
@@ -373,6 +388,8 @@
     - https://news.ycombinator.com/item?id=12801827
     - https://news.ycombinator.com/item?id=13242590
 - name: ReasonML
+- name: Rego
+  homepage: https://www.openpolicyagent.org/docs/latest/policy-language/
 - name: ReScript
   homepage: https://rescript-lang.org/
 - name: Ruby
@@ -383,6 +400,8 @@
     - https://news.ycombinator.com/item?id=12969014
     - https://news.ycombinator.com/item?id=12923692
     - https://news.ycombinator.com/item?id=13265758
+- name: SAGE
+  homepage: https://web.archive.org/web/20220830065102/https://sage.soe.ucsc.edu/
 - name: SasyLF
   homepage: https://github.com/boyland/sasylf
 - name: Sather
@@ -392,6 +411,8 @@
   logo: ./images/logos/self.png
 - name: SIMULA
 - name: Sketchpad
+- name: Skew
+  homepage: http://skew-lang.org/
 - name: Slate
   homepage: https://github.com/briantrice/slate-language
   urls:
@@ -405,6 +426,7 @@
 - name: SudoLang
   urls:
     - https://medium.com/javascript-scene/sudolang-a-powerful-pseudocode-programming-language-for-llms-d64d42aa719b 
+    - https://twitter.com/SudoLang/status/1679293477954396161
 - name: Tex
 - name: TLA+
 - name: Toit
@@ -413,7 +435,11 @@
   homepage: https://www.val-lang.dev/
 - name: Verse
   homepage: https://github.com/verse-lang/verse
+  urls:
+    - https://simon.peytonjones.org/assets/pdfs/verse-March23.pdf
   author: Tom Burris
+- name: Virgil
+  homepage: https://github.com/titzer/virgil
 - name: Visual Prolog
   homepage: https://www.visual-prolog.com/
 - name: VRML
@@ -432,6 +458,8 @@
   urls:
     - https://github.com/cblp/yaml-sucks
     - https://noyaml.com/
+- name: Yarrow
+  homepage: http://web.archive.org/web/20220527220519/http://www.cs.ru.nl/~janz/yarrow/
 - name: Zig
   homepage: https://ziglang.org/
 - name: ZIL
