@@ -374,6 +374,8 @@
 - name: Q
   urls:
     - https://news.ycombinator.com/item?id=15907840
+- name: Qu
+  urls: https://centrin.net.id/~marc/example.html
 - name: Q#
   urls:
     - https://news.ycombinator.com/item?id=15905671
