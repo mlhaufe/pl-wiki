@@ -18,22 +18,43 @@
     - https://www.quora.com/What-programming-languages-are-used-in-China-and-Russia-Is-it-the-same-as-other-countries-or-is-there-a-special-programming-language/answer/Boris-Ivanov-49
 - name: Aceto
   homepage: https://github.com/aceto/aceto
+- name: AC Toolbox
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: ActionScript
   homepage: https://web.archive.org/web/20080906174753/https://www.adobe.com/devnet/actionscript/articles/actionscript3_overview.html
   logo: ./images/logos/actionscript.png
 - name: Ada
+- name: Adagio
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Agda
   urls:
     - https://github.com/liamoc/learn-you-an-agda/blob/master/pages/peano.md 
     - http://www.cse.chalmers.se/~ulfn/papers/afp08/tutorial.pdf 
 - name: ALGOL
+- name: ALMA
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: ALPHARD
 - name: ALTRAN
+- name: AML
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Amber
   homepage: https://amber-lang.net/
+- name: AMPLE
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: APL
 - name: Arc
   homepage: http://www.arclanguage.org/
+- name: Arctic
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: ARES
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Arend
   homepage: https://arend-lang.github.io/
 - name: Argus
@@ -51,12 +72,18 @@
 - name: AutoHotkey
   homepage: https://www.autohotkey.com/
 - name: Automath
+- name: autoklang
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Awelon
   homepage: https://github.com/dmbarbour/wikilon/blob/master/docs/AwelonLang.md
 - name: AWK
   urls:
     - https://www.johndcook.com/blog/2023/08/26/awk/
 - name: BASIC
+- name: ABC
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: BCL
   urls:
     - https://en.wikipedia.org/wiki/Binary_combinatory_logic
@@ -65,6 +92,9 @@
   homepage: https://github.com/beefytech/Beef
 - name: BEL
   homepage: https://bel.bio/
+- name: BOLT
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: BETA
   urls: 
     - https://en.wikipedia.org/wiki/BETA_(programming_language)
@@ -84,12 +114,19 @@
   urls: 
     - https://devblogs.microsoft.com/cppblog/c20-concepts-are-here-in-visual-studio-2019-version-16-3
     - https://search.brave.com/search?q=C%2B%2B+grammar+undecidable
+- name: CAL
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+    - http://www.cakewalk.com/devxchange/cal.asp
 - name: Cadl
   homepage: https://microsoft.github.io/cadl/
 - name: Cairo
   homepage: https://www.cairo-lang.org/
 - name: Carbon
   homepage: https://github.com/carbon-language/carbon-lang
+- name: Canon
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Cecil
   urls:
     -  https://en.wikipedia.org/wiki/Cecil_(programming_language)
@@ -97,6 +134,15 @@
   homepage: https://cedille.github.io/
 - name: Ceylon
   homepage: https://ceylon-lang.org/
+- name: CHANT
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: CHOPS
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: ChucK
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Cicada
   homepage: https://cicada-lang.org/
   urls:
@@ -104,9 +150,21 @@
 - name: Clean
   homepage: https://wiki.clean.cs.ru.nl/Clean
 - name: Clojure
+- name: CLM
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: CLU
   author: Barbara Liskov
   note: First language with native support of Code Contracts 
+- name: CMIX
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: CMN
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: Cmusic
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Co2
   urls:
     - http://www.dustmop.io/blog/2019/09/10/what-remains-technical-breakdown/
@@ -117,22 +175,41 @@
   homepage: http://coconut-lang.org/
 - name: COMTRAN
 - name: Conniver
+- name: Common Music
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: CompoSeq5
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Cooklang
   homepage: https://cooklang.org/
 - name: Copilot
   homepage: https://copilot-language.github.io/
+- name: CPN View
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Coq
 - name: COW
   homepage: https://esolangs.org/wiki/COW
 - name: CPL
 - name: Crystal
   homepage: https://crystal-lang.org/
+- name: Csound
+  homepage: https://csound.com/
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: CYBIL
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Cyclone
   homepage: http://cyclone.thelanguage.org/
 - name: D
   homepage: https://dlang.org/
   urls:
     - https://news.ycombinator.com/item?id=13217529
+- name: DCMP
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Dark
 - name: Dark BASIC
 - name: Delphi
@@ -160,6 +237,9 @@
   logo: ./images/logos/javascript.jpg
 - name: Ecstasy
   homepage: https://xtclang.org/
+- name: EEL2
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Eff
   homepage: https://www.eff-lang.org/
   urls:
@@ -172,6 +252,9 @@
 - name: Elm
   urls:
     - https://news.ycombinator.com/item?id=13025941
+- name: Elody
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Erg
   homepage: https://github.com/erg-lang/erg
 - name: Erlang
@@ -187,17 +270,34 @@
 - name: F#
   homepage: https://fsharp.org/
 - name: Faust
+  homepage: https://faust.grame.fr/
   urls:
-    - https://news.ycombinator.com/item?id=13012880 
+    - https://news.ycombinator.com/item?id=13012880
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: fe
   homepage: https://github.com/rxi/fe
 - name: FemtoLisp
   homepage: https://github.com/JeffBezanson/femtolisp
 - name: Flix
   homepage: https://flix.dev/
+- name: Flavors Band
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: FLOW-MATIC
+- name: FOIL
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Folders
   homepage: http://danieltemkin.com/Esolangs/Folders
+- name: Foo
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: FORMES
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: FORMULA
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Forth
   homepage: https://www.forth.com/forth/
   urls:
@@ -211,6 +311,9 @@
     - https://en.m.wikipedia.org/wiki/FRACTRAN
 - name: Frink
   homepage: https://frinklang.org/
+- name: Fugue
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Gno
   homepage: https://github.com/gnolang/gno
 - name: Go
@@ -227,11 +330,17 @@
 - name: Grasshopper 3D
   urls:
     - https://en.wikipedia.org/wiki/Grasshopper_3D
+- name: GROOVE
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Hack (Facebook)
 - name: Haku
   homepage: https://codeberg.org/wimvanderbauwhede/haku
 - name: Handel 
   homepage: https://handel-pl.github.io/
+- name: Haskore
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Haxe
   homepage: http://haxe.org/
 - name: Hedy
@@ -239,11 +348,32 @@
     - https://2022.ecoop.org/details/ecoop-2022-papers/36/Hedy-Creating-a-gradual-programming-language
 - name: Henk 2000
   homepage: https://web.archive.org/web/20160307104755/http://www.staff.science.uu.nl/~jeuri101/MSc/jwroorda/
+- name: HMSL
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: HOPE
   logo: ./images/logos/haxe-logo.svg
 - name: Hypercard
+- name: Hyperlisp
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Idris
   homepage: https://www.idris-lang.org/
+- name: IanniX
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: Interactive Music Control
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: Interactor
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: INV
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: invokator
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Io
   homepage: https://iolanguage.org/
 - name: Ioke
@@ -256,8 +386,17 @@
   urls:
     - https://observablehq.com/@elisk/ji-language
 - name: JOVIAL
+- name: JFugue
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: JMSL
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: jq
   homepage: https://stedolan.github.io/jq/
+- name: JSyn
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Julia
   homepage: https://julialang.org/
 - name: Jython
@@ -268,8 +407,23 @@
   homepage: https://github.com/Kindelia/Kind1
 - name: Kind2
   homepage: https://github.com/Kindelia/Kind
+- name: KeyKit
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: Keynote
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: Kinetic Music Machine
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Kotlin
   homepage: https://kotlinlang.org/
+- name: KyCE
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: Kyma
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Lapis
   homepage: https://lapis-lang.org/
 - name: LASP
@@ -283,6 +437,10 @@
   homepage: http://lfe.io/
 - name: Lil
   homepage: https://beyondloom.com/decker/lil.html
+- name: Lilypond
+  homepage: http://lilypond.org/
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: LiveScript
   homepage: http://livescript.net/
 - name: Livescript
@@ -291,8 +449,17 @@
     - https://brendaneich.github.io/Strange-Loop-2012/#/1
 - name: Loell
   homepage: http://w3future.com/html/loell/
+- name: Loki
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: LOLCode
   homepage: http://www.lolcode.org/
+- name: LOOM
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: LPC
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Lua
   urls:
     - https://en.wikipedia.org/wiki/Lua_(programming_language)
@@ -307,6 +474,12 @@
 - name: MacSyma
 - name: Magpie
   homepage: https://magpie-lang.org/
+- name: ManuScript
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: MASC
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Mascara
   homepage: https://web.archive.org/web/20090401141153/http://ecmascript4.com/
 - name: Maude
@@ -314,10 +487,27 @@
   urls:
     - https://maude.cs.illinois.edu/w/images/0/0d/Maude-book.pdf
     - https://web.archive.org/web/20110514234232/http://www.cs.swan.ac.uk/~csneal/MaudeCourse/index.html
+- name: Max
+  homepage: https://cycling74.com/products/max
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Max Creation Graph (MCG)
   urls:
     - https://www.vfxarabia.co/mcg
+- name: McLeyvier Command Language
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: Melrōse
+  homepage: https://melrōse.org/
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Mesa
+- name: MGP
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: MIDAS
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Meta
   homepage: https://mass.handmade.network/
 - name: Meta II
@@ -325,12 +515,106 @@
     - https://en.wikipedia.org/wiki/META_II
     - https://www.hcs64.com/files/pd1-3-schorre.pdf
 - name: Minlog
+- name: MML
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: MODE
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: MOM
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: MOO
   homepage: http://www2.iath.virginia.edu/courses/moo/ProgrammersManual.texinfo_4.html
 - name: MoonScript
   homepage: https://moonscript.org/
+- name: Moxc
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: Moxie
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: MPL
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: MSP
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: MSQ
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Mumps
   homepage: https://www.cs.uni.edu/~okane/
+- name: Mup
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: MUS10
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: MUS8
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: MusBox
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: MUSCMP
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: MUSIC 10
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: MUSIC 11
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: MUSIC 360
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: MUSIC 4B
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: MUSIC 4BF
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: MUSIC 4F ORPHEUS
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: MUSIC 6
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: MUSIC 7
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: MUSIC I
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: MUSIC V
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: Music Box
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: Music Composition Language
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: Music-1000
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: MusicDNA Composer
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: MusicKit
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: MusicScript
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: MusicXML
+  homepage: https://www.musicxml.com/
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: MUSIGOL
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Nickle
   homepage: http://nickle.org/
 - name: Nile
@@ -339,6 +623,9 @@
   homepage: https://nim-lang.org/
 - name: Octave
 - name: NuPRL
+- name: Nyquist
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: OCaml
 - name: Om
   homepage: http://www.om-language.org/
@@ -347,24 +634,83 @@
   homepage: https://web.archive.org/web/20060622083103/http://www.pervasive.jku.at/About_Us/Staff/Blaschek/Omega/_Report/
 - name: Omega
   homepage: https://web.cecs.pdx.edu/~sheard/Omega/ 
+- name: OpenMusic
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: Opusmodus
+  homepage: https://opusmodus.com/
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: ORGANUM 1
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: OSW
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: OUTPERFORM
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: ParaSail
   homepage: http://parasail-lang.org/
 - name: Pascal
+- name: PATCH
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: Patchwork
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: Pcmusic
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: Petal
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: PH
 - name: π
   homepage: http://www.pi-programming.org/What.html
+- name: PILE
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: PizzaScript
   homepage: https://github.com/x-technology/pizzascript
+- name: Pla
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: PLACOMP
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: PLANNER
+- name: PLAY
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Plato
   author: Christopher Diggins
   homepage: https://github.com/cdiggins/plato
 - name: Pony
   homepage: https://www.ponylang.io/
+- name: PMML
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: POD6
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: PROD
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Pure
   homepage: https://agraef.github.io/pure-lang/
   urls:
     - https://web.archive.org/web/20110309024600/http://blueparen.com/node/6
+- name: Pure Data
+  homepage: https://puredata.info/
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: Pyrite
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: pysco
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Python
   homepage: https://www.python.org/
   urls:
@@ -374,12 +720,16 @@
 - name: Q
   urls:
     - https://news.ycombinator.com/item?id=15907840
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Qu
   urls: https://centrin.net.id/~marc/example.html
 - name: Q#
   urls:
     - https://news.ycombinator.com/item?id=15905671
     - https://docs.microsoft.com/en-us/quantum/overview/what-is-qsharp-and-qdk
+- name: Quasimodo
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Queso
   homepage: https://github.com/queso-lang/queso
   urls:
@@ -389,6 +739,12 @@
   urls:
     - https://news.ycombinator.com/item?id=12801827
     - https://news.ycombinator.com/item?id=13242590
+- name: Ravel
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: Realtime Composition Library
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: ReasonML
 - name: Rego
   homepage: https://www.openpolicyagent.org/docs/latest/policy-language/
@@ -404,10 +760,28 @@
     - https://news.ycombinator.com/item?id=13265758
 - name: SAGE
   homepage: https://web.archive.org/web/20220830065102/https://sage.soe.ucsc.edu/
+- name: Sambox
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: SAOL
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: Sapphire
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: Scala
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: SasyLF
   homepage: https://github.com/boyland/sasylf
 - name: Sather
   homepage: http://www.gnu.org/software/sather/
+- name: SCRIPT
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: SDIF
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Self
   homepage: https://selflanguage.org/
   logo: ./images/logos/self.png
@@ -415,24 +789,94 @@
 - name: Sketchpad
 - name: Skew
   homepage: http://skew-lang.org/
+- name: Silence
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: SKINI
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Slate
   homepage: https://github.com/briantrice/slate-language
   urls:
     - https://web.archive.org/web/20150327154912/http://slatelanguage.org/
     - https://web.archive.org/web/20081109032008/http://slate.tunes.org:80/
+- name: SMDL
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: SMOKE
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: Snd
+  homepage: https://ccrma.stanford.edu/software/snd/
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: SMP
 - name: SNOBOL
 - name: SOIL
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Solidity
   homepage: https://soliditylang.org/
+- name: SOUL
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: SoundModel
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: Speccy
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: SSP
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: SSSP
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: ST
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: STK
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: STORM
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: SudoLang
   urls:
     - https://medium.com/javascript-scene/sudolang-a-powerful-pseudocode-programming-language-for-llms-d64d42aa719b 
     - https://twitter.com/SudoLang/status/1679293477954396161
+- name: SuperCollider
+  homepage: https://supercollider.github.io/
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: Symbolic Composer
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: SYMPFONICS
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: SYN4B
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: SynSeq.pm
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: SYNTA L-II
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Tex
+- name: Tclmidi
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: TLA+
 - name: Toit
   homepage: https://docs.toit.io/language
+- name: TREE
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
+- name: UPIC
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Val
   homepage: https://www.val-lang.dev/
 - name: Verse
@@ -442,6 +886,9 @@
   author: Tom Burris
 - name: Virgil
   homepage: https://github.com/titzer/virgil
+- name: Virtual MIDI Machine
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Visual Prolog
   homepage: https://www.visual-prolog.com/
 - name: VRML
@@ -468,6 +915,9 @@
   urls:
     - https://archive.org/details/Learning_ZIL_Steven_Eric_Meretzky_1995/mode/1up
     - https://mastodon.social/@hnbot@me.ns.ci/111533400037298576
+- name: Zel
+  urls:
+    - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Zimbu
   homepage: http://www.zimbu.org/
 - name: ZPL
