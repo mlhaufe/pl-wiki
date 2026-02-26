@@ -314,6 +314,14 @@
 - name: Fugue
   urls:
     - https://timthompson.com/plum/cgi/showlist.cgi
+- name: Futhark
+  homepage: https://futhark-lang.org/
+  paradigms:
+    - functional
+    - data-parallel
+    - array
+  influences:
+    - ML
 - name: Gno
   homepage: https://github.com/gnolang/gno
 - name: Go
