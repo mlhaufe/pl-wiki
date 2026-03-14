@@ -536,6 +536,13 @@
   homepage: http://www2.iath.virginia.edu/courses/moo/ProgrammersManual.texinfo_4.html
 - name: MoonScript
   homepage: https://moonscript.org/
+- name: Morel
+  homepage: https://github.com/hydromatic/morel
+  paradigms:
+    - functional
+    - relational
+  influences:
+    - Standard ML
 - name: Moxc
   urls:
     - https://timthompson.com/plum/cgi/showlist.cgi
