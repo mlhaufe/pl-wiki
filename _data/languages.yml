@@ -885,6 +885,14 @@
 - name: UPIC
   urls:
     - https://timthompson.com/plum/cgi/showlist.cgi
+- name: V
+  homepage: https://vlang.io/
+  paradigms:
+    - imperative
+    - compiled
+    - concurrent
+  influences:
+    - Go
 - name: Val
   homepage: https://www.val-lang.dev/
 - name: Verse
