@@ -218,6 +218,13 @@
   homepage: https://microsoft.github.io/devicescript/
 - name: Dhall
   homepage: https://github.com/dhall-lang/dhall-haskell 
+- name: diagrams
+  homepage: https://archives.haskell.org/projects.haskell.org/diagrams/
+  paradigms:
+    - Declarative
+    - Domain-Specific Language
+  influences:
+    - Haskell
 - name: Diamond
   homepage: https://wasp.cs.washington.edu/wasp_diamond.html
 - name: Diesel
