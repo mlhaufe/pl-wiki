@@ -32,6 +32,9 @@
   urls:
     - https://github.com/liamoc/learn-you-an-agda/blob/master/pages/peano.md 
     - http://www.cse.chalmers.se/~ulfn/papers/afp08/tutorial.pdf 
+- name: AIR-J
+  homepage: https://github.com/unclebob/AIR-J
+  author: Robert C. Martin
 - name: ALGOL
 - name: ALMA
   urls:
@@ -80,6 +83,8 @@
 - name: AWK
   urls:
     - https://www.johndcook.com/blog/2023/08/26/awk/
+- name: Ballerina
+  homepage: https://github.com/Ballerina-Org/ballerina
 - name: BASIC
 - name: ABC
   urls:
@@ -168,6 +173,10 @@
 - name: Co2
   urls:
     - http://www.dustmop.io/blog/2019/09/10/what-remains-technical-breakdown/
+- name: Coalton
+  homepage: https://coalton-lang.github.io/
+  urls:
+    - https://coalton-lang.github.io/20260312-coalton0p2/
 - name: COBOL
   urls: 
     - https://mobile.twitter.com/awbjs/status/1250189292359446529
@@ -449,7 +458,7 @@
 - name: LINGOL
   author: Vaughn Pratt
 - name: LFE
-  homepage: http://lfe.io/
+  homepage: https://lfe.io/
 - name: Lil
   homepage: https://beyondloom.com/decker/lil.html
 - name: Lilypond
