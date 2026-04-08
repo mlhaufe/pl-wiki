@@ -97,6 +97,13 @@
   homepage: https://github.com/beefytech/Beef
 - name: BEL
   homepage: https://bel.bio/
+- name: Bend
+  homepage: https://github.com/HigherOrderCO/Bend
+  paradigms:
+    - parallel
+    - functional
+  influences:
+    - Python
 - name: BOLT
   urls:
     - https://timthompson.com/plum/cgi/showlist.cgi
