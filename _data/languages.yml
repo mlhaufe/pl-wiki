@@ -374,6 +374,13 @@
     - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Haxe
   homepage: http://haxe.org/
+- name: Hazel
+  homepage: https://hazel.org/
+  paradigms:
+    - functional
+  influences:
+    - Elm
+    - ML
 - name: Hedy
   urls:
     - https://2022.ecoop.org/details/ecoop-2022-papers/36/Hedy-Creating-a-gradual-programming-language
