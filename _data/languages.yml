@@ -32,6 +32,14 @@
   urls:
     - https://github.com/liamoc/learn-you-an-agda/blob/master/pages/peano.md 
     - http://www.cse.chalmers.se/~ulfn/papers/afp08/tutorial.pdf 
+- name: AgentScript
+  homepage: https://agentscript.org/
+  author: Owen Densmore
+  paradigms:
+    - agent-based
+  influences:
+    - NetLogo
+  note: A minimalist Agent-Based modeling system based on NetLogo semantics (Patches, Turtles, Links), implemented on JavaScript ES6 modules
 - name: AIR-J
   homepage: https://github.com/unclebob/AIR-J
   author: Robert C. Martin
@@ -205,6 +213,13 @@
   urls:
     - https://timthompson.com/plum/cgi/showlist.cgi
 - name: Coq
+- name: Cosmos
+  homepage: https://cosmos-lang.github.io/
+  paradigms:
+    - logic
+    - functional
+    - object-oriented
+  note: A modern logic scripting language; relations may yield multiple results, unlike functions
 - name: COW
   homepage: https://esolangs.org/wiki/COW
 - name: CPL
@@ -223,6 +238,13 @@
   homepage: https://dlang.org/
   urls:
     - https://news.ycombinator.com/item?id=13217529
+- name: Dafny
+  homepage: https://dafny.org/
+  author: K. Rustan M. Leino
+  paradigms:
+    - imperative
+    - functional
+  note: Verification-aware programming language with a static program verifier; compiles to C#, Java, JavaScript, Go, and Python
 - name: DCMP
   urls:
     - https://timthompson.com/plum/cgi/showlist.cgi
@@ -232,6 +254,13 @@
   homepage: https://darklang.com/
 - name: DeviceScript
   homepage: https://microsoft.github.io/devicescript/
+- name: DRAKON
+  homepage: https://drakonhub.com/en/drakon
+  urls:
+    - https://news.ycombinator.com/item?id=36021495
+    - https://en.wikipedia.org/wiki/DRAKON
+  author: Vladimir Parondzhanov
+  note: Visual algorithmic language developed for the Buran spacecraft project; flowcharts with strict structural rules
 - name: Dhall
   homepage: https://github.com/dhall-lang/dhall-haskell 
 - name: diagrams
@@ -395,6 +424,12 @@
 - name: Hyperlisp
   urls:
     - https://timthompson.com/plum/cgi/showlist.cgi
+- name: Hurl
+  homepage: https://ntietz.com/blog/introducing-hurl/
+  urls:
+    - https://news.ycombinator.com/item?id=36393673
+  author: n. tietz
+  note: A language where the only control flow is error handling (toss/throw); unrelated to the hurl.dev request automation tool
 - name: Idris
   homepage: https://www.idris-lang.org/
 - name: IanniX
@@ -489,12 +524,25 @@
   homepage: http://lilypond.org/
   urls:
     - https://timthompson.com/plum/cgi/showlist.cgi
+- name: Linda
+  author: David Gelernter
+  urls:
+    - https://www.netlib.org/utk/papers/comp-phy7/node3.html
+    - https://en.wikipedia.org/wiki/Linda_(coordination_language)
+  note: Coordination language for parallel computing; cooperating processes communicate through associative tuple spaces
 - name: LiveScript
   homepage: http://livescript.net/
 - name: Livescript
   urls: 
     - https://en.wikipedia.org/wiki/JavaScript#History
     - https://brendaneich.github.io/Strange-Loop-2012/#/1
+- name: llm-lang
+  homepage: https://github.com/wilbowma/llm-lang
+  author: William J. Bowman
+  influences:
+    - GenAIScript
+    - Racket
+  note: An LLM-first language for first-class prompt-engineering in Racket — all unstructured text is prompt by default
 - name: Loell
   homepage: http://w3future.com/html/loell/
 - name: Loki
@@ -569,6 +617,21 @@
 - name: MODE
   urls:
     - https://timthompson.com/plum/cgi/showlist.cgi
+- name: Mojo
+  homepage: https://mojolang.org/
+  author: Chris Lattner
+  paradigms:
+    - imperative
+    - functional
+    - generic
+  influences:
+    - Python
+    - Cython
+    - C
+    - C++
+    - Rust
+    - Swift
+    - Zig
 - name: MOM
   urls:
     - https://timthompson.com/plum/cgi/showlist.cgi
@@ -692,6 +755,13 @@
 - name: OpenMusic
   urls:
     - https://timthompson.com/plum/cgi/showlist.cgi
+- name: OpenQASM
+  homepage: https://openqasm.com/
+  urls:
+    - https://en.wikipedia.org/wiki/OpenQASM
+  influences:
+    - Verilog
+  note: Open Quantum Assembly Language for describing quantum circuits and algorithms; developed by IBM, released with Qiskit
 - name: Opusmodus
   homepage: https://opusmodus.com/
   urls:
@@ -741,6 +811,12 @@
 - name: Plato
   author: Christopher Diggins
   homepage: https://github.com/cdiggins/plato
+- name: Poly/ML
+  homepage: https://www.polyml.org/
+  urls:
+    - https://www.polyml.org/FAQ.html
+  author: David Matthews
+  note: An implementation of Standard ML
 - name: Pony
   homepage: https://www.ponylang.io/
 - name: PMML
@@ -890,6 +966,18 @@
 - name: ST
   urls:
     - https://timthompson.com/plum/cgi/showlist.cgi
+- name: Standard ML
+  homepage: https://smlfamily.github.io/
+  urls:
+    - https://en.wikipedia.org/wiki/Standard_ML
+  paradigms:
+    - functional
+    - imperative
+    - modular
+  influences:
+    - ML
+    - Hope
+    - Pascal
 - name: STK
   urls:
     - https://timthompson.com/plum/cgi/showlist.cgi
@@ -929,6 +1017,11 @@
 - name: TREE
   urls:
     - https://timthompson.com/plum/cgi/showlist.cgi
+- name: Universalis
+  author: Erik Meijer
+  urls:
+    - https://queue.acm.org/doi/10.1145/3746223
+  note: AI-first program-synthesis language designed for knowledge workers to read, optimized to be executed by a neural computer
 - name: UPIC
   urls:
     - https://timthompson.com/plum/cgi/showlist.cgi
@@ -966,6 +1059,14 @@
 - name: X3D
   urls: 
     - https://en.wikipedia.org/wiki/X3D
+- name: XSharp
+  homepage: https://www.xsharp.eu/
+  urls:
+    - https://github.com/X-Sharp
+  influences:
+    - dBase
+    - Clipper
+  note: Open source .NET development language based on the xBase language family, with dialects such as Core, Visual Objects, Vulcan.NET, xBase++, Harbour, and FoxPro; built on top of Roslyn
 - name: YAML
   urls:
     - https://github.com/cblp/yaml-sucks
