@@ -416,6 +416,16 @@
   homepage: https://iolanguage.org/
 - name: Ioke
   homepage: https://ioke.org/
+- name: Ironwood
+  homepage: https://github.com/ironwood-lang/ironwood
+  urls:
+    - https://x.com/starbuxman/status/2100409189721874595
+  paradigms:
+    - object-oriented
+    - compiled
+  influences:
+    - Java
+    - C++
 - name: Isabelle
 - name: ISWIM
 - name: Janet
