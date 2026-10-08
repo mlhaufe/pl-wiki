@@ -1,0 +1,51 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/javascript-node
+{
+    "name": "Programming Language Wiki",
+    "dockerComposeFile": "compose.yml",
+    "service": "web",
+    "workspaceFolder": "/workspace/pl-wiki",
+    "shutdownAction": "stopCompose",
+    "forwardPorts": [
+        3000, // Nuxt dev server (baseURL: /pl-wiki/)
+        24678 // Nuxt Hot Module Replacement (HMR) via WebSocket
+    ],
+    "portsAttributes": {
+        "3000": {
+            "label": "Nuxt dev",
+            "onAutoForward": "notify"
+        },
+        "24678": {
+            "label": "Nuxt HMR",
+            "onAutoForward": "silent"
+        }
+    },
+    // Features to add to the dev container. More info: https://containers.dev/features.
+    "features": {
+        "ghcr.io/devcontainers/features/github-cli:1": {
+            "version": "latest"
+        }
+    },
+    // Mark the bind-mounted workspace as a git safe.directory (the container user
+    // differs from the host owner, which otherwise makes git commands fail).
+    "postStartCommand": "git config --global --get-all safe.directory | grep -q \"^${containerWorkspaceFolder}$\" || git config --global --add safe.directory ${containerWorkspaceFolder}",
+    // Configure tool-specific properties.
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "Vue.volar",
+                "Nuxtr.nuxtr-vscode",
+                "EditorConfig.EditorConfig",
+                "bradlc.vscode-tailwindcss",
+                "bierner.markdown-mermaid",
+                "DavidAnson.vscode-markdownlint",
+                "nuxt.mdc",
+                "GitHub.vscode-pull-request-github",
+                "github.vscode-github-actions"
+            ]
+        }
+    },
+    // Connect as the node user (non-root) to avoid creating root-owned files on the host.
+    // More info: https://aka.ms/dev-containers-non-root.
+    "remoteUser": "node"
+}

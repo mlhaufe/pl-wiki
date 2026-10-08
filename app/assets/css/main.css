@@ -1,0 +1,63 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+/*
+ * Ported theme tokens from _sass/pl-wiki.scss. Defined on :root so they apply
+ * in both color modes (the original Jekyll site was dark-only).
+ */
+:root {
+  --ui-primary: #ccc;
+  --ui-background: #000;
+  --background-secondary-color: #333;
+  --ui-text: #ccc;
+  --link-color: lightblue;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: var(--ui-background);
+  color: var(--ui-text);
+  font-family: "Noto Sans", "Lucida Grande", "Lucida Sans", "Segoe UI", sans-serif;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+/* Sticky table header + zebra rows, ported from _sass/includes/lang-table.scss */
+.lang-table {
+  border: 1px solid var(--ui-primary);
+  border-collapse: collapse;
+  margin: 1em;
+  min-width: 95vw;
+
+  :is(tbody tr:nth-child(odd)) {
+    background-color: var(--background-secondary-color);
+  }
+
+  :is(td, th) {
+    padding: 0.5em;
+  }
+
+  td {
+    border: 1px solid var(--ui-primary);
+  }
+
+  th {
+    background-color: var(--ui-primary);
+    border: 1px solid var(--ui-background);
+    color: var(--ui-background);
+    position: sticky;
+    top: 0;
+  }
+
+  img {
+    height: 2em;
+    vertical-align: middle;
+  }
+}
