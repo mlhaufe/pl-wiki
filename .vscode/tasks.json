@@ -6,17 +6,18 @@
         {
             "label": "build",
             "type": "shell",
-            "command": "jekyll build"
+            "command": "npm run generate"
         },
         {
             "label": "serve",
             "type": "shell",
-            "command": "jekyll build"
+            "command": "npm run dev",
+            "isBackground": true
         },
         {
             "label": "build-serve",
             "type": "shell",
-            "command": "bundle exec jekyll serve"
+            "command": "npx serve .output/public"
         }
     ]
 }

@@ -1,0 +1,30 @@
+services:
+  web:
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+      args:
+        NODE_VERSION: 26.9.0
+        NODE_ENV: development
+    restart: unless-stopped
+    # mounts the workspace folder from the local source tree into the dev container
+    # node_modules is mounted as a named volume to isolate it from the host bind
+    # mount; Docker initializes the volume from the image's node_modules on first
+    # creation (keeps Windows<->Linux native module mismatch out of the bind mount).
+    volumes:
+      - ..:/workspace/pl-wiki:cached
+      - node_modules:/workspace/pl-wiki/node_modules
+    # Overrides default command so things don't shut down after the process ends.
+    command: /bin/sh -c "while sleep 1000; do :; done"
+    ports:
+      # Nuxt dev server (baseURL /pl-wiki/ → http://127.0.0.1:3000/pl-wiki/)
+      - 3000:3000
+      # allows Vite to perform hot module reloading
+      - 24678:24678
+
+networks:
+  default:
+    name: pl-wiki-dev
+
+volumes:
+  node_modules:
