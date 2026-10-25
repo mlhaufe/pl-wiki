@@ -1,6 +1,17 @@
 <template>
   <div>
     <UApp>
+      <nav class="site-content_header flex items-center gap-1 px-2 pt-2">
+        <NuxtLink to="/" class="px-2 py-1 text-sm" exact-active-class="font-semibold underline">
+          Languages
+        </NuxtLink>
+        <NuxtLink to="/compare" class="px-2 py-1 text-sm" exact-active-class="font-semibold underline">
+          Compare
+        </NuxtLink>
+        <NuxtLink to="/schema" class="px-2 py-1 text-sm" exact-active-class="font-semibold underline">
+          Data contract
+        </NuxtLink>
+      </nav>
       <main class="site-content">
         <slot />
       </main>

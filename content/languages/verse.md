@@ -6,5 +6,4 @@ urls:
   - "https://simon.peytonjones.org/assets/pdfs/verse-March23.pdf"
 author: "Tom Burris"
 ---
-
 TODO: Write the wiki article for **Verse**.

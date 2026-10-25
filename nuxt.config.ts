@@ -1,13 +1,69 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+// Node built-ins are used below (fs/path/module/url); the generated node
+// tsconfig ships empty `types`, so reference them explicitly.
+/// <reference types="node" />
 // Nuxt Studio registers admin routes for the dev-mode editor; production
 // editing requires SSR server routes (OAuth) which GitHub Pages cannot serve.
 // Register Studio in dev only to keep the static bundle clean.
 const isDev = process.env.NODE_ENV === 'development'
 
+import { existsSync } from 'node:fs'
+import { resolve, dirname } from 'node:path'
+import { createRequire } from 'node:module'
+import { fileURLToPath } from 'node:url'
+import { defineNuxtModule } from '@nuxt/kit'
+
+const configDir = dirname(fileURLToPath(import.meta.url))
+
+/**
+ * Prerender-route discovery for language pages (docs/knowledgebase-plan.md §4).
+ *
+ * The homepage renders no global link table (the collection grows unbounded),
+ * so default link-crawling never reaches `content/languages/*`. This inline
+ * module reads the Content SQLite dump (written during build init, before
+ * prerendering starts) and seeds Nitro's prerender route list with every
+ * `/languages/<slug>` path — no crawling dependency, no homepage payload cost.
+ */
+const nuxtContentPrerenderRoutes = defineNuxtModule({
+  meta: { name: 'pl-wiki-prerender-routes' },
+  setup(_options, nuxt) {
+    const dbFile = resolve(configDir, '.data/content/contents.sqlite')
+    let paths: string[] = []
+    if (existsSync(dbFile)) {
+      const Database = createRequire(import.meta.url)('better-sqlite3') as {
+        new (file: string, options: { readonly: boolean }): {
+          prepare: (sql: string) => { all: () => { path: string }[] }
+          close: () => void
+        }
+      }
+      const db = new Database(dbFile, { readonly: true })
+      paths = db.prepare('SELECT path FROM _content_languages').all().map(r => r.path)
+      db.close()
+    } else {
+      console.warn('[pl-wiki] content DB not found at nitro:config; falling back to crawl-based prerender')
+    }
+
+    nuxt.hook('nitro:config', (nitroConfig) => {
+      if (!paths.length) return
+      nitroConfig.prerender ??= {}
+      nitroConfig.prerender.routes ??= []
+      for (const p of paths) {
+        nitroConfig.prerender.routes.push(`/pl-wiki${p}`)
+      }
+    })
+  }
+})
+
 export default defineNuxtConfig({
-  modules: isDev
-    ? ['@nuxt/ui', '@nuxt/content', '@nuxtjs/sitemap', '@nuxtjs/robots', 'nuxt-module-feed', 'nuxt-studio']
-    : ['@nuxt/ui', '@nuxt/content', '@nuxtjs/sitemap', '@nuxtjs/robots', 'nuxt-module-feed'],
+  modules: [
+    '@nuxt/ui',
+    '@nuxt/content',
+    '@nuxtjs/sitemap',
+    '@nuxtjs/robots',
+    'nuxt-module-feed',
+    ...(isDev ? ['nuxt-studio' as const] : []),
+    nuxtContentPrerenderRoutes
+  ],
 
   css: ['~/assets/css/main.css'],
 
@@ -56,12 +112,15 @@ export default defineNuxtConfig({
 
   devtools: { enabled: true },
 
-  studio: {
+  // nuxt-studio's module options augment the config type only when the module
+  // is in `modules`; with the dev-only conditional spread the key is unknown
+  // to the static type, so scope it (runtime behavior unchanged).
+  ...(isDev ? { studio: {
     route: '/_studio',
     repository: {
-      provider: 'github',
+      provider: 'github' as const,
       owner: 'mlhaufe',
       repo: 'pl-wiki'
     }
-  }
+  } } : {})
 })

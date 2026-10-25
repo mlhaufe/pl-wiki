@@ -4,9 +4,10 @@ name: "Mojo"
 homepage: "https://mojolang.org/"
 author: "Chris Lattner"
 paradigms:
-  - "imperative"
   - "functional"
-  - "generic"
+  - "imperative"
+type_system:
+  - "parametric-polymorphic"
 influences:
   - "Python"
   - "Cython"
@@ -16,5 +17,4 @@ influences:
   - "Swift"
   - "Zig"
 ---
-
 TODO: Write the wiki article for **Mojo**.

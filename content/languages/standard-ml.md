@@ -13,5 +13,4 @@ influences:
   - "Hope"
   - "Pascal"
 ---
-
 TODO: Write the wiki article for **Standard ML**.

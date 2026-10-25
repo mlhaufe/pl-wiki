@@ -2,18 +2,26 @@
 title: "Koru"
 name: "Koru"
 homepage: "https://www.korulang.org/"
-author: "ungedenstad & contributors"
-paradigms:
-  - "systems"
-  - "effect"
-  - "continuation"
 urls:
   - "https://github.com/korulang/koru"
   - "https://www.korulang.org/blog/introducing-koru"
   - "https://www.korulang.org/playground"
+references:
+  - url: "https://github.com/korulang/koru"
+    title: "Koru — GitHub"
+  - url: "https://www.korulang.org/blog/introducing-koru"
+    title: "Introducing Koru (blog)"
+  - url: "https://www.korulang.org/playground"
+    title: "Koru playground"
+author: "ungedenstad & contributors"
+paradigms:
+  - "continuation"
+  - "effect"
+  - "systems"
+execution:
+  - "native"
 note: "Event continuation/effect language ('The Continuation Language') with phantom-obligation resource tracking, compile-time metaprogramming, no runtime, and three emitters: native via Zig, JavaScript, and C#"
 ---
-
 Koru is an event continuation/effect language for uncompromising systems programming, billed as "The Continuation Language". Its core abstraction is the `tor` (from the agentive suffix in *actor*, *creator*; renamed from `event` in July 2026): a function-like unit that declares its named exits up front, and every caller must handle each one — no hidden exceptions, and partial handling is a compile error ("outcomes as control flow" vs. Rust's "errors as values").
 
 Its signature safety mechanism is **phantom obligations**: the `!` suffix mints a compile-time obligation (e.g. `string<connected!>`), a `<!state>` parameter discharges it; un-discharged transactions fail to compile, and when exactly one tor can settle a resource, the compiler auto-inserts the discharge — all at zero runtime cost. The same phantom machinery yields taint tracking and units of measure "for free". Impurity is tracked transitively across the call graph, and host code (syscalls, C libraries, FFI) confined to a typed `proc` escape hatch.

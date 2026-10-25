@@ -8,5 +8,4 @@ paradigms:
 influences:
   - "Standard ML"
 ---
-
 TODO: Write the wiki article for **Morel**.

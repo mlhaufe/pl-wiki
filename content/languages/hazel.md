@@ -8,5 +8,4 @@ influences:
   - "Elm"
   - "ML"
 ---
-
 TODO: Write the wiki article for **Hazel**.

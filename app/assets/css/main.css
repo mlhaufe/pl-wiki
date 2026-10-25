@@ -61,3 +61,12 @@ a {
     vertical-align: middle;
   }
 }
+
+/* Fact-sheet stat rail (whichcoding.tools-style detail page) */
+.rail-label {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  opacity: 0.5;
+  margin-bottom: 0.25rem;
+}

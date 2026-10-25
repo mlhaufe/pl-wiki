@@ -2,21 +2,28 @@
 title: "Fai"
 name: "Fai"
 homepage: "https://github.com/Krzysztof-Cieslak/fai"
+urls:
+  - "https://github.com/Krzysztof-Cieslak/fai"
+  - "https://github.com/Krzysztof-Cieslak/fai/blob/main/llms.txt"
+references:
+  - url: "https://github.com/Krzysztof-Cieslak/fai/blob/main/llms.txt"
+    title: "llms.txt agent guide"
 author: "Krzysztof Cieślak"
 paradigms:
-  - "functional"
   - "effect"
+  - "functional"
+typing: "static"
+execution:
+  - "native"
+features:
+  - "contracts"
 influences:
   - "ML"
   - "F#"
   - "Elm"
   - "Koka"
-urls:
-  - "https://github.com/Krzysztof-Cieslak/fai"
-  - "https://github.com/Krzysztof-Cieslak/fai/blob/main/llms.txt"
 note: "Small, strict, pure, statically typed functional language in the ML/F#/Elm family with row-based effects and capabilities (Koka-inspired), executable contracts (example/forall), Perceus-style ref-counting, and an incremental Rust compiler emitting native code via Cranelift; designed for fast edit→check→test loops by humans and AI agents"
 ---
-
 Fai is a small, strict, pure, statically typed functional language in the ML / F# / Elm family, described as a "programming language for AI age". It takes its surface from the ML tradition and F# in particular: significant indentation, `let` bindings, `match` with exhaustiveness checking, discriminated unions, structural records, F#-style type variables (`'a`), and `|>` pipelines. Every exported value requires an explicit type signature, giving modules a readable interface, while type inference keeps local code concise.
 
 Its type system is built around **visible capabilities and effects** (row-based, inspired by Koka): the clock, randomness, environment, file system, console, and network are explicit capabilities passed as ordinary values from `main`, and a function's effect row appears after `/` in its type — a function type without an effect annotation is pure. Holding a capability is pure; invoking its methods incurs effects.

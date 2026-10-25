@@ -10,6 +10,8 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
+    "lint:frontmatter": "node scripts/lint-frontmatter.mjs",
+    "lint:body": "node scripts/lint-body.mjs",
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
@@ -38,12 +40,14 @@
     "nuxt": "^4.6.0",
     "nuxt-studio": "^1.7.0",
     "tailwindcss": "^4.3.3",
-    "typescript": "^7.0.2",
+    "typescript": "^6.0.3",
     "vue": "^3.5.43",
     "vue-router": "^5.3.1"
   },
   "devDependencies": {
+    "@types/node": "^26.6.5",
     "nuxt-module-feed": "^1.1.4",
+    "vue-tsc": "^3.3.13",
     "yaml": "^2.9.1"
   }
 }

@@ -1,0 +1,156 @@
+---
+name: language-entry
+description: 'Create or update a programming-language entry (pl-wiki). Use when: the user asks to research/add/update a language page, fill facts or prose for content/languages/*.md, backfill an entry, or check an entry against the site contracts. Encodes the frontmatter fact contract, the four-section prose spec, research procedure, and validation gates.'
+argument-hint: '[language name or slug, e.g. "Erlang" or "update esterel"]'
+---
+
+# Language Entry Authoring (pl-wiki)
+
+Produce or revise a single `content/languages/<slug>.md` entry that
+(1) passes both lint gates, (2) follows the fixed prose skeleton, and
+(3) contains only researchable, sourced facts.
+
+Core doctrine (docs/knowledgebase-plan.md §1): **facts are schema; prose is
+commentary.** Frontmatter is the data row; the body is optional curated
+prose. Prefer *not* to state — never invent.
+
+## Inputs to read first (cheap, load on demand)
+
+- [Contract reference](./references/contract.md) — full field table, prose
+  skeleton, style rules. Read before writing any entry.
+- [Vocabularies](../../app/utils/taxonomy.ts) — every allowed axis value.
+  Read when you need a value not already in your context: never guess one.
+- [Examples](./references/exemplars.md) — pointers to conforming entries in
+  the corpus. Mirror their shape.
+
+## Procedure
+
+### 1. Scope the request
+
+- **New language**: confirm it isn't already present under a different name
+  (`grep -il "<name>" content/languages/`); check `influences`/`influenced`
+  references — related entries may already link to this name.
+- **Existing entry**: read the current file fully; identify which fields and
+  prose sections are missing/against-contract. Changes layer on top; never
+  delete curated facts that the user hasn't contested.
+
+### 2. Research (facts only)
+
+**Web search** — use `search.brave.com` directly through the available
+browser tools (open/navigate/read page); no API key or MCP server is
+involved:
+
+1. `open_browser_page` → `https://search.brave.com/search?q=<query>`
+   (URL-encode the query; quote multi-word names: `"language name"
+   programming language`).
+2. `read_page` the results snapshot; pick official/primary links
+   (project site, spec/manual, GitHub repo, major-vendor docs, papers).
+3. `fetch_webpage` (or navigate + `read_page`) the chosen sources; extract
+   facts against the table below. **Primary sources only**: official site,
+   spec/manual/reference, GitHub repo, major-vendor docs, peer-reviewed
+   papers. Wikipedia is a *guide*, never a citation: use it to discover the
+   primary material (release dates, designer names, links to specs), then
+   fetch and cite the primary page itself.
+4. Iterate queries as needed — one language usually takes 2–4 searches
+   (`"<name>" language release year`, `"<name>" memory management`,
+   `"<name>" typing discipline`).
+5. If browser tools are unavailable in the session, fall back to
+   `fetch_webpage` on known-URL patterns (e.g. `<name>.lang.tld`,
+   `github.com/<org>/<name>`, Wikipedia only to *find* the primary URL) and
+   say so in the closing summary.
+
+Never cite search-result snippets themselves as fact sources — always the
+underlying page.
+
+Evidence standards for the gathered material:
+
+| Field | Evidence standard |
+|---|---|
+| `name`, `homepage`, `urls` | official pages only |
+| `author` | named designers/organization; team names verbatim |
+| `year` | first public release; unquoted in frontmatter |
+| `kind`, `status` | direct statement (e.g. "early-stage", "stable") |
+| `paradigms`, `type_system`, `memory`, `execution`, `concurrency`, `features` | only what a source states in equivalent terms; map phrases to the closest vocabulary value — **never guess** |
+| `influences`/`influenced` | names must match other entries' `name` (cross-link integrity warns otherwise) |
+| `relations` | typed edges; kind from `RELATION_KINDS` |
+| `note` | 1–2 sentences, ≤ 40 words, sourced |
+
+Rules of evidence:
+- One source can support many fields; record the *strongest* source you used.
+- **Citations are mandatory**: every entry carries ≥ 1 `references` entry
+  (url + title); homepage counts, and lint fails prose-bearing entries that
+  lack them.
+- **Wikipedia is excluded as a citation** (lint flags it): it may guide you
+  to primary material, but the `references` entry must point at the primary
+  source (spec paper, official page, project repo, standards body document).
+- Negative facts are hard: do **not** infer absence (no mention of GC ≠ no GC).
+- Marketing adjectives ("blazingly fast", "AI-first") → do not transcribe into
+  facts; at most into prose with attribution ("described as…").
+- **Unverifiable → omit the field** and say so in your summary. Holes are
+  honest; wrong chips poison every downstream view.
+
+### 3. Write the entry
+
+Frontmatter: canonical field order (script `lint --fix` will reorder anyway,
+but write it canonically); `title` mirrors `name`; scalars quoted except
+`year`; arrays 2-space-indented quoted items; typed `relations` edges use the
+`- name:` / `  kind:` form.
+
+Body: the four-section skeleton — Overview (≤ 60 words, 2 sentences),
+Code (required, 5–25 lines, ≤ 2 fenced blocks, fenced with the language, a
+caption line saying what to notice), Distinctive traits (3–6 bullets, each
+claim + consequence), Status (≤ 40 words). Cross-language mentions link
+internally. Do not invent code from thin air unless you are confident in the
+language's syntax from its docs — a *wrong* example is worse than none, and
+omitting the Code section is a lint error you cannot paper over. When the
+language's exact syntax is uncertain, still include a block marked in its
+caption as paraphrased/aspirational and flag it in your summary for review.
+
+See [contract.md](./references/contract.md) §Prose for the exact skeleton and
+word caps.
+
+### 4. Validate (gates — all must pass)
+
+```sh
+node scripts/lint-frontmatter.mjs          # fact contract + vocabulary
+node scripts/lint-body.mjs                 # prose skeleton + caps + links
+npx nuxi typecheck                         # only if you touched app/ code
+npm run generate                           # only if serving; catches Zod violations
+```
+
+In `lint-body`'s report, fix everything categorized as an error; warnings
+(word-count near-cap, missing optional History) are judgment calls — list
+them in your closing summary for the user to arbitrate.
+
+### 5. Closing summary (always)
+
+End your response with:
+
+- what you added/changed (fields + sections),
+- sources used per group of facts,
+- every field you deliberately left blank and why,
+- lint results (both gates),
+- anything flagged for human review (uncertain code examples, marketing
+  language, contested facts).
+
+## Anti-patterns
+
+- Writing an encyclopedia essay. Caps exist; if the story doesn't fit, it
+  belongs in a sourced reference, not prose.
+- Shipping an entry without `references` — citations are mandatory and the
+  frontmatter lint fails prose-bearing entries that lack them.
+- Citing Wikipedia (or any aggregator) in `references` — it is a research
+  *guide*; the citation must point at the primary source it led you to.
+- Inventing paradigms/typing from reputation instead of a source statement.
+- Fabricating code examples — worst possible failure in this repo.
+- Adding vocabulary values to `taxonomy.ts` without asking: adding a value is
+  a schema decision the owner makes (one line + corpus re-lint).
+- Skipping the corpus-collision check — duplicate `name` values hard-crash
+  the dev-server build (UNIQUE constraint).
+
+## Batch mode (phase 6 curation)
+
+When asked to do several languages, pick a *contrasting* set and state the
+batch's exit criterion up front: a researcher should be able to compare the
+batch without unstructured prose. Do languages one at a time, gates between
+each, one closing summary at the end listing per-language deltas.

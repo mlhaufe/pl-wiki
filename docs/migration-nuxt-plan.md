@@ -1,10 +1,12 @@
 # Migration Plan: Jekyll → Nuxt 4 + Nuxt UI v4 + Nuxt Content v3
 
-> Status: **implemented (phases 1–6) on the `nuxt-content` branch** — scaffold,
-> modules, data conversion, UI, SEO artifacts and cutover are complete; the
-> pages in `content/languages/` are now the single source of truth. Remaining:
-> merge PR, flip GitHub Pages source to "GitHub Actions", then post-v1 phases
-> (feed items, faceted search, optional Studio production editing).
+> Status: **superseded (retired 2026-10-25) by `docs/knowledgebase-plan.md`**,
+> which owns the project direction going forward. This document is retained as
+> the historical record of the Jekyll→Nuxt migration — everything below was
+> implemented on the `nuxt-content` branch (scaffold, modules, data conversion,
+> UI, SEO artifacts, cutover). Its §4 data-architecture rules (schema-locked
+> pages, single template, queryable SQLite) remain binding; the live contract
+> is §2 of the knowledgebase plan plus `content.config.ts` and the README.
 > Researched against: https://nuxt.com/docs/4.x/getting-started/installation,
 > https://ui.nuxt.com/docs/getting-started/installation/nuxt, https://content.nuxt.com/
 
