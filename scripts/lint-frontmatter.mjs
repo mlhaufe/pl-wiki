@@ -38,8 +38,12 @@ const CONTENT_TS = join(ROOT, 'content.config.ts')
 
 function loadVocabFromTs(tsPath) {
   const src = readFileSync(tsPath, 'utf8')
+  // strip // comments first: an apostrophe inside one (e.g. "language's")
+  // otherwise corrupts the single-quote value extraction below. Vocab values
+  // in this file never contain "//", so line-comment stripping is safe.
+  const stripped = src.replace(/\/\/[^\n]*/g, '')
   const vocab = {}
-  for (const m of src.matchAll(/export const ([A-Z_]+) = \[([^\]]*)\] as const/gs)) {
+  for (const m of stripped.matchAll(/export const ([A-Z_]+) = \[([^\]]*)\] as const/gs)) {
     vocab[m[1]] = [...m[2].matchAll(/'([^']+)'/g)].map(x => x[1])
   }
   return vocab

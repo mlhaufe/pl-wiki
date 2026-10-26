@@ -116,7 +116,7 @@ export const RELATION_KINDS = [
   'standardized-as', // e.g. Pascal -> ISO 7185 Pascal
   'dialect-of',
   'supersedes',
-  'implemented-in', // implementation language (of this language's impl)
+  'implemented-in', // implementation language (of the implementing language)
   'transpiles-to', // main/reference implementation target
   'interoperates-with'
 ] as const
