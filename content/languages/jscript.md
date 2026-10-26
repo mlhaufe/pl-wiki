@@ -49,7 +49,9 @@ JScript is Microsoft's ECMAScript dialect, first shipped in Internet Explorer 3.
 
 ## Code
 
-```javascript
+::code-group
+
+```javascript [idioms]
 // JScript's signature extension: conditional compilation in block comments.
 /*@cc_on
   @if (@_jscript_version >= 5)
@@ -63,6 +65,8 @@ JScript is Microsoft's ECMAScript dialect, first shipped in Internet Explorer 3.
 function Counter() { this.count = 0; }
 Counter.prototype.tick = function () { return ++this.count; };
 ```
+
+::
 
 Caption: the `@cc_on` block is JScript-only (unsupported by other engines); everything after is the shared ECMAScript core.
 

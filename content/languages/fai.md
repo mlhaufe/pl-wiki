@@ -24,8 +24,58 @@ influences:
   - "Koka"
 note: "Small, strict, pure, statically typed functional language in the ML/F#/Elm family with row-based effects and capabilities (Koka-inspired), executable contracts (example/forall), Perceus-style ref-counting, and an incremental Rust compiler emitting native code via Cranelift; designed for fast edit→check→test loops by humans and AI agents"
 ---
-Fai is a small, strict, pure, statically typed functional language in the ML / F# / Elm family, described as a "programming language for AI age". It takes its surface from the ML tradition and F# in particular: significant indentation, `let` bindings, `match` with exhaustiveness checking, discriminated unions, structural records, F#-style type variables (`'a`), and `|>` pipelines. Every exported value requires an explicit type signature, giving modules a readable interface, while type inference keeps local code concise.
+## Overview
 
-Its type system is built around **visible capabilities and effects** (row-based, inspired by Koka): the clock, randomness, environment, file system, console, and network are explicit capabilities passed as ordinary values from `main`, and a function's effect row appears after `/` in its type — a function type without an effect annotation is pure. Holding a capability is pure; invoking its methods incurs effects.
+Fai is a small, strict, pure, statically typed functional language in the
+ML / F# / Elm family, described as a "programming language for AI age". Its
+type system centers on visible capabilities and effects (row-based, Koka
+inspired): capabilities like the console are values passed from `main`, and
+a function's effect row appears after `/` in its type — unannotated means
+pure.
 
-Contracts are executable: `example` and `forall` declarations are real type-checked code living next to functions (checked by `fai check` / `fai test`, the latter running property tests with shrinking). The compiler is written in Rust (93% of the repo) on a demand-driven [Salsa](https://github.com/salsa-rs/salsa) query engine with definition-level incremental work and a per-workspace daemon; native code comes from Cranelift (AOT for executables, JIT for `fai run`/`test`), and memory management is Perceus-style reference counting with reuse analysis — no manual frees, no tracing collector. Tooling (`fai` CLI, LSP, canonical formatter, `llms.txt` agent guide, versioned JSON diagnostics) centers on tight edit→check→test loops for humans and AI agents. Early release (v0.1.0, MIT), benchmarked against Rust and OCaml.
+## Code
+
+```fai
+module Collections
+/// Apply f to every element.
+public map : ('a -> 'b / 'e) -> List 'a -> List 'b / 'e   // effect row
+let map f xs =
+  match xs with
+  | [] -> []
+  | x :: rest -> f x :: map f rest
+
+example: map (fun x -> x + 1) [1, 2, 3] = [2, 3, 4]
+forall xs: map (fun x -> x) xs = xs       // executable contracts
+```
+
+Caption: abstractions: top-level `let` + a signature line is the definable
+unit — the effect row `/ 'e` is the function's exact interface.
+
+```fai
+public greet : Console -> String -> Unit / { Console }   // capability-typed
+let greet console name = console.writeLine ("Hello, " ++ name)
+
+public main : Runtime -> Unit / { Console }
+let main runtime = runtime.console.writeLine "Hello, Fai!"
+```
+
+Caption: idioms: capabilities are ordinary values — `main` receives the
+`Runtime` row and hands `console` down; the row after `/` is the whole
+permission footprint.
+
+## Distinctive traits
+
+- ML-tradition surface: significant indentation, exhaustive `match`,
+  discriminated unions, structural records, F#-style `'a` type variables.
+- Visible effects: a function type is self-describing — the row after `/`
+  is sorted, exact, and inferred; no row annotation means pure.
+- Executable contracts: `example:`/`forall:` declarations are type-checked
+  code next to functions (`fai check`, property tests with shrinking).
+- Incremental Rust compiler on Salsa; native code via Cranelift (AOT/JIT);
+  Perceus-style ref-counting with reuse — pragmatic edit→check→test loops.
+
+## Status
+
+Early release (v0.1.0, MIT) by Krzysztof Cieślak with an open Rust
+compiler; tooling (CLI, LSP, formatter, `llms.txt`, JSON diagnostics) is
+the project's focus. Early-stage.

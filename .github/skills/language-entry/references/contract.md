@@ -2,12 +2,13 @@
 
 > Normative for `content/languages/*.md`. Schema source: `content.config.ts`.
 > Vocabulary source: `app/utils/taxonomy.ts`. Enforced by:
-> `scripts/lint-frontmatter.mjs` + `scripts/lint-body.mjs`.
+> `scripts/lint-frontmatter.mjs` + `scripts/lint-body.mjs` +
+> `markdownlint-cli2` (`.markdownlint-cli2.jsonc`, `npm run lint:markdown`).
 
 ## Frontmatter field table
 
 | field | type | rules |
-|---|---|---|
+| --- | --- | --- |
 | `title` | string | mirrors `name` (native SEO field) |
 | `name` | string | **required**; ASCII-only; unique corpus-wide |
 | `homepage` | string | official site only |
@@ -33,7 +34,7 @@ Serialization rules: field order above = canonical (`lint --fix` rewrites);
 scalars in double quotes except `year`, which is unquoted (Zod `z.number()`
 receives a number only when YAML has an unquoted scalar); empty arrays are
 omitted; 2-space list indentation. `references` follows the two-line-per-item
-form (`- url:` / `  title:`) — the lint canonicalizes it.
+form (`- url:` / `- title:` indented two spaces) — the lint canonicalizes it.
 
 **References rule (mandatory, lint-enforced):** every entry cites ≥ 1 source
 via `references`. TODO stubs get a warning only (legacy corpus grandfathered
@@ -58,8 +59,9 @@ primary material, then cite the primary page itself.
 (≤ 60 words; exactly 2 sentences: what it is; why it exists / its niche)
 
 ## Code
-(≥ 1 fenced block, ≤ 2 total; 5–25 lines each; fence = real language id;
- first line after each block = caption: what to notice)
+(the "language tour": 1–4 fenced blocks, 4–20 lines each, ≤ 45 tour lines
+ total; multi-slot tours render as a Nuxt UI `::code-group` with one tab
+ per slot, tab labels carrying the PLURAL tags — see "The code tour" below)
 
 ## Distinctive traits
 (3–6 bullets, ≤ 25 words each: claim + consequence)
@@ -73,6 +75,7 @@ primary material, then cite the primary page itself.
 ```
 
 Rules:
+
 - Sections appear in this order; absent sections are omitted entirely (no
   empty headers).
 - The body carries **no structured data**: no tables of facts, no fact lists
@@ -88,6 +91,71 @@ Rules:
   syntax*. If syntax confidence < certain, caption must say "paraphrased"
   and the closing summary must flag it.
 
+## The code tour (normative inside `## Code`)
+
+Demonstration is consistent across languages: the tour walks the same four
+mechanism slots (SICP's language-reading order), each block pairing a
+*construction* with a *consumption* — the observational reading of
+introduction/elimination rules (schema.vue documents this for readers).
+
+| Slot | Constructs (…) | Consumes (…) | One line each |
+| --- | --- | --- | --- |
+| `primitives:` | atomic values (numbers, strings, atoms, bools) | operators | `n = 42` |
+| `combinations:` | data structures | indexing / destructuring / iteration | `xs = [2, 3]` → `head` |
+| `abstractions:` | the definable unit (function, class, process, actor, rule…) | invoking/applying it | `double x = x * 2` → `double 21` |
+| `idioms:` | a characteristic community pattern | its payoff | recursion, guards, trampolines… |
+
+Tags are **plural** in every caption and tab label (`primitives`,
+`combinations`, `abstractions`, `idioms`): they name *a section of the
+tour*, not one example. Singular forms are a batch-one oversight and are a
+lint error.
+
+Rules:
+
+- Tags are plural — `primitives` / `combinations` / `abstractions` /
+  `idioms` — matching the wiki's noun-label convention everywhere else;
+  the lint errors on singular `primitive:`/`idiom:` and hybrid
+  `combination:`/`abstraction:` captions or tab labels.
+- **Cover core features** (user rule: never overlook key features): scan
+  the entry's `features`/`paradigms` frontmatter before writing the tour —
+  each headline mechanism should surface in some slot, ideally `idioms`:
+  an OO language shows its class construct, Erlang its process spawn,
+  a logic language its query, a dataflow language its node equation.
+  A feature is deliberately left out only when the caption says why
+  (or the slot count forces a merge), not by accident.
+- `primitive:`/`combination:` may merge into one block when atomic values are
+  only constructible inside compound literals; `abstraction:` is the one
+  slot every language satisfies.
+- Slots may share a block when the language's syntax ties them tightly —
+  blocks are presentation, slots are the content contract.
+- Idioms are *observed* in examples, not legislated as a separate prologue:
+  idiomatic syntax already appears in earlier slots.
+- Rendering: multi-slot tours use Nuxt UI's `::code-group` (one tab per
+  slot; the tab label carries the tag, e.g. a `javascript` fence labelled
+  `primitives`), which renders as tabs with copy buttons. A lone block may stay standalone
+  with a `Caption: <tag>: …` line (single-slot shape). The group's
+  concluding `Caption:` line states what to notice across slots — no tag
+  needed there (the tab labels carry the tags).
+- **Consistency (user rule):** the `::code-group` shape is *the* template —
+  apply it to every prose-bearing entry, including single-block entries
+  (one tab). Only notation/DSL entries whose single block IS the whole
+  tour may keep a standalone block + `Caption:` line, and the caption says
+  why.
+- A slot is "present" when a tab (or, for lone blocks, the caption) names
+  its tag; a slot may span multiple blocks but tags stay unique per
+  tab/caption.
+- Tour lines are annotated with slots in comments for self-demonstrating
+  entries; other languages annotate pragmatically.
+- **Visual languages** (`paradigms` includes `visual` — DRAKON, Prograph…):
+  demonstrate with a `mermaid` fence, which Nuxt Content renders as a
+  diagram (via `@barzhsieh/nuxt-content-mermaid`). Reproduce the language's
+  real icon shapes with Mermaid flowchart `@{ shape: … }` nodes as
+  faithfully as the tool allows, and the caption states it is an
+  approximation of the original notation — the source's notation stays
+  authoritative.
+- Notation/DSL entries (e.g. asciidots, cooklang) may compress slots when
+  the notation can't separate mechanisms.
+
 ## Word-count rationale (fixed caps, not vibes)
 
 Caps keep prose a *reading layer* over the schema rather than a competing
@@ -98,7 +166,7 @@ large amount error.
 
 ## Worked example (conforming shape)
 
-```mdc
+````mdc
 ---
 title: "Esterel"
 name: "Esterel"
@@ -113,7 +181,7 @@ replaces physical time with logical instants, making concurrency
 deterministic and programs verifiable.
 
 ## Code
- esterel sketch — signal/await/preemption shape
+
 ```esterel
 signal S;
 loop
@@ -121,16 +189,19 @@ loop
   emit O;
 end loop
 ```
-Caption: one logical instant per tick; `await S` suspends to the next tick
-carrying S.
+
+Caption: idioms: one logical instant per tick; `await S` suspends to the next
+tick carrying S — the reactive loop in three lines.
 
 ## Distinctive traits
+
 - Multiform time: instants, not seconds — deterministic by construction.
 - Broadcast signals: instantaneous communication within a tick.
 - Compiles to C or RTL (VHDL/Verilog) — software and hardware targets.
 
 ## Status
+
 Industrialized in the SCADE suite for safety-critical avionics; standardized
 attempt (IEEE P1778) dissolved 2011. Open-source Columbia Esterel Compiler
 and a Racket implementation exist.
-```
+````

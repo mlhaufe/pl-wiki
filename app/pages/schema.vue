@@ -43,6 +43,15 @@ const vocabGroups = [
   { name: 'concurrency', values: CONCURRENCY, scalars: false }
 ] as const
 
+// The code tour (contract.md §The code tour): the fixed demonstration order
+// the Code section walks in every prose-bearing entry. Tags are plural.
+const TOUR_SLOTS = [
+  { tag: 'primitives', constructs: 'atomic values (numbers, strings, atoms, bools)', consumes: 'operators', example: 'n = 42' },
+  { tag: 'combination', constructs: 'data structures', consumes: 'indexing / destructuring / iteration', example: 'xs = [2, 3]' },
+  { tag: 'abstraction', constructs: 'the definable unit (function, class, process, actor…)', consumes: 'invoking / applying it', example: 'double x = x * 2' },
+  { tag: 'idioms', constructs: 'a characteristic community pattern', consumes: 'its payoff', example: 'recursion, guards, trampolines…' }
+] as const
+
 useSeoMeta({
   title: 'Data contract',
   description: 'The normalized fact contract for language entries: fields, vocabularies, and lint.'
@@ -124,6 +133,38 @@ useSeoMeta({
           </UBadge>
         </div>
       </div>
+    </section>
+
+    <section class="max-w-4xl">
+      <h2 class="text-lg font-semibold mt-6 mb-2">
+        The code tour
+      </h2>
+      <p class="text-sm opacity-70 mb-3">
+        Optional prose follows one skeleton; when an entry shows code, every
+        language is demonstrated the same way — four mechanism slots
+        (SICP's means-of-* order), each pairing a construction with a
+        consumption (the observational reading of introduction/elimination
+        rules). Slots may merge or be omitted when the language lacks them;
+        code-group tab labels name the slot.
+      </p>
+      <table class="lang-table min-w-0">
+        <thead>
+          <tr>
+            <th>Slot</th>
+            <th>Constructs</th>
+            <th>Consumes</th>
+            <th>Example</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for="s in TOUR_SLOTS" :key="s.tag">
+            <td><code>{{ s.tag }}</code></td>
+            <td>{{ s.constructs }}</td>
+            <td>{{ s.consumes }}</td>
+            <td><code>{{ s.example }}</code></td>
+          </tr>
+        </tbody>
+      </table>
     </section>
   </div>
 </template>

@@ -1,0 +1,60 @@
+{
+	// markdownlint-cli2 configuration — pl-wiki (language entries)
+	// Frontmatter (YAML `---`) is ignored by default (options.frontMatter).
+	// MDC containers (::code-group … ::) and code fences inside them are
+	// first-class Markdown here; no rule needs disabling for them.
+	"config": {
+		"default": true,
+
+		// MD013 line-length: entries wrap manually at ~80; the lint-body
+		// word caps enforce the real constraint. Off to avoid churn.
+		"MD013": false,
+
+		// MD024 no-duplicate-heading: sibling entries all use the same
+		// skeleton headings (Overview/Code/…). The lint-body skeleton
+		// check enforces structure already.
+		"MD024": { "siblings_only": true },
+
+		// MD033 no-inline-html: intentional <br>/<sub> etc. in prose are
+		// allowed; Nuxt Content renders them.
+		"MD033": false,
+
+		// MD041 first-line-h1: the page component renders the title; bodies
+		// must start with `## Overview` (lint-body enforces). H1 ban is
+		// stricter than MD041's default.
+		"MD041": false,
+
+		// MD025 single-h1: same — frontmatter + component-rendered title.
+		"MD025": false,
+
+		// MD028 blank line inside blockquote: drakon/hurl sketches use
+		// box-drawing lines that can look like blockquotes.
+		"MD028": false,
+
+		// MD034 bare URLs: references/captions may include bare URLs.
+		"MD034": false,
+
+		// MD042 empty links / MD059 link text: internal link rendering is
+		// enforced by lint-body's cross-link check.
+		"MD042": false,
+
+		// MD060 table-column-style: repo tables use padded pipes (leading
+		// space to the right of |). The 'default' style is what we want.
+		"MD060": { "style": "default" },
+	},
+	"globs": [
+		"content/**/*.md",
+		"*.md",
+		"docs/*.md",
+		".github/**/*.md"
+	],
+	"ignores": [
+		"node_modules/**",
+		".nuxt/**",
+		".output/**",
+		".data/**",
+		"**/CHANGELOG.md"
+	],
+	"noBanner": true,
+	"noProgress": true
+}

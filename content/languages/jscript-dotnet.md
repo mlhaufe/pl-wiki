@@ -43,7 +43,9 @@ JScript .NET was Microsoft's 2002 CLI reworking of [JScript](/languages/jscript)
 
 ## Code
 
-```javascript
+::code-group
+
+```javascript [abstractions]
 // JScript .NET: typeless script style and optional strong typing coexist.
 import System;
 
@@ -61,6 +63,8 @@ class Greeter {
 
 Console.WriteLine(new Greeter("world").greet());
 ```
+
+::
 
 Caption: annotations check at compile time but the runtime stays dynamic — an early, CLR-bound take on the same gradualness [TypeScript](/languages/typescript) later made portable.
 

@@ -65,7 +65,7 @@ underlying page.
 Evidence standards for the gathered material:
 
 | Field | Evidence standard |
-|---|---|
+| --- | --- |
 | `name`, `homepage`, `urls` | official pages only |
 | `author` | named designers/organization; team names verbatim |
 | `year` | first public release; unquoted in frontmatter |
@@ -76,6 +76,7 @@ Evidence standards for the gathered material:
 | `note` | 1–2 sentences, ≤ 40 words, sourced |
 
 Rules of evidence:
+
 - One source can support many fields; record the *strongest* source you used.
 - **Citations are mandatory**: every entry carries ≥ 1 `references` entry
   (url + title); homepage counts, and lint fails prose-bearing entries that
@@ -88,32 +89,45 @@ Rules of evidence:
   facts; at most into prose with attribution ("described as…").
 - **Unverifiable → omit the field** and say so in your summary. Holes are
   honest; wrong chips poison every downstream view.
+- **Never overlook a core feature** (user rule): before writing the tour,
+  scan the entry's `features`/`paradigms`/`type_system` profile and make
+  sure each flagship mechanism appears in some slot of the code tour, a
+  trait bullet, or a caption. JavaScript's `prototypes` feature with no
+  prototype code in sight is exactly the failure to avoid. A flagship
+  feature the tour cannot show must be *stated* (caption or trait), never
+  silently dropped.
 
 ### 3. Write the entry
 
 Frontmatter: canonical field order (script `lint --fix` will reorder anyway,
 but write it canonically); `title` mirrors `name`; scalars quoted except
 `year`; arrays 2-space-indented quoted items; typed `relations` edges use the
-`- name:` / `  kind:` form.
+`- name:` / `- kind:` (indented) form.
 
 Body: the four-section skeleton — Overview (≤ 60 words, 2 sentences),
-Code (required, 5–25 lines, ≤ 2 fenced blocks, fenced with the language, a
-caption line saying what to notice), Distinctive traits (3–6 bullets, each
-claim + consequence), Status (≤ 40 words). Cross-language mentions link
-internally. Do not invent code from thin air unless you are confident in the
-language's syntax from its docs — a *wrong* example is worse than none, and
-omitting the Code section is a lint error you cannot paper over. When the
-language's exact syntax is uncertain, still include a block marked in its
-caption as paraphrased/aspirational and flag it in your summary for review.
+Code (required: the language tour — 1–4 fenced blocks, 4–20 lines each,
+≤ 45 tour lines total; ALWAYS rendered as a Nuxt UI `::code-group` whose
+tab labels carry the PLURAL slot tags `primitives` / `combinations` /
+`abstractions` / `idioms`; cover the language's core features from
+`features`/`paradigms` — no headline mechanism left out by accident),
+Distinctive traits (3–6 bullets, each claim + consequence), Status
+(≤ 40 words).
+Cross-language mentions link internally. Do not invent code from thin air
+unless you are confident in the language's syntax from its docs — a *wrong*
+example is worse than none, and omitting the Code section is a lint error
+you cannot paper over. When the language's exact syntax is uncertain, still
+include a block marked in its caption as paraphrased/aspirational and flag
+it in your summary for review.
 
-See [contract.md](./references/contract.md) §Prose for the exact skeleton and
-word caps.
+See [contract.md](./references/contract.md) §Prose for the exact skeleton
+and word caps, and §The code tour for the slot definitions.
 
 ### 4. Validate (gates — all must pass)
 
 ```sh
 node scripts/lint-frontmatter.mjs          # fact contract + vocabulary
 node scripts/lint-body.mjs                 # prose skeleton + caps + links
+npm run lint:markdown                      # markdownlint-cli2 style rules
 npx nuxi typecheck                         # only if you touched app/ code
 npm run generate                           # only if serving; catches Zod violations
 ```
@@ -137,6 +151,16 @@ End your response with:
 
 - Writing an encyclopedia essay. Caps exist; if the story doesn't fit, it
   belongs in a sourced reference, not prose.
+- Treating the code tour as a checklist to satisfy with filler one-liners:
+  each slot needs a real construction **and** a real consumption; omit a
+  slot honestly if the language lacks it rather than padding.
+- Overlooking core features: check `features`/`paradigms` frontmatter
+  before writing the tour — a language's headline mechanism (classes,
+  processes, macros, pattern matching…) must appear in some slot, ideally
+  `idioms`. Dropping one silently is a correctness failure, not a style one.
+- Inconsistent template application: every entry uses the same
+  `::code-group` tour shape (singular `primitive:`/`idiom:` spellings are
+  lint errors; single-block entries still get one tab).
 - Shipping an entry without `references` — citations are mandatory and the
   frontmatter lint fails prose-bearing entries that lack them.
 - Citing Wikipedia (or any aggregator) in `references` — it is a research

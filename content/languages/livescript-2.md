@@ -13,4 +13,3 @@ status: "historical"
 year: 1995
 note: "The September 1995 interim name of JavaScript, shipped in the Navigator 2.0 beta between 'Mocha' (May 1995) and the December 4, 1995 Netscape-Sun announcement settling on 'JavaScript'. Same language; it was renamed, not succeeded."
 ---
-

@@ -40,7 +40,9 @@ JavaScript OSA plugged [JavaScript](/languages/javascript) — Mozilla's SpiderM
 
 ## Code
 
-```javascript
+::code-group
+
+```javascript [combinations]
 // JavaScript OSA: host objects bind to Mac applications via Apple events.
 const Finder = MacOS.app("Finder");
 
@@ -52,6 +54,8 @@ const name = Finder.name;
 
 console.log("Frontmost app: " + MacOS.frontmost.name);
 ```
+
+::
 
 Caption: paraphrased from the documented Core/MacOS object model — application objects arrive as Apple-event bindings; the core language is stock SpiderMonkey JavaScript.
 

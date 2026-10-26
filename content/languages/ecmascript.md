@@ -46,13 +46,17 @@ ECMAScript is the language standard that scripting engines implement: [JavaScrip
 
 ## Code
 
-```javascript
+::code-group
+
+```javascript [idioms]
 // Same core everywhere: an edition's features are what engines converge on.
 const langs = ["Mocha", "LiveScript", "JScript"];
 const tagged = langs.map((s) => ({ name: s, len: s.length }));
 // Optional chaining + nullish coalescing (ES2020), a spec-level example:
 const engine = tagged.at(-1)?.name ?? "none";
 ```
+
+::
 
 Caption: the shared core — anything valid here runs on any conforming engine (V8, SpiderMonkey, JavaScriptCore); branding lives in hosts and engines, not in the spec'd language.
 

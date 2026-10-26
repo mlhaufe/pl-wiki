@@ -29,7 +29,9 @@ Esterel is a synchronous imperative language for reactive systems. It replaces p
 
 ## Code
 
-```esterel
+::code-group
+
+```esterel [idioms]
 signal S, T;
 loop
   every 10 do
@@ -40,7 +42,9 @@ loop
 end loop
 ```
 
-Paraphrased sketch: preemption and broadcast in one shape — `abort ... until T` discards the wait mid-instant when `T` arrives; `every 10` raises a tick-counted cycle; communication is instantaneous within a single tick.
+::
+
+Caption: preemption and broadcast in one shape — `abort ... until T` discards the wait mid-instant when `T` arrives; `every 10` raises a tick-counted cycle; communication is instantaneous within a single tick. Paraphrased from the language's documented constructs.
 
 ## Distinctive traits
 

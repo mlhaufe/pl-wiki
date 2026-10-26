@@ -21,8 +21,49 @@ influenced:
   - "Lucid Synchrone"
 note: "Formally defined synchronous dataflow language for reactive systems developed at Verimag since the early 1980s; core of the SCADE industrial suite used in safety-critical aircraft, helicopter, and nuclear plant control software"
 ---
-Lustre is a formally defined, declarative, synchronous dataflow programming language for programming reactive systems. It began as a research project in the early 1980s at the Verimag laboratory in Grenoble, France (Caspi, Halbwachs, Raymond, Pilaud, Plaice); a formal presentation appeared in the 1991 Proceedings of the IEEE ("The Synchronous Data Flow Programming Language LUSTRE").
+## Overview
 
-A Lustre program is a set of `node` definitions described by equations over infinite flows; equation order is irrelevant (declarative semantics). Temporal operators such as `pre` (previous flow value) and `->` (initial value) express delay, while synchronous, clocked evaluation keeps everything deterministic — the property that makes generated code certifiable for safety-critical domains.
+Lustre is a formally defined, declarative, synchronous dataflow language
+for reactive systems, developed at Verimag (Caspi, Halbwachs et al.) since
+the early 1980s; a formal presentation appeared in the 1991 Proceedings of
+the IEEE. A program is a set of `node` definitions over infinite flows.
 
-In 1993 it progressed to practical industrial use as the core language of the SCADE environment developed by Esterel Technologies, and it is now used for critical control software in aircraft (Airbus), helicopters (Eurocopter), and nuclear power plants.
+## Code
+
+::code-group
+
+```lustre [abstractions]
+node counter(clock: bool) returns (t: int);
+var n: int;
+let
+  t = 0 -> pre n;        -- initial 0, thereafter previous output
+  n = pre t + 1;         -- pre = previous-cycle value (delay)
+tel
+
+node edge(x: bool) returns (e: bool);
+let
+  e = x -> (x and not pre x);   -- rising-edge detector
+tel
+```
+
+::
+
+Caption: a `node` is the definable unit — pure equations over flows, no assignments; `pre`/`->` are the temporal primitives, and synchronous clocking makes every node deterministic by construction. Paraphrased from the language's documented constructs.
+
+## Distinctive traits
+
+- Equations, not statements: a node declares what is true each instant;
+  order of equations is semantically irrelevant.
+- `pre` and `->` are the only temporal mechanisms — delay and
+  initialization — from which counters, registers, and samplers compose.
+- Synchronous semantics: all flows advance at logical instants, so
+  behavior is deterministic and amenable to formal verification.
+- Clock calculus: sub-sampling via `when`/`current` keeps multi-rate
+  safe and statically checkable.
+
+## Status
+
+Core language of SCADE (Esterel Technologies, since 1993) used in
+safety-critical aircraft, helicopter, and nuclear-plant control software;
+academic lineage at Verimag (Grenoble); Lucid Synchrone is a follow-on
+research language.

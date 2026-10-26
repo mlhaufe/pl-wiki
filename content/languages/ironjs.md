@@ -35,7 +35,9 @@ IronJS embedded a JavaScript runtime in .NET applications: an [ECMAScript](/lang
 
 ## Code
 
-```csharp
+::code-group
+
+```csharp [abstractions]
 // Embedding IronJS in a .NET app: a hosted ES3 runtime.
 var runtime = new IronJS.Hosting.CSharp.Context();
 runtime.Execute("var counter = 0;");
@@ -44,6 +46,8 @@ runtime.Execute("function tick() { counter += 1; return counter; }");
 object result = runtime.Execute("tick();");
 Console.WriteLine(result); // 1
 ```
+
+::
 
 Caption: paraphrased from the documented hosting model — the `Context` object embeds the engine; ES3 code runs against CLR objects through the DLR.
 

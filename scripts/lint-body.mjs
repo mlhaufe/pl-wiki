@@ -5,16 +5,20 @@
  *
  * Skeleton (normative order):
  *   ## Overview   ≤ 60 words, 2 sentences
- *   ## Code       ≥ 1 fenced block, ≤ 2; 5–25 lines each; fence language present
+ *   ## Code       the "language tour": 1–4 fenced blocks, 4–20 lines each,
+ *                 ≤ 45 tour lines total; fence language present; slot tags
+ *                 (PLURAL form: primitives/combination/abstraction/idioms)
+ *                 in ::code-group tab labels or in per-block captions
  *   ## Distinctive traits   3–6 bullets, ≤ 25 words each
  *   ## Status     ≤ 40 words
  *   ## History    optional; ≤ 80 words
  *
  * Errors: missing required section, out-of-order section, missing/oversized
- * code blocks, > 2 blocks, bullets out of range, H1 in body, non-internal
- * cross-language link syntax (informational), frontmatter data duplicated in
- * body (heuristic, warning).
- * Warnings: word-count near-cap (within 20% of a cap), missing Code caption.
+ * code blocks, > 4 blocks, > 45 tour lines (10% grace), bullets out of range,
+ * H1 in body, non-internal cross-language link syntax (informational),
+ * frontmatter data duplicated in body (heuristic, warning).
+ * Warnings: word-count near-cap (within 20% of a cap), untagged code caption,
+ * caption carrying multiple slot tags.
  *
  * TODO stubs (bodies that are exactly the conversion seed) are exempt.
  *
@@ -34,7 +38,12 @@ const REQUIRED = new Set(['Overview', 'Code', 'Distinctive traits', 'Status'])
 const CAPS = { Overview: 60, Status: 40, History: 80 }
 const BULLET_WORDS = 25
 const BULLETS = { min: 3, max: 6 }
-const CODE = { minLines: 5, maxLines: 25, maxBlocks: 2 }
+// The code tour: slots (primitives / combinations / abstractions / idioms) are
+// content, blocks are presentation — see contract.md §The code tour.
+// Slot tags are PLURAL, per the owner's rule (they name *a section* of the
+// tour, not one example); singular forms were a batch-one oversight.
+const CODE = { minLines: 4, maxLines: 20, maxBlocks: 4, tourTotal: 45, tourGrace: 1.1 }
+const SLOT_TAGS = ['primitives', 'combinations', 'abstractions', 'idioms']
 
 const files = readdirSync(LANG_DIR).filter(f => f.endsWith('.md')).sort()
 const TODO_RE = /^TODO: Write the wiki article for \*\*.+\*\*\.\s*$/
@@ -128,32 +137,100 @@ for (const f of files) {
   }
   for (const [s, cap] of Object.entries(CAPS)) checkCap(s, cap)
 
-  // Code section: fences, language, size, captions
+  // Code section: the language tour — fences, language, block sizes,
+  // tour-line totals, slot tags (code-group tab labels or captions)
   if (headings.includes('Code')) {
     const codeBody = sectionText('Code')
-    const fences = [...codeBody.matchAll(/^```(\w*)[\s\S]*?```$/gm)]
-    const blocks = []
-    for (const fm of codeBody.matchAll(/```(\w*)\r?\n([\s\S]*?)```/g)) {
-      blocks.push({ lang: fm[1], lines: fm[2].replace(/\n$/, '').split('\n') })
+    const blockRe = /```([\w+-]*)(?:[ \t]+\[([^\]]*)\])?[ \t]*\r?\n([\s\S]*?)```/g
+    const splitRe = /```[\w+-]*(?:[ \t]*\[[^\]]*\])?[\s\S]*?```/g
+    const blocks = [...codeBody.matchAll(blockRe)]
+      .map(m => ({ lang: m[1], label: (m[2] ?? '').trim(), lines: m[3].replace(/\n$/, '').split('\n') }))
+    // residues: preface + text between blocks + concluding text; MDC wrapper
+    // lines (::code-group, ::) are wrappers, not captions
+    const residues = codeBody.split(splitRe)
+    const captionLines = (s) => s
+      .split('\n')
+      .map(l => l.trim())
+      .filter(l => l && !l.startsWith('::'))
+    const findTags = (text) => {
+      // count how many DIFFERENT slot tags occur
+      const found = []
+      for (const t of SLOT_TAGS) {
+        const re = new RegExp(`(^|\\W)${t}:`, 'i')
+        const bare = new RegExp(`(^|\\W)${t}(\\b|$)`, 'i')
+        if (re.test(text) || bare.test(text.replace(/:/g, ''))) found.push(t)
+      }
+      return [...new Set(found)]
     }
-    void fences
+    const tagShapeError = (text, where) => {
+      // singular/hybrid forms are the historical oversight — require plural
+      const singular = SLOT_TAGS.map(t => t.slice(0, -1))
+        .filter(t => new RegExp(`(^|\\W)${t}:`, 'i').test(text) && !new RegExp(`(^|\\W)${t}s:`, 'i').test(text))
+      return singular
+    }
     if (blocks.length === 0) {
       fileIssues.push(['error', '"## Code" has no fenced code block', 0])
     } else {
       if (blocks.length > CODE.maxBlocks) {
         fileIssues.push(['error', `"## Code" has ${blocks.length} blocks (max ${CODE.maxBlocks})`, blocks.length])
       }
+      let tourLines = 0
       for (const b of blocks) {
         if (!b.lang) fileIssues.push(['error', 'code block missing fence language', 0])
+        if (b.label) {
+          const tags = findTags(b.label.replace(/:/g, ''))
+          if (tags.length === 0) {
+            fileIssues.push(['warn', `tab label "[${b.label}]" lacks a slot tag (${SLOT_TAGS.join('/')})`, 0])
+          } else if (tags.length > 1) {
+            fileIssues.push(['error', `tab label "[${b.label}]" carries multiple slot tags (${tags.join(', ')}) — one tag per tab`, 0])
+          } else {
+            const singular = tagShapeError(b.label, 'tab label')
+            if (singular.length) {
+              fileIssues.push(['error', `tab label "[${b.label}]" uses singular slot tag (${singular.join(', ')}) — use plural form (${SLOT_TAGS.join('/')})`, 0])
+            }
+            const labelNorm = b.label.toLowerCase().trim()
+            if (labelNorm !== tags[0]) {
+              fileIssues.push(['warn', `tab label "[${b.label}]" ≠ bare plural tag "${tags[0]}" — prefer the bare tag for consistency`, 0])
+            }
+          }
+        }
         const n = b.lines.length
+        tourLines += n
         if (n < CODE.minLines || n > CODE.maxLines) {
           fileIssues.push(['error', `code block (${b.lang || 'no fence'}) has ${n} lines (allowed ${CODE.minLines}–${CODE.maxLines})`, n])
         }
       }
-      // caption: some non-empty line after the first block
-      const afterFirst = codeBody.split(/```[\s\S]*?```/)[1] ?? ''
-      if (!afterFirst.trim()) {
-        fileIssues.push(['warn', '"## Code" has no caption after the block (state what to notice)', 0])
+      // tour lines = in-code lines + caption lines; 10% grace before an error
+      const tourTotal = tourLines + residues.flatMap(captionLines).length
+      const hardCap = Math.round(CODE.tourTotal * CODE.tourGrace)
+      if (tourTotal > hardCap) {
+        fileIssues.push(['error', `"## Code" tour is ${tourTotal} lines (allowed ≤ ${hardCap}: blocks + captions under contract)`, tourTotal])
+      } else if (tourTotal > CODE.tourTotal) {
+        fileIssues.push(['warn', `"## Code" tour is ${tourTotal} lines (target ≤ ${CODE.tourTotal}, +10% grace)`, tourTotal])
+      }
+      // concluding caption after the last block
+      const finalCaptions = captionLines(residues[residues.length - 1] ?? '')
+      if (finalCaptions.length === 0) {
+        fileIssues.push(['warn', '"## Code" has no caption after the code (state what to notice)', 0])
+      }
+      // slot tags: code-group tab labels when present; otherwise one tag per caption
+      if (!blocks.some(b => b.label)) {
+        for (const seg of residues.slice(1)) {
+          const lines = captionLines(seg)
+          if (lines.length === 0) continue
+          const segText = lines.join(' ')
+          const tags = findTags(segText)
+          if (tags.length === 0) {
+            fileIssues.push(['warn', `caption lacks a slot tag (${SLOT_TAGS.join('/')}) — label what the block demonstrates`, 0])
+          } else if (tags.length > 1) {
+            fileIssues.push(['error', `caption carries multiple slot tags (${tags.join(', ')}) — one tag per caption`, 0])
+          } else {
+            const singular = tagShapeError(segText, 'caption')
+            if (singular.length) {
+              fileIssues.push(['error', `caption uses singular slot tag (${singular.join(', ')}) — use plural form (${SLOT_TAGS.join('/')})`, 0])
+            }
+          }
+        }
       }
     }
   }

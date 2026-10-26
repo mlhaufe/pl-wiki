@@ -48,7 +48,9 @@ JS++ extends [JavaScript](/languages/javascript) with an optional type system wh
 
 ## Code
 
-```javascript
+::code-group
+
+```javascript [combinations]
 import System;
 
 external jQuery, $;               // one-line JS-library import
@@ -63,6 +65,8 @@ int plus(int a, int b) {          // overloading needs types
     return a + b;
 }
 ```
+
+::
 
 Caption: `external` imports stay JavaScript-dynamic; annotated variables keep their types at runtime — annotations erase, guarantees compile in.
 

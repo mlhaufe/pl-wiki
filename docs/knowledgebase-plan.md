@@ -33,7 +33,7 @@ Axes marked **vocab** are linted against the vocabulary in
 `app/utils/taxonomy.ts`; unlinted string arrays remain free-form.
 
 | field | type | vocab | notes |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | `name` | string | — | required |
 | `title` | string | — | native SEO field, mirrors `name` |
 | `homepage` | string | — | optional |
@@ -71,7 +71,7 @@ member languages. Members are *derived at build time* from language frontmatter
 ## 4. Information architecture (routes)
 
 | route | purpose | build |
-|---|---|---|
+| --- | --- | --- |
 | `/` | **Research index**: faceted filter (paradigms, typing, memory, concurrency, kind, status, year range) + FTS (`useSearchCollection`) + results table | phase 2 |
 | `/languages/<slug>` | Fact sheet: infobox grouped by axis (chips cross-link to taxonomy pages when they exist) + optional `<ContentRenderer>` prose | phase 3 |
 | `/compare?a=…&b=…` | N-way comparison matrix over every axis, cell-highlighted diffs | phase 3 |
@@ -86,24 +86,26 @@ Derived views are **computed** from the collection — no hand-authored pages.
 All six migration-plan controls stay in force (Zod schema, `meta` lint, one
 template component, slug rule, cross-link integrity, orphan check) plus:
 
-7. **Vocabulary lint** — `scripts/lint-frontmatter.mjs` parses every page's
+1. **Vocabulary lint** — `scripts/lint-frontmatter.mjs` parses every page's
    frontmatter directly (no Nuxt boot): required-field presence, schema-shape
    parity with `content.config.ts` (new keys can't sneak in), enum/vocab
    membership, year plausibility, unknown-field rejection. `--fix` normalizes
    casing/order and reports (never silently changes) unrecognized vocab values
    with suggestions. Wired as `npm run lint:frontmatter`; run it before
    generate.
-8. **Vocabularies are data** — the single source lives in
+2. **Vocabularies are data** — the single source lives in
    `app/utils/taxonomy.ts` (importable at build time and in components);
    `content.config.ts` and the lint script import from it. Adding a vocabulary
    value is a one-line change + corpus re-lint, never a manual sweep.
-9. **Prose skeleton lint** — `scripts/lint-body.mjs` (`npm run lint:body`)
-   enforces the four-section prose contract (Overview ≤ 60 words → Code
-   1–2 blocks, 5–25 lines, fenced + captioned → Distinctive traits 3–6
-   bullets → Status ≤ 40 words; History optional ≤ 80) plus cross-link
-   integrity in bodies and no structured-data duplication in prose.
-   Frontmatter-only stubs are exempt (a data row is a valid terminal state).
-   The normative spec + authoring workflow live in
+3. **Prose skeleton lint** — `scripts/lint-body.mjs` (`npm run lint:body`)
+   enforces the four-section prose contract (Overview ≤ 60 words → Code —
+   the "language tour" — 1–4 blocks, 4–20 lines, ≤ 45 tour lines total,
+   fenced + slot-tagged captions (primitive / combination / abstraction /
+   idiom, pairing each construction with a consumption) → Distinctive
+   traits 3–6 bullets → Status ≤ 40 words; History optional ≤ 80) plus
+   cross-link integrity in bodies and no structured-data duplication in
+   prose. Frontmatter-only stubs are exempt (a data row is a valid terminal
+   state). The normative spec + authoring workflow live in
    `.github/skills/language-entry/` (see §8).
 
 ## 6. Phases
@@ -150,6 +152,15 @@ deterministic validation + human review decides.
   `relations:` structured field carries `{name, kind}` pairs.
 - **Contrasting-language curation batches** (phase 6) — the 8–12 contrasting
   languages exit criterion above.
+- **The code tour** (2026-10-25) — `## Code` walks four mechanism slots
+  (SICP's Primitives / Means of Combination / Means of Abstraction plus
+  Idioms), each caption tagged `primitive:` / `combination:` /
+  `abstraction:` / `idiom:` and pairing a construction with a consumption
+  (the observational reading of introduction/elimination rules — runtime-
+  demonstrable, never formal inference notation, to respect "never invent").
+  Unfillable slots are stated honestly in captions. Documented for readers
+  on `/schema`; enforced by `lint:body` (batch mode: retrofit 8–12
+  contrasting entries at a time).
 - **Evidence states** (deferred, v3) — `specified` / `implementation-defined`
   / `unspecified` / `undefined` / `observed` / `unknown` / `n/a` are the
   vocabulary that turns a listing into a database. Frontmatter ergonomics
@@ -176,10 +187,10 @@ The Grokipedia-inspired direction, made concrete: modifications to entry
 content flow through the agent, but *validation stays deterministic*.
 
 - **Skill**: `.github/skills/language-entry/` — encodes the field contract,
-  prose skeleton, research procedure, evidence standards, and validation
-  gates. Prompt pattern: "research and create an entry for X" / "update X to
-  conform". Any capable LLM/agent follows it; consistency is in the skill +
-  lints, not the model.
+  prose skeleton, code tour, research procedure, evidence standards, and
+  validation gates. Prompt pattern: "research and create an entry for X" /
+  "update X to conform". Any capable LLM/agent follows it; consistency is in
+  the skill + lints, not the model.
 - **Deterministic gates** (the "boxes ticked"): `lint:frontmatter` (facts),
   `lint:body` (prose), Zod at build, plus `nuxi typecheck`/`generate` when
   code changes. An agent cannot skip the gates; the owner reviews the git

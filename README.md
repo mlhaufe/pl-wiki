@@ -47,7 +47,7 @@ in `content.config.ts` (facts are schema; prose is commentary — the page body
 is optional curated prose and never a data carrier):
 
 | field | type | |
-|---|---|---|
+| --- | --- | --- |
 | `name` | string | required |
 | `title` | string | native SEO field; mirrors `name` |
 | `homepage` | string | optional |
@@ -77,8 +77,10 @@ npm run lint:frontmatter -- --fix  # normalize case/synonym variants + field ord
 ```
 
 Below the frontmatter is optional curated prose. When present, it follows a
-fixed four-section skeleton — `Overview` (≤ 60 words) → `Code` (1–2 fenced,
-idiomatic examples, 5–25 lines, captions) → `Distinctive traits` (3–6
+fixed four-section skeleton — `Overview` (≤ 60 words) → `Code` (1–4 fenced,
+idiomatic examples, 4–20 lines each, ≤ 45 tour lines; captions tagged
+`primitive:` / `combination:` / `abstraction:` / `idiom:` after SICP's
+means-of-* order) → `Distinctive traits` (3–6
 bullets) → `Status` (≤ 40 words), with `History` optional (≤ 80 words).
 A frontmatter-only page is a valid terminal state (a data row).
 `content/languages/esterel.md` is the conforming exemplar.
@@ -88,6 +90,7 @@ Both layers are enforced by lint gates:
 ```sh
 npm run lint:frontmatter           # fact contract + vocabularies
 npm run lint:body                  # prose skeleton + caps + link integrity
+npm run lint:markdown              # markdownlint-cli2 (Markdown style)
 npm run lint:frontmatter -- --fix  # normalize frontmatter (canonical order)
 ```
 
@@ -124,7 +127,7 @@ set to **GitHub Actions**.
 
 ## Project structure
 
-```
+```text
 app/                  Nuxt app (pages, layouts, components, css)
 content/languages/    one Markdown page per language (source of truth)
 content.config.ts     languages collection: schema-locked frontmatter contract

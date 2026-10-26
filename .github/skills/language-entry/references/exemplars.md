@@ -5,6 +5,14 @@ Entries whose shape to mirror when authoring. Listed per aspect; none is
 before trusting one as fully conforming, and prefer the *most recently
 approved* entry.
 
+## Code-tour prose (the slot-tagged tour)
+
+- `content/languages/javascript.md` — full four-slot tour as a
+  `::code-group` (tabs: primitives → combination → abstraction → idioms),
+  all blocks 4–20 lines. The shape to mirror for every new prose entry.
+- `content/languages/typescript.md` — single-block tour (compressed slots)
+  with an `abstraction:` caption; valid when syntax ties slots tightly.
+
 ## Fact-rich frontmatter (typed relations)
 
 - `content/languages/zap.md` — typed `relations` edges (`influenced-by`,
@@ -14,8 +22,8 @@ approved* entry.
 ## Titled references
 
 - `content/languages/esterel.md` — `references` with authored titles
-  ("Esterel — Wikipedia", "Columbia Esterel Compiler"); also the oldest
-  long-form prose pending retrofit to the four-section skeleton.
+  ("Columbia Esterel Compiler", INRIA primary); retrofitted to the
+  four-section skeleton with an `idiom:`-tagged caption.
 
 ## Note quality (card-ready summaries)
 

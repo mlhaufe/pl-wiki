@@ -40,7 +40,9 @@ Mascara was a translator that extended JavaScript with the abandoned ECMAScript 
 
 ## Code
 
-```typescript
+::code-group
+
+```typescript [abstractions]
 // ES4-flavored Mascara syntax: type annotations compile away entirely.
 class Greeter {
   var name: string;
@@ -55,6 +57,8 @@ class Greeter {
 var g: Greeter = new Greeter("world");
 alert(g.greet());
 ```
+
+::
 
 Caption: paraphrased from the site's ES4 sample structure — classes and annotations are Mascara syntax; below the translator this is prototype-based ES3 JavaScript.
 

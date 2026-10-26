@@ -7,14 +7,14 @@
 > UI, SEO artifacts, cutover). Its §4 data-architecture rules (schema-locked
 > pages, single template, queryable SQLite) remain binding; the live contract
 > is §2 of the knowledgebase plan plus `content.config.ts` and the README.
-> Researched against: https://nuxt.com/docs/4.x/getting-started/installation,
-> https://ui.nuxt.com/docs/getting-started/installation/nuxt, https://content.nuxt.com/
+> Researched against: <https://nuxt.com/docs/4.x/getting-started/installation>,
+> <https://ui.nuxt.com/docs/getting-started/installation/nuxt>, <https://content.nuxt.com/>
 
 ## 1. Current state (Jekyll)
 
 | Aspect | Today |
-|---|---|
-| Stack | Jekyll 4.0.0, GitHub Pages project site (`https://mlhaufe.github.io/pl-wiki`, `baseurl: /pl-wiki`) |
+| --- | --- |
+| Stack | Jekyll 4.0.0, GitHub Pages project site (`<https://mlhaufe.github.io/pl-wiki`>, `baseurl: /pl-wiki`) |
 | Pages | Single page: `index.md` → `_layouts/default.html` + `{% include lang-table.html %}` |
 | Data | `_data/languages.yml`, **377 language entries** (+ 1 doc-template entry `- {name}/{homepage}/...`) |
 | Fields | `name`, `homepage`, `urls[]`, `logo` (relative `./images/logos/*.png`), `author`, `paradigms[]`, `influences[]`, `influenced[]`, `note` (~13 entries have `paradigms`) |
@@ -35,7 +35,7 @@
 ## 3. Asset mapping (old → new)
 
 | Jekyll | Nuxt | Notes |
-|---|---|---|
+| --- | --- | --- |
 | `_config.yml` | `nuxt.config.ts` + `app/app.config.ts` | `baseurl` → `app.baseURL: '/pl-wiki/'`; title/description → `useSeoMeta` / app config |
 | `_data/languages.yml` | `content/languages/<slug>.md` ×377 (script-generated, schema-locked template; single source of truth after cutover) | see §4 |
 | `index.md` + layouts/includes | `app/app.vue`, `app/layouts/default.vue`, `app/pages/index.vue` | `<NuxtLayout><NuxtPage/></NuxtLayout>` wrapped in `<UApp>` |
@@ -64,7 +64,7 @@ Every file follows the same frontmatter shape — the same fixed field set as
 ---
 title: AgentScript          # native field (SEO/meta) — set by conversion, mirrors name
 name: AgentScript
-homepage: https://agentscript.org/   # optional
+homepage: <https://agentscript.org/>   # optional
 urls: []                    # optional (string[])
 logo: /logos/agentscript.png         # optional, normalized to public/logos/*
 author: Owen Densmore       # optional
@@ -188,7 +188,7 @@ schema** (see Advanced → Database): frontmatter becomes relational, typed data
 ## 6. Suggested phases & todos
 
 1. **Scaffold** — `npm create nuxt@latest` inside a temp dir, then move generated files (`package.json`, `nuxt.config.ts`, `tsconfig.json`, `app/`, `public/`, `.vscode/`) into the repo root (create-nuxt wants a clean dir; Jekyll files stay in place until cutover). Merge `.gitignore` (`node_modules`, `.nuxt`, `.output`). Register modules: `npx nuxi module add @nuxt/ui`, `npx nuxi module add content`, `npx nuxi module add sitemap`, `npx nuxi module add robots`, `npx nuxi module add nuxt-studio`, then `npm i -D nuxt-module-feed` + manual registration in `nuxt.config.ts`.
-     - `nuxt-studio` is registered **dev-only** (conditional modules array), keeping the static GitHub Pages bundle free of dead admin routes; set `studio.repository: { provider: 'github', owner: 'mlhaufe', repo: 'pl-wiki', branch: … }` and add the repo to the dev server URL (`baseURL` + `/_studio`). CSS per docs (`@import "tailwindcss"; @import "@nuxt/ui";` in `app/assets/css/main.css`), `<UApp>` wrapper, `app.baseURL: '/pl-wiki/'`, `site.url: 'https://mlhaufe.github.io'` (site-config composes canonical URLs as `url + baseURL`).
+     - `nuxt-studio` is registered **dev-only** (conditional modules array), keeping the static GitHub Pages bundle free of dead admin routes; set `studio.repository: { provider: 'github', owner: 'mlhaufe', repo: 'pl-wiki', branch: … }` and add the repo to the dev server URL (`baseURL` + `/_studio`). CSS per docs (`@import "tailwindcss"; @import "@nuxt/ui";` in `app/assets/css/main.css`), `<UApp>` wrapper, `app.baseURL: '/pl-wiki/'`, `site.url: '<https://mlhaufe.github.io'`> (site-config composes canonical URLs as `url + baseURL`).
 2. **Convert data** — Node script: parse `_data/languages.yml` → one `content/languages/<slug>.md` per entry (fixed frontmatter template incl. `title` mirroring `name`; body = prose seeded from `note`); skip the `{name}/{homepage}…` doc-template entry; apply the shared `slugify` rule with collision report + disambiguation; logo paths → `/logos/…`; copy `images/logos/*` → `public/logos/`. First build surfaces any Zod schema violations.
 3. **Build UI** — `LangTable.vue` with search + `pages/languages/[slug].vue` wiki page; port palette; verify dev server at `127.0.0.1:3000` (Windows tip: avoid `localhost` for DNS speed).
 4. **SEO parity** — sitemap: verify `/sitemap.xml` auto-lists home + all 377 `/languages/<slug>` paths (Content page-collection integration); prerender: confirm crawl coverage from the home table's links (optional explicit `nitro.prerender.routes` list as belt-and-braces); robots: let `@nuxtjs/robots` prerender `robots.txt` with the `Sitemap:` line, delete root `robots.txt`; feed: configure `nuxt-module-feed` for `/feed.xml` (rss2) via Nitro hook; favicons + webmanifest into `public/` (paths made base-relative); `useSeoMeta` on home + language pages.

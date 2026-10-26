@@ -62,6 +62,7 @@ export default defineNuxtConfig({
     '@nuxtjs/robots',
     'nuxt-module-feed',
     ...(isDev ? ['nuxt-studio' as const] : []),
+    '@barzhsieh/nuxt-content-mermaid',
     nuxtContentPrerenderRoutes
   ],
 

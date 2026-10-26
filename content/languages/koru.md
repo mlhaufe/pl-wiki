@@ -22,8 +22,47 @@ execution:
   - "native"
 note: "Event continuation/effect language ('The Continuation Language') with phantom-obligation resource tracking, compile-time metaprogramming, no runtime, and three emitters: native via Zig, JavaScript, and C#"
 ---
-Koru is an event continuation/effect language for uncompromising systems programming, billed as "The Continuation Language". Its core abstraction is the `tor` (from the agentive suffix in *actor*, *creator*; renamed from `event` in July 2026): a function-like unit that declares its named exits up front, and every caller must handle each one — no hidden exceptions, and partial handling is a compile error ("outcomes as control flow" vs. Rust's "errors as values").
+## Overview
 
-Its signature safety mechanism is **phantom obligations**: the `!` suffix mints a compile-time obligation (e.g. `string<connected!>`), a `<!state>` parameter discharges it; un-discharged transactions fail to compile, and when exactly one tor can settle a resource, the compiler auto-inserts the discharge — all at zero runtime cost. The same phantom machinery yields taint tracking and units of measure "for free". Impurity is tracked transitively across the call graph, and host code (syscalls, C libraries, FFI) confined to a typed `proc` escape hatch.
+Koru is an event continuation/effect language for uncompromising systems
+programming, billed as "The Continuation Language". Its core abstraction is
+the `tor` (renamed from `event` in July 2026): a unit that declares its
+named exits up front, and every caller must handle each one — no hidden
+exceptions, and partial handling is a compile error.
 
-Koru has **no runtime** (no VM, GC, or scheduler; a hello-world compiles to a ~4.8 KB static ELF, an HTTP server ships in a 14 KB Docker image) and leans on compile-time specialization: comptime metaprogramming via typed `ProgramAST`/`Source` parameters, a self-hostable compiler pipeline users can override (`std/compiler:coordinate` is `[comptime|abstract]`, "metacircular"), and templates instead of macros. Benchmarks are a prominent theme, e.g. a 35-line prime sieve outrunning hand-tuned Rust entries and the Orisha HTTP stack beating nginx in its own measurements. Pre-release (v0.1.x, npm-installable, MIT); the compiler self-hosts in Zig and emits native code via Zig, plus JavaScript and C# backends, the playground running the full pipeline client-side via WASM. It is AI-first in tooling and development (much of the language and its docs are AI-authored, e.g. via Claude).
+## Code
+
+```koru
+import std/io
+
+tor greet { name: string } -> string     // tor: typed input record + result
+greet
+-> "Hello, " ++ name ++ "!"              // expression body
+
+greet (name: "World"): msg |>            // invoke; |> opens outcome handling
+std/io:print.ln(msg)                     // msg bound by punning
+```
+
+Caption: abstractions: the `tor` is the definable unit — declared exits
+force every caller into a handler chain; invocation *is* control flow
+(consuming the successful branch binds `msg`).
+
+## Distinctive traits
+
+- Tor + mandatory outcome arms: callers handle every named exit; partial
+  handling is a compile error — outcomes are control flow, not values.
+- Phantom obligations: the `!` suffix mints a compile-time obligation
+  (`string<connected!>`), a `<!state>` param discharges it — resource
+  protocols, taint tracking, and units of measure at zero runtime cost.
+- Impurity tracked transitively across the call graph; host code (syscalls,
+  C libraries, FFI) confined to a typed `proc` escape hatch.
+- No runtime, no GC: ~4.8 KB static hello-world ELF; native/JS/C# emitters,
+  playground running the full pipeline client-side via WASM.
+- Comptime metaprogramming through typed `ProgramAST`/`Source` parameters;
+  templates rather than macros; self-hostable compiler pipeline.
+
+## Status
+
+Pre-release v0.1.x (npm-installable, MIT); compiler self-hosts in Zig and
+emits native (Zig), JavaScript, and C# backends. Benchmarks are prominent
+self-claims (sieve vs Rust, Orisha nginx) from the project itself.

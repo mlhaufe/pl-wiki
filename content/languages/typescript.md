@@ -54,7 +54,9 @@ TypeScript is Microsoft's typed superset of [JavaScript](/languages/javascript),
 
 ## Code
 
-```typescript
+::code-group
+
+```typescript [abstractions]
 interface Greeter {
   greet(name: string): string;
 }
@@ -70,6 +72,8 @@ const lengths: number[] = ["Mocha", "LiveScript"].map((s) => s.length);
 enum Color { Red, Green, Blue }
 const pick: Color = Color.Green;
 ```
+
+::
 
 Caption: structural typing accepts `formal` without a class; every annotation here is erased — the output is idiomatic ES JavaScript.
 

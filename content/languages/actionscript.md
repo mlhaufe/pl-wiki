@@ -49,7 +49,9 @@ ActionScript is the ECMAScript-dialect language of the Adobe Flash platform, des
 
 ## Code
 
-```actionscript
+::code-group
+
+```actionscript [abstractions]
 package org.wikipedia.example {
   import flash.display.Sprite;
   import flash.text.TextField;
@@ -64,7 +66,9 @@ package org.wikipedia.example {
 }
 ```
 
-Caption: class-based AS3 style — the Sprite is the display root, and `addChild` places the text field on the display list.
+::
+
+Caption: abstraction in AS3 is Java-style: package/class/method units, with `addChild` placing the text field on the display list.
 
 ## Distinctive traits
 

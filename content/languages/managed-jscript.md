@@ -35,7 +35,9 @@ Managed JScript was Microsoft's ECMAScript 3 implementation on the Dynamic Langu
 
 ## Code
 
-```javascript
+::code-group
+
+```javascript [abstractions]
 // Managed JScript (Silverlight DLR): dynamic code over CLR objects.
 import System;
 import System.Windows.Browser;
@@ -48,6 +50,8 @@ function greet() {
     outEl.innerHTML = "hello from Managed JScript";
 }
 ```
+
+::
 
 Caption: paraphrased from the documented Silverlight QuickStart model — `HtmlPage` bridges to the browser; the engine runs CoreCLR inside the plugin sandbox.
 

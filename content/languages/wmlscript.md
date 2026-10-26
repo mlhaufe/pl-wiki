@@ -38,7 +38,9 @@ WMLScript is the scripting companion to Wireless Markup Language in the Wireless
 
 ## Code
 
-```javascript
+::code-group
+
+```javascript [abstractions]
 // WMLScript (.wmls): functions only — no objects, no arrays.
 extern function validateForm(zip) {
   if (String.length(zip) != 5) {
@@ -50,6 +52,8 @@ extern function validateForm(zip) {
   return true;
 }
 ```
+
+::
 
 Caption: `extern` exports the function for WML `<a>` invocation; `WMLBrowser`/`Dialogs` are standard libraries, replacing the DOM-style host objects of web JavaScript.
 

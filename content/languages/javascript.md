@@ -71,29 +71,54 @@ JavaScript is the scripting language of the web: engines execute it in every maj
 
 ## Code
 
-```javascript
-// Prototype delegation — objects inherit from other objects, no classes needed.
-const Counter = {
-  count: 0,
-  increment() {
-    this.count += 1;
-    return this.count;
-  },
-};
+::code-group
 
-const widget = Object.create(Counter);
-widget.increment(); // 1
-
-// Functions are values (Scheme's legacy): pass them around, return them.
-const twice = (fn, x) => fn(fn(x));
-twice((n) => n + 1, 5); // 7
-
-// async/await suspends execution until a promise settles:
-const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
-await delay(100);
+```javascript [primitives]
+// literals construct; operators consume.
+let year = 1995;
+let name = "Mocha";
+year + 8;          // 2003
+name + " → JavaScript"; // "Mocha → JavaScript"
 ```
 
-Caption: `Object.create` builds delegation chains directly; functions flow as values; `await` suspends on a promise (top-level await requires modules).
+```javascript [combinations]
+// objects/arrays compose; destructuring consumes.
+const lang = { name: "Mocha", year: 1995 };
+const { name } = lang;
+const [first] = ["LiveScript", "JavaScript"];
+```
+
+```javascript [abstractions]
+// define and apply units — closures and classes.
+const makeCounter = (start) => {
+  let n = start;
+  return () => n += 1;
+};
+const tick = makeCounter(10);
+tick(); // 11
+
+class Counter {                     // ES2015 classes are the modern face...
+  count = 0;
+  increment() { return ++this.count; }
+}
+```
+
+```javascript [idioms]
+// prototype delegation — the mechanism classes compile to.
+const Proto = {
+  count: 0,
+  increment() { return ++this.count; }
+};
+const widget = Object.create(Proto);
+widget.increment(); // 1
+```
+
+::
+
+Caption: one tab per tour slot — literals with operators; composition via
+destructuring; closures *and* classes as definable units; prototype
+delegation as the community idiom, which is exactly what `class` compiles
+to.
 
 ## Distinctive traits
 
